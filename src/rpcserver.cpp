@@ -237,10 +237,10 @@ Value stop(const Array& params, bool fHelp)
     if (fHelp || params.size() > 1)
         throw runtime_error(
             "stop\n"
-            "\nStop DIVI server.");
+            "\nStop SDASH server.");
     // Shutdown will take long enough that the response should get back
     StartShutdown();
-    return "DIVI server stopping";
+    return "SDASH server stopping";
 }
 
 
@@ -318,37 +318,37 @@ static const CRPCCommand vRPCCommands[] =
         {"hidden", "reconsiderblock", &reconsiderblock, true, true, false},
         {"hidden", "setmocktime", &setmocktime, true, false, false},
 
-        /* Divi features */
-		{ "divi", "debug", &debug, true, true, false },
-		{ "divi", "masternode", &masternode, true, true, false },
-		{ "divi", "allocatefunds", &allocatefunds, true, true, false },
-		{ "divi", "fundmasternode", &fundmasternode, true, true, false },
-		{"divi", "listmasternodes", &listmasternodes, true, true, false},
-        {"divi", "getmasternodecount", &getmasternodecount, true, true, false},
-        {"divi", "masternodeconnect", &masternodeconnect, true, true, false},
-        {"divi", "masternodecurrent", &masternodecurrent, true, true, false},
-        {"divi", "masternodedebug", &masternodedebug, true, true, false},
-        {"divi", "startmasternode", &startmasternode, true, true, false},
-        {"divi", "createmasternodekey", &createmasternodekey, true, true, false},
-        {"divi", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
-        {"divi", "listmasternodeconf", &listmasternodeconf, true, true, false},
-        {"divi", "getmasternodestatus", &getmasternodestatus, true, true, false},
-        {"divi", "getmasternodewinners", &getmasternodewinners, true, true, false},
-        {"divi", "getmasternodescores", &getmasternodescores, true, true, false},
-        {"divi", "mnbudget", &mnbudget, true, true, false},
-        {"divi", "preparebudget", &preparebudget, true, true, false},
-        {"divi", "submitbudget", &submitbudget, true, true, false},
-        {"divi", "mnbudgetvote", &mnbudgetvote, true, true, false},
-        {"divi", "getbudgetvotes", &getbudgetvotes, true, true, false},
-        {"divi", "getnextsuperblock", &getnextsuperblock, true, true, false},
-        {"divi", "getbudgetprojection", &getbudgetprojection, true, true, false},
-        {"divi", "getbudgetinfo", &getbudgetinfo, true, true, false},
-        {"divi", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
-        {"divi", "mnfinalbudget", &mnfinalbudget, true, true, false},
-        {"divi", "checkbudgets", &checkbudgets, true, true, false},
-        {"divi", "mnsync", &mnsync, true, true, false},
-        {"divi", "spork", &spork, true, true, false},
-        {"divi", "getpoolinfo", &getpoolinfo, true, true, false},
+        /* SlashDash features */
+		{ "slashdash", "debug", &debug, true, true, false },
+		{ "slashdash", "masternode", &masternode, true, true, false },
+		{ "slashdash", "allocatefunds", &allocatefunds, true, true, false },
+		{ "slashdash", "fundmasternode", &fundmasternode, true, true, false },
+		{"slashdash", "listmasternodes", &listmasternodes, true, true, false},
+        {"slashdash", "getmasternodecount", &getmasternodecount, true, true, false},
+        {"slashdash", "masternodeconnect", &masternodeconnect, true, true, false},
+        {"slashdash", "masternodecurrent", &masternodecurrent, true, true, false},
+        {"slashdash", "masternodedebug", &masternodedebug, true, true, false},
+        {"slashdash", "startmasternode", &startmasternode, true, true, false},
+        {"slashdash", "createmasternodekey", &createmasternodekey, true, true, false},
+        {"slashdash", "getmasternodeoutputs", &getmasternodeoutputs, true, true, false},
+        {"slashdash", "listmasternodeconf", &listmasternodeconf, true, true, false},
+        {"slashdash", "getmasternodestatus", &getmasternodestatus, true, true, false},
+        {"slashdash", "getmasternodewinners", &getmasternodewinners, true, true, false},
+        {"slashdash", "getmasternodescores", &getmasternodescores, true, true, false},
+        {"slashdash", "mnbudget", &mnbudget, true, true, false},
+        {"slashdash", "preparebudget", &preparebudget, true, true, false},
+        {"slashdash", "submitbudget", &submitbudget, true, true, false},
+        {"slashdash", "mnbudgetvote", &mnbudgetvote, true, true, false},
+        {"slashdash", "getbudgetvotes", &getbudgetvotes, true, true, false},
+        {"slashdash", "getnextsuperblock", &getnextsuperblock, true, true, false},
+        {"slashdash", "getbudgetprojection", &getbudgetprojection, true, true, false},
+        {"slashdash", "getbudgetinfo", &getbudgetinfo, true, true, false},
+        {"slashdash", "mnbudgetrawvote", &mnbudgetrawvote, true, true, false},
+        {"slashdash", "mnfinalbudget", &mnfinalbudget, true, true, false},
+        {"slashdash", "checkbudgets", &checkbudgets, true, true, false},
+        {"slashdash", "mnsync", &mnsync, true, true, false},
+        {"slashdash", "spork", &spork, true, true, false},
+        {"slashdash", "getpoolinfo", &getpoolinfo, true, true, false},
 #ifdef ENABLE_WALLET
 
         /* Wallet */
@@ -615,7 +615,7 @@ void StartRPCThreads()
         unsigned char rand_pwd[32];
         GetRandBytes(rand_pwd, 32);
         uiInterface.ThreadSafeMessageBox(strprintf(
-                                             _("To use divid, or the -server option to divi-qt, you must set an rpcpassword in the configuration file:\n"
+                                             _("To use divid, or the -server option to slashdash-qt, you must set an rpcpassword in the configuration file:\n"
                                                "%s\n"
                                                "It is recommended you use the following random password:\n"
                                                "rpcuser=divirpc\n"
@@ -624,7 +624,7 @@ void StartRPCThreads()
                                                "The username and password MUST NOT be the same.\n"
                                                "If the file does not exist, create it with owner-readable-only file permissions.\n"
                                                "It is also recommended to set alertnotify so you are notified of problems;\n"
-                                               "for example: alertnotify=echo %%s | mail -s \"DIVI Alert\" admin@foo.com\n"),
+                                               "for example: alertnotify=echo %%s | mail -s \"SDASH Alert\" admin@foo.com\n"),
                                              GetConfigFile().string(),
                                              EncodeBase58(&rand_pwd[0], &rand_pwd[0] + 32)),
             "", CClientUIInterface::MSG_ERROR | CClientUIInterface::SECURE);
@@ -1075,7 +1075,7 @@ std::vector<std::string> CRPCTable::listCommands() const
 
 std::string HelpExampleCli(string methodname, string args)
 {
-    return "> divi-cli " + methodname + " " + args + "\n";
+    return "> slashdash-cli " + methodname + " " + args + "\n";
 }
 
 std::string HelpExampleRpc(string methodname, string args)

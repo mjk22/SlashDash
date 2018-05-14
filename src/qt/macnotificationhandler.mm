@@ -14,7 +14,7 @@
 - (NSString *)__bundleIdentifier
 {
     if (self == [NSBundle mainBundle]) {
-        return @"io.divi.Divi-Qt";
+        return @"io.slashdash.SlashDash-Qt";
     } else {
         return [self __bundleIdentifier];
     }

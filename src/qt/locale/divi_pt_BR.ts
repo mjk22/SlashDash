@@ -62,12 +62,12 @@
         <translation>Endereços de recebimento</translation>
     </message>
     <message>
-        <source>These are your DIVI addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Esses são seus endereços DIVI para envio de pagamentos. Sempre verifique a quantia e os endereços de recebimento antes de enviar moedas.</translation>
+        <source>These are your SDASH addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Esses são seus endereços SDASH para envio de pagamentos. Sempre verifique a quantia e os endereços de recebimento antes de enviar moedas.</translation>
     </message>
     <message>
-        <source>These are your DIVI addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Esses são seus endereços DIVI para recebimento de pagamentos. É recomendado usar um novo endereço para cada transação.</translation>
+        <source>These are your SDASH addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Esses são seus endereços SDASH para recebimento de pagamentos. É recomendado usar um novo endereço para cada transação.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,8 +172,8 @@
         <translation>Confirmar criptografia de carteira</translation>
     </message>
     <message>
-        <source>DIVI will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your DIVs from being stolen by malware infecting your computer.</source>
-        <translation>DIVI vai fechar agora para finalizar o processo de criptografia. Lembre-se que encriptar sua carteira não pode proteger totalmente suas DIVs de serem roubadas por malwares infectando seu computador.</translation>
+        <source>SDASH will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your DIVs from being stolen by malware infecting your computer.</source>
+        <translation>SDASH vai fechar agora para finalizar o processo de criptografia. Lembre-se que encriptar sua carteira não pode proteger totalmente suas DIVs de serem roubadas por malwares infectando seu computador.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -235,7 +235,7 @@
         <translation>&amp;Encriptação BIP 38</translation>
     </message>
     <message>
-        <source>Enter a Divi Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <source>Enter a SlashDash Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
         <translation>Insira um endereço que você deseja criptografar usando a BIP 38. Insira a palavra-chave na caixa do meio. Pressione criptografar para computar a chave privada criptografada.</translation>
     </message>
     <message>
@@ -243,8 +243,8 @@
         <translation>Endereço:</translation>
     </message>
     <message>
-        <source>The DIVI address to sign the message with</source>
-        <translation>O endereço DIVI para assinar a mensagem</translation>
+        <source>The SDASH address to sign the message with</source>
+        <translation>O endereço SDASH para assinar a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -275,8 +275,8 @@
         <translation>Copia a assinatura atual do sistema de transferência</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this DIVI address</source>
-        <translation>Assine a mensagem para provar que você possui este endereço DIVI</translation>
+        <source>Sign the message to prove you own this SDASH address</source>
+        <translation>Assine a mensagem para provar que você possui este endereço SDASH</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -295,12 +295,12 @@
         <translation>&amp;Descriptografar BIP 38</translation>
     </message>
     <message>
-        <source>The DIVI address the message was signed with</source>
-        <translation>O endereço DIVI que assinou a mensagem</translation>
+        <source>The SDASH address the message was signed with</source>
+        <translation>O endereço SDASH que assinou a mensagem</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified DIVI address</source>
-        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço DIVI especificado.</translation>
+        <source>Verify the message to ensure it was signed with the specified SDASH address</source>
+        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço SDASH especificado.</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -618,16 +618,16 @@
         <translation>Ferramentas de abas</translation>
     </message>
     <message>
-        <source>DIVI Core</source>
-        <translation>DIVI Core</translation>
+        <source>SDASH Core</source>
+        <translation>SDASH Core</translation>
     </message>
     <message>
-        <source>Send coins to a DIVI address</source>
-        <translation>Enviar moedas para um endereço DIVI</translation>
+        <source>Send coins to a SDASH address</source>
+        <translation>Enviar moedas para um endereço SDASH</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and divi: URIs)</source>
-        <translation>Requisitar pagamentos (gera códigos QR e divi: URIs)</translation>
+        <source>Request payments (generates QR codes and slashdash: URIs)</source>
+        <translation>Requisitar pagamentos (gera códigos QR e slashdash: URIs)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -642,24 +642,24 @@
         <translation>Procurar masternodes</translation>
     </message>
     <message>
-        <source>&amp;About DIVI Core</source>
-        <translation>&amp;Sobre o DIVI Core</translation>
+        <source>&amp;About SDASH Core</source>
+        <translation>&amp;Sobre o SDASH Core</translation>
     </message>
     <message>
-        <source>Show information about DIVI Core</source>
-        <translation>Mostra informação sobre o DIVI Core</translation>
+        <source>Show information about SDASH Core</source>
+        <translation>Mostra informação sobre o SDASH Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for DIVI</source>
-        <translation>Modificar opções de configuração para DIVI</translation>
+        <source>Modify configuration options for SDASH</source>
+        <translation>Modificar opções de configuração para SDASH</translation>
     </message>
     <message>
-        <source>Sign messages with your DIVI addresses to prove you own them</source>
-        <translation>Assine mensagens com seus endereços DIVI para provar que você os detém</translation>
+        <source>Sign messages with your SDASH addresses to prove you own them</source>
+        <translation>Assine mensagens com seus endereços SDASH para provar que você os detém</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified DIVI addresses</source>
-        <translation>Verifique as mensagens para ter certeza que estão assinadas com os endereços DIVI especificados</translation>
+        <source>Verify messages to ensure they were signed with specified SDASH addresses</source>
+        <translation>Verifique as mensagens para ter certeza que estão assinadas com os endereços SDASH especificados</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -690,8 +690,8 @@
         <translation>Abrir arquivo de configuração de Masternode</translation>
     </message>
     <message>
-        <source>Open a DIVI: URI or payment request</source>
-        <translation>Abrir um DIVI: URI ou requisição de pagamento</translation>
+        <source>Open a SDASH: URI or payment request</source>
+        <translation>Abrir um SDASH: URI ou requisição de pagamento</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -702,12 +702,12 @@
         <translation>Janela de exploração de blocos</translation>
     </message>
     <message>
-        <source>Show the DIVI Core help message to get a list with possible DIVI command-line options</source>
-        <translation>Mostra a ajuda da DIVI Core para receber uma lista com possíveis opções de linha de comando DIVI</translation>
+        <source>Show the SDASH Core help message to get a list with possible SDASH command-line options</source>
+        <translation>Mostra a ajuda da SDASH Core para receber uma lista com possíveis opções de linha de comando SDASH</translation>
     </message>
     <message>
-        <source>DIVI Core client</source>
-        <translation>Cliente Core DIVI</translation>
+        <source>SDASH Core client</source>
+        <translation>Cliente Core SDASH</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -862,8 +862,8 @@ MultiSend: %1</translation>
         <translation>Rótulo</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (divi.conf).</source>
-        <translation>Nem todas as transações serão exibidas. Para visualizar todas as transações você precisa definir txindex=1 no arquivo de configuração (divi.conf). </translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (slashdash.conf).</source>
+        <translation>Nem todas as transações serão exibidas. Para visualizar todas as transações você precisa definir txindex=1 no arquivo de configuração (slashdash.conf). </translation>
     </message>
 </context>
 <context>
@@ -1147,8 +1147,8 @@ MultiSend: %1</translation>
         <translation>Editar endereço remetente</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid DIVI address.</source>
-        <translation>O endereço que você selecionou, "%1" , não é um endereço válido de DIVI</translation>
+        <source>The entered address "%1" is not a valid SDASH address.</source>
+        <translation>O endereço que você selecionou, "%1" , não é um endereço válido de SDASH</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1193,16 +1193,16 @@ MultiSend: %1</translation>
         <translation>versão</translation>
     </message>
     <message>
-        <source>DIVI Core</source>
-        <translation>DIVI Core</translation>
+        <source>SDASH Core</source>
+        <translation>SDASH Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About DIVI Core</source>
-        <translation>Sobre o DIVI Core</translation>
+        <source>About SDASH Core</source>
+        <translation>Sobre o SDASH Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1244,16 +1244,16 @@ MultiSend: %1</translation>
         <translation>Bem-vindo</translation>
     </message>
     <message>
-        <source>Welcome to DIVI Core.</source>
-        <translation>Bem-vindo ao DIVI Core.</translation>
+        <source>Welcome to SDASH Core.</source>
+        <translation>Bem-vindo ao SDASH Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where DIVI Core will store its data.</source>
-        <translation>Como essa é a primeira vez que o programa é utilizado, você pode escolher onde DIVI Core vai armazenar os seus dados.</translation>
+        <source>As this is the first time the program is launched, you can choose where SDASH Core will store its data.</source>
+        <translation>Como essa é a primeira vez que o programa é utilizado, você pode escolher onde SDASH Core vai armazenar os seus dados.</translation>
     </message>
     <message>
-        <source>DIVI Core will download and store a copy of the DIVI block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>DIVI Core vai baixar e armazenar uma cópia da blockchain DIVI. Pelo menos %1GB de informação será armazenado neste diretório e irá aumentar com o tempo. A carteira também será armazenada neste diretório.</translation>
+        <source>SDASH Core will download and store a copy of the SDASH block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>SDASH Core vai baixar e armazenar uma cópia da blockchain SDASH. Pelo menos %1GB de informação será armazenado neste diretório e irá aumentar com o tempo. A carteira também será armazenada neste diretório.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1264,8 +1264,8 @@ MultiSend: %1</translation>
         <translation>Usar um diretório personalizado de dados:</translation>
     </message>
     <message>
-        <source>DIVI Core</source>
-        <translation>DIVI Core</translation>
+        <source>SDASH Core</source>
+        <translation>SDASH Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1591,16 +1591,16 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Configuração de ofuscação</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening DIVI's configuration screen.</source>
-        <translation>Ofuscação foi definida com sucesso para o básico (%1 e 2 rodadas) Você pode mudar isto a qualquer tempo ao abrir a configuração de tela DIVI's.</translation>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening SDASH's configuration screen.</source>
+        <translation>Ofuscação foi definida com sucesso para o básico (%1 e 2 rodadas) Você pode mudar isto a qualquer tempo ao abrir a configuração de tela SDASH's.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening DIVI's configuration screen.</source>
-        <translation>Ofuscação foi definida com sucesso para alto (%1 e 8 rodadas). Você pode mudar isto a qualquer tempo ao abrir a configuração de tela DIVI's.</translation>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening SDASH's configuration screen.</source>
+        <translation>Ofuscação foi definida com sucesso para alto (%1 e 8 rodadas). Você pode mudar isto a qualquer tempo ao abrir a configuração de tela SDASH's.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening DIVI's configuration screen.</source>
-        <translation>Ofuscação foi definida com sucesso para máxima (%1 e 16 rodadas). Você pode mudar isto a qualquer tempo ao abrir a configuração de tela DIVI's.</translation>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening SDASH's configuration screen.</source>
+        <translation>Ofuscação foi definida com sucesso para máxima (%1 e 16 rodadas). Você pode mudar isto a qualquer tempo ao abrir a configuração de tela SDASH's.</translation>
     </message>
 </context>
 <context>
@@ -1653,8 +1653,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>C&amp;arteira</translation>
     </message>
     <message>
-        <source>Automatically open the DIVI client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir automaticamente a porta do cliente DIVI no roteador. Isto somente funciona quando seu roteador suporta UPnP e este esteja habilitado.</translation>
+        <source>Automatically open the SDASH client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir automaticamente a porta do cliente SDASH no roteador. Isto somente funciona quando seu roteador suporta UPnP e este esteja habilitado.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1673,12 +1673,12 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start DIVI after logging in to the system.</source>
-        <translation>Iniciar automaticamente DIVI depois de logar no sistema.</translation>
+        <source>Automatically start SDASH after logging in to the system.</source>
+        <translation>Iniciar automaticamente SDASH depois de logar no sistema.</translation>
     </message>
     <message>
-        <source>&amp;Start DIVI on system login</source>
-        <translation>&amp;Iniciar DIVI ao logar no sistema</translation>
+        <source>&amp;Start SDASH on system login</source>
+        <translation>&amp;Iniciar SDASH ao logar no sistema</translation>
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
@@ -1693,8 +1693,8 @@ Favor verificar o endereço e tente novamente.</translation>
         <translation>&amp;Rede</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting DIVI.</source>
-        <translation>A linguagem da interface pode ser definida aqui. Está configuração terá efeito após reinício do DIVI.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting SDASH.</source>
+        <translation>A linguagem da interface pode ser definida aqui. Está configuração terá efeito após reinício do SDASH.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
@@ -1703,8 +1703,8 @@ https://www.transifex.com/divicoin/divicoin-translations</source>
 https://www.transifex.com/divicoin/divicoin-translations</translation>
     </message>
     <message>
-        <source>Connect to the DIVI network through a SOCKS5 proxy.</source>
-        <translation>Conectar à rede DIVI através de um proxy SOCKS5</translation>
+        <source>Connect to the SDASH network through a SOCKS5 proxy.</source>
+        <translation>Conectar à rede SDASH através de um proxy SOCKS5</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1846,8 +1846,8 @@ https://www.transifex.com/divicoin/divicoin-translations</translation>
         <translation>Imaturo:</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the DIVI network after a connection is established, but this process has not completed yet.</source>
-        <translation>A informação mostrada pode estar desatualizada. A sua carteira se sincroniza automaticamente com a rede DIVI após estabelecer uma conexão, mas esse processo ainda não foi concluído.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the SDASH network after a connection is established, but this process has not completed yet.</source>
+        <translation>A informação mostrada pode estar desatualizada. A sua carteira se sincroniza automaticamente com a rede SDASH após estabelecer uma conexão, mas esse processo ainda não foi concluído.</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
@@ -1979,8 +1979,8 @@ https://www.transifex.com/divicoin/divicoin-translations</translation>
         <translation>Ações Zerocoin:</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the DIVI network after a connection is established, but this process has not completed yet.</source>
-        <translation>A informação mostrada pode estar desatualizada. A sua carteira se sincroniza automaticamente com a rede DIVI após estabelecer uma conexão, mas esse processo ainda não foi concluído.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the SDASH network after a connection is established, but this process has not completed yet.</source>
+        <translation>A informação mostrada pode estar desatualizada. A sua carteira se sincroniza automaticamente com a rede SDASH após estabelecer uma conexão, mas esse processo ainda não foi concluído.</translation>
     </message>
     <message>
         <source>Enter an amount of Div to convert to zDiv</source>
@@ -2019,8 +2019,8 @@ https://www.transifex.com/divicoin/divicoin-translations</translation>
         <translation>Pagar &amp;Para:</translation>
     </message>
     <message>
-        <source>The DIVI address to send the payment to. Creates local payment to yourself when empty.</source>
-        <translation>O endereço DIVI para enviar o pagamento. Cria um pagamento local para si mesmo quando vazio.</translation>
+        <source>The SDASH address to send the payment to. Creates local payment to yourself when empty.</source>
+        <translation>O endereço SDASH para enviar o pagamento. Cria um pagamento local para si mesmo quando vazio.</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2174,8 +2174,8 @@ https://www.transifex.com/divicoin/divicoin-translations</translation>
         <translation>Quantidade</translation>
     </message>
     <message>
-        <source>Enter a DIVI address (e.g. %1)</source>
-        <translation>Insira um endereço DIVI (e.g. %1)</translation>
+        <source>Enter a SDASH address (e.g. %1)</source>
+        <translation>Insira um endereço SDASH (e.g. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2436,8 +2436,8 @@ https://www.transifex.com/divicoin/divicoin-translations</translation>
         <translation>saída:</translation>
     </message>
     <message>
-        <source>Welcome to the DIVI RPC console.</source>
-        <translation>Bem-vindo ao console da DIVI RPC</translation>
+        <source>Welcome to the SDASH RPC console.</source>
+        <translation>Bem-vindo ao console da SDASH RPC</translation>
     </message>
     <message>
         <source>Do you want to continue?.&lt;br /&gt;</source>
@@ -2744,8 +2744,8 @@ https://www.transifex.com/divicoin/divicoin-translations</translation>
         <translation>Se a taxa padrão estiver definida para 1000 uDIVs e a transação for somente de 250 bytes, então "por kilobyte" pagará somente 250 uDIVs em taxa,&lt;br /&gt; pagará pelo menos 1000 uDIVs. Para transações maiores que um kilobyte ambas pagam por kilobyte.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for DIVI transactions than the network can process.</source>
-        <translation>Pagar a taxa mínima é aceitável desde que existe menos volume de transações que espaço nos blocos. &lt;br/&gt; Mas fique atento que isso pode acabar em uma transação que nunca será confirmada caso haja mais demanda por transações de DIVI do que a rede pode processar.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for SDASH transactions than the network can process.</source>
+        <translation>Pagar a taxa mínima é aceitável desde que existe menos volume de transações que espaço nos blocos. &lt;br/&gt; Mas fique atento que isso pode acabar em uma transação que nunca será confirmada caso haja mais demanda por transações de SDASH do que a rede pode processar.</translation>
     </message>
     <message>
         <source>normal</source>
@@ -2832,8 +2832,8 @@ https://www.transifex.com/divicoin/divicoin-translations</translation>
         <translation>fundos anônimos</translation>
     </message>
     <message>
-        <source>Warning: Invalid DIVI address</source>
-        <translation>Aviso: endereço DIVI inválido</translation>
+        <source>Warning: Invalid SDASH address</source>
+        <translation>Aviso: endereço SDASH inválido</translation>
     </message>
     <message>
         <source>any available funds (not recommended)</source>
@@ -2931,8 +2931,8 @@ https://www.transifex.com/divicoin/divicoin-translations</translation>
         <translation>Pagar &amp;Para:</translation>
     </message>
     <message>
-        <source>The DIVI address to send the payment to</source>
-        <translation>O endereço DIVI para enviar o pagamento</translation>
+        <source>The SDASH address to send the payment to</source>
+        <translation>O endereço SDASH para enviar o pagamento</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2994,8 +2994,8 @@ https://www.transifex.com/divicoin/divicoin-translations</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>DIVI Core is shutting down...</source>
-        <translation>DIVI Core está desligando...</translation>
+        <source>SDASH Core is shutting down...</source>
+        <translation>SDASH Core está desligando...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -3013,8 +3013,8 @@ https://www.transifex.com/divicoin/divicoin-translations</translation>
         <translation>&amp;Assinar mensagem</translation>
     </message>
     <message>
-        <source>The DIVI address to sign the message with</source>
-        <translation>O endereço DIVI para assinar a mensagem</translation>
+        <source>The SDASH address to sign the message with</source>
+        <translation>O endereço SDASH para assinar a mensagem</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3045,16 +3045,16 @@ https://www.transifex.com/divicoin/divicoin-translations</translation>
         <translation>Copia a assinatura atual do sistema de transferência</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this DIVI address</source>
-        <translation>Assine a mensagem para provar que você possui este endereço DIVI</translation>
+        <source>Sign the message to prove you own this SDASH address</source>
+        <translation>Assine a mensagem para provar que você possui este endereço SDASH</translation>
     </message>
     <message>
-        <source>The DIVI address the message was signed with</source>
-        <translation>O endereço DIVI que assinou a mensagem</translation>
+        <source>The SDASH address the message was signed with</source>
+        <translation>O endereço SDASH que assinou a mensagem</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified DIVI address</source>
-        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço DIVI especificado.</translation>
+        <source>Verify the message to ensure it was signed with the specified SDASH address</source>
+        <translation>Verifique a mensagem para ter certeza que foi assinada com o endereço SDASH especificado.</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -3136,8 +3136,8 @@ https://www.transifex.com/divicoin/divicoin-translations</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>DIVI Core</source>
-        <translation>DIVI Core</translation>
+        <source>SDASH Core</source>
+        <translation>SDASH Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -3152,8 +3152,8 @@ https://www.transifex.com/divicoin/divicoin-translations</translation>
         <translation>Os desenvolvedores do Dash Core</translation>
     </message>
     <message>
-        <source>The DIVI Core developers</source>
-        <translation>Os desenvolvedores do DIVI Core</translation>
+        <source>The SDASH Core developers</source>
+        <translation>Os desenvolvedores do SDASH Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -3731,7 +3731,7 @@ https://www.transifex.com/divicoin/divicoin-translations</translation>
     </message>
     </context>
 <context>
-    <name>divi-core</name>
+    <name>slashdash-core</name>
     <message>
         <source>Delete all wallet transactions and only recover those parts of the blockchain through -rescan on startup</source>
         <translation>Deletar todas as transações da carteira e somente recuperar aquelas partes da blockchain através de -rescan na inicialização</translation>
@@ -3789,8 +3789,8 @@ https://www.transifex.com/divicoin/divicoin-translations</translation>
         <translation>Aviso: -paytxfee está definido como muito alto! Está e a taxa de transação que você irá pagar se enviar uma transação.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong DIVI Core will not work properly.</source>
-        <translation>Aviso: Favor verificar se o horário e data de seu computador estão corretos! Se o seu relógio estiver errado o Core DIVI não vai funcionar corretamente.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong SDASH Core will not work properly.</source>
+        <translation>Aviso: Favor verificar se o horário e data de seu computador estão corretos! Se o seu relógio estiver errado o Core SDASH não vai funcionar corretamente.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -3869,8 +3869,8 @@ https://www.transifex.com/divicoin/divicoin-translations</translation>
         <translation>Todos os direitos reservados (C) 2014-%i aos Desenvolvedores do Dash Core</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The DIVI Core Developers</source>
-        <translation>Todos os direitos reservados (C) 2015-%i aos Desenvolvedores do DIVI Core</translation>
+        <source>Copyright (C) 2015-%i The SDASH Core Developers</source>
+        <translation>Todos os direitos reservados (C) 2015-%i aos Desenvolvedores do SDASH Core</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -3929,8 +3929,8 @@ https://www.transifex.com/divicoin/divicoin-translations</translation>
         <translation>Erro no carregamento da wallet.dat: Carteira corrompida</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of DIVI Core</source>
-        <translation>Erro ao carregar wallet.dat: A Carteira requer uma nova versão da DIVI Core</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of SDASH Core</source>
+        <translation>Erro ao carregar wallet.dat: A Carteira requer uma nova versão da SDASH Core</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -4423,8 +4423,8 @@ https://www.transifex.com/divicoin/divicoin-translations</translation>
         <translation>Carteira está travada.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart DIVI Core to complete</source>
-        <translation>A carteira precisa ser reescrita: reinicia o DIVI Core para completar</translation>
+        <source>Wallet needed to be rewritten: restart SDASH Core to complete</source>
+        <translation>A carteira precisa ser reescrita: reinicia o SDASH Core para completar</translation>
     </message>
     <message>
         <source>Wallet options:</source>

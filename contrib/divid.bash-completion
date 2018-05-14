@@ -1,4 +1,4 @@
-# bash programmable completion for divid(1) and divi-cli(1)
+# bash programmable completion for divid(1) and slashdash-cli(1)
 # Copyright (c) 2012,2014 Christian von Roques <roques@mti.ag>
 # Distributed under the MIT/X11 software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
@@ -19,7 +19,7 @@ _divi_rpc() {
     $divid "${rpcargs[@]}" "$@"
 }
 
-# Add divi accounts to COMPREPLY
+# Add slashdash accounts to COMPREPLY
 _divi_accounts() {
     local accounts
     accounts=$(_divi_rpc listaccounts | awk '/".*"/ { a=$1; gsub(/"/, "", a); print a}')
@@ -133,7 +133,7 @@ _divid() {
     esac
 }
 
-complete -F _divid divid divi-cli
+complete -F _divid divid slashdash-cli
 }
 
 # Local variables:

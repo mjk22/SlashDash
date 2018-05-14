@@ -9,8 +9,8 @@
 #include <vector>
 
 /**
- * CBaseChainParams defines the base parameters (shared between divi-cli and divid)
- * of a given instance of the Divi system.
+ * CBaseChainParams defines the base parameters (shared between slashdash-cli and divid)
+ * of a given instance of the SlashDash system.
  */
 class CBaseChainParams
 {

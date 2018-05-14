@@ -54,13 +54,13 @@ COPY init.sh /usr/local/bin/init.sh
 RUN sudo dos2unix /usr/local/bin/init.sh
 RUN sudo chmod u+x /usr/local/bin/init.sh
 
-COPY divi.conf /home/ubuntu/divi.conf
-RUN sudo dos2unix /home/ubuntu/divi.conf
+COPY slashdash.conf /home/ubuntu/slashdash.conf
+RUN sudo dos2unix /home/ubuntu/slashdash.conf
 
 COPY torrc /etc/tor/torrc
 RUN sudo dos2unix /etc/tor/torrc
 
 ENV GITBRANCH master
-ENV GITURI https://github.com/Divicoin/Divi
+ENV GITURI https://github.com/Divicoin/SlashDash
 RUN /home/ubuntu/cb.sh
 #ENTRYPOINT ["init.sh"]

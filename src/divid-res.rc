@@ -16,8 +16,8 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "DIVI"
-            VALUE "FileDescription",    "divid (OSS daemon/client for Divi)"
+            VALUE "CompanyName",        "SDASH"
+            VALUE "FileDescription",    "divid (OSS daemon/client for SlashDash)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
             VALUE "InternalName",       "divid"
             VALUE "LegalCopyright",     COPYRIGHT_STR

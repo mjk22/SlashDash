@@ -1,7 +1,7 @@
 # /etc/conf.d/divid: config file for /etc/init.d/divid
 
 # Config file location
-#BITCOIND_CONFIGFILE="/etc/divi/divi.conf"
+#BITCOIND_CONFIGFILE="/etc/slashdash/slashdash.conf"
 
 # What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
 #BITCOIND_PIDDIR="/var/run/divid"
@@ -13,8 +13,8 @@
 #BITCOIND_DATADIR="/var/lib/divid"
 
 # User and group to own divid process
-#BITCOIND_USER="divi"
-#BITCOIND_GROUP="divi"
+#BITCOIND_USER="slashdash"
+#BITCOIND_GROUP="slashdash"
 
 # Path to divid executable
 #BITCOIND_BIN="/usr/bin/divid"

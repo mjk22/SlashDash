@@ -78,6 +78,6 @@ f.write('static const char UNUSED *divi_strings[] = {\n')
 messages.sort(key=operator.itemgetter(0))
 for (msgid, msgstr) in messages:
     if msgid != EMPTY:
-        f.write('QT_TRANSLATE_NOOP("divi-core", %s),\n' % ('\n'.join(msgid)))
+        f.write('QT_TRANSLATE_NOOP("slashdash-core", %s),\n' % ('\n'.join(msgid)))
 f.write('};\n')
 f.close()

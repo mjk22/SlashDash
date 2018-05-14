@@ -17,7 +17,7 @@ osx=true
 SIGNER=
 VERSION=
 commit=false
-url=https://github.com/divicoin/divi
+url=https://github.com/divicoin/slashdash
 proc=2
 mem=2000
 lxc=true
@@ -31,7 +31,7 @@ commitFiles=true
 read -d '' usage <<- EOF
 Usage: $scriptName [-c|u|v|b|s|B|o|h|j|m|] signer version
 
-Run this script from the directory containing the divi, gitian-builder, gitian.sigs, and divi-detached-sigs.
+Run this script from the directory containing the slashdash, gitian-builder, gitian.sigs, and slashdash-detached-sigs.
 
 Arguments:
 signer          GPG signer to sign each build assert file
@@ -39,7 +39,7 @@ version		Version number, commit, or branch to build. If building a commit or bra
 
 Options:
 -c|--commit	Indicate that the version argument is for a commit or branch
--u|--url	Specify the URL of the repository. Default is https://github.com/divicoin/divi
+-u|--url	Specify the URL of the repository. Default is https://github.com/divicoin/slashdash
 -v|--verify 	Verify the gitian build
 -b|--build	Do a gitian build
 -s|--sign	Make signed binaries for Windows and Mac OSX
@@ -238,7 +238,7 @@ if [[ $setup = true ]]
 then
     sudo apt-get install ruby apache2 git apt-cacher-ng python-vm-builder qemu-kvm qemu-utils
     git clone https://github.com/divicoin/gitian.sigs.git
-    git clone https://github.com/divicoin/divi-detached-sigs.git
+    git clone https://github.com/divicoin/slashdash-detached-sigs.git
     git clone https://github.com/devrandom/gitian-builder.git
     pushd ./gitian-builder
     if [[ -n "$USE_LXC" ]]
@@ -252,7 +252,7 @@ then
 fi
 
 # Set up build
-pushd ./divi
+pushd ./slashdash
 git fetch
 git checkout ${COMMIT}
 popd
@@ -261,7 +261,7 @@ popd
 if [[ $build = true ]]
 then
 	# Make output folder
-	mkdir -p ./divi-binaries/${VERSION}
+	mkdir -p ./slashdash-binaries/${VERSION}
 
 	# Build Dependencies
 	echo ""
@@ -271,7 +271,7 @@ then
 	mkdir -p inputs
 	wget -N -P inputs $osslPatchUrl
 	wget -N -P inputs $osslTarUrl
-	make -C ../divi/depends download SOURCES_PATH=`pwd`/cache/common
+	make -C ../slashdash/depends download SOURCES_PATH=`pwd`/cache/common
 
 	# Linux
 	if [[ $linux = true ]]
@@ -279,9 +279,9 @@ then
             echo ""
 	    echo "Compiling ${VERSION} Linux"
 	    echo ""
-	    ./bin/gbuild -j ${proc} -m ${mem} --commit divi=${COMMIT} --url divi=${url} ../divi/contrib/gitian-descriptors/gitian-linux.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../divi/contrib/gitian-descriptors/gitian-linux.yml
-	    mv build/out/divi-*.tar.gz build/out/src/divi-*.tar.gz ../divi-binaries/${VERSION}
+	    ./bin/gbuild -j ${proc} -m ${mem} --commit slashdash=${COMMIT} --url slashdash=${url} ../slashdash/contrib/gitian-descriptors/gitian-linux.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-linux --destination ../gitian.sigs/ ../slashdash/contrib/gitian-descriptors/gitian-linux.yml
+	    mv build/out/slashdash-*.tar.gz build/out/src/slashdash-*.tar.gz ../slashdash-binaries/${VERSION}
 	fi
 	# Windows
 	if [[ $windows = true ]]
@@ -289,10 +289,10 @@ then
 	    echo ""
 	    echo "Compiling ${VERSION} Windows"
 	    echo ""
-	    ./bin/gbuild -j ${proc} -m ${mem} --commit divi=${COMMIT} --url divi=${url} ../divi/contrib/gitian-descriptors/gitian-win.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs/ ../divi/contrib/gitian-descriptors/gitian-win.yml
-	    mv build/out/divi-*-win-unsigned.tar.gz inputs/divi-win-unsigned.tar.gz
-	    mv build/out/divi-*.zip build/out/divi-*.exe ../divi-binaries/${VERSION}
+	    ./bin/gbuild -j ${proc} -m ${mem} --commit slashdash=${COMMIT} --url slashdash=${url} ../slashdash/contrib/gitian-descriptors/gitian-win.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-unsigned --destination ../gitian.sigs/ ../slashdash/contrib/gitian-descriptors/gitian-win.yml
+	    mv build/out/slashdash-*-win-unsigned.tar.gz inputs/slashdash-win-unsigned.tar.gz
+	    mv build/out/slashdash-*.zip build/out/slashdash-*.exe ../slashdash-binaries/${VERSION}
 	fi
 	# Mac OSX
 	if [[ $osx = true ]]
@@ -300,10 +300,10 @@ then
 	    echo ""
 	    echo "Compiling ${VERSION} Mac OSX"
 	    echo ""
-	    ./bin/gbuild -j ${proc} -m ${mem} --commit divi=${COMMIT} --url divi=${url} ../divi/contrib/gitian-descriptors/gitian-osx.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../divi/contrib/gitian-descriptors/gitian-osx.yml
-	    mv build/out/divi-*-osx-unsigned.tar.gz inputs/divi-osx-unsigned.tar.gz
-	    mv build/out/divi-*.tar.gz build/out/divi-*.dmg ../divi-binaries/${VERSION}
+	    ./bin/gbuild -j ${proc} -m ${mem} --commit slashdash=${COMMIT} --url slashdash=${url} ../slashdash/contrib/gitian-descriptors/gitian-osx.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-osx-unsigned --destination ../gitian.sigs/ ../slashdash/contrib/gitian-descriptors/gitian-osx.yml
+	    mv build/out/slashdash-*-osx-unsigned.tar.gz inputs/slashdash-osx-unsigned.tar.gz
+	    mv build/out/slashdash-*.tar.gz build/out/slashdash-*.dmg ../slashdash-binaries/${VERSION}
 	fi
 	# AArch64
 	if [[ $aarch64 = true ]]
@@ -311,9 +311,9 @@ then
 	    echo ""
 	    echo "Compiling ${VERSION} AArch64"
 	    echo ""
-	    ./bin/gbuild -j ${proc} -m ${mem} --commit divi=${COMMIT} --url divi=${url} ../divi/contrib/gitian-descriptors/gitian-aarch64.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-aarch64 --destination ../gitian.sigs/ ../divi/contrib/gitian-descriptors/gitian-aarch64.yml
-	    mv build/out/divi-*.tar.gz build/out/src/divi-*.tar.gz ../divi-binaries/${VERSION}
+	    ./bin/gbuild -j ${proc} -m ${mem} --commit slashdash=${COMMIT} --url slashdash=${url} ../slashdash/contrib/gitian-descriptors/gitian-aarch64.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-aarch64 --destination ../gitian.sigs/ ../slashdash/contrib/gitian-descriptors/gitian-aarch64.yml
+	    mv build/out/slashdash-*.tar.gz build/out/src/slashdash-*.tar.gz ../slashdash-binaries/${VERSION}
 	popd
 
         if [[ $commitFiles = true ]]
@@ -340,32 +340,32 @@ then
 	echo ""
 	echo "Verifying v${VERSION} Linux"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-linux ../divi/contrib/gitian-descriptors/gitian-linux.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-linux ../slashdash/contrib/gitian-descriptors/gitian-linux.yml
 	# Windows
 	echo ""
 	echo "Verifying v${VERSION} Windows"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-unsigned ../divi/contrib/gitian-descriptors/gitian-win.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-win-unsigned ../slashdash/contrib/gitian-descriptors/gitian-win.yml
 	# Mac OSX
 	echo ""
 	echo "Verifying v${VERSION} Mac OSX"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-unsigned ../divi/contrib/gitian-descriptors/gitian-osx.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-unsigned ../slashdash/contrib/gitian-descriptors/gitian-osx.yml
 	# AArch64
 	echo ""
 	echo "Verifying v${VERSION} AArch64"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-aarch64 ../divi/contrib/gitian-descriptors/gitian-aarch64.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-aarch64 ../slashdash/contrib/gitian-descriptors/gitian-aarch64.yml
 	# Signed Windows
 	echo ""
 	echo "Verifying v${VERSION} Signed Windows"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../divi/contrib/gitian-descriptors/gitian-osx-signer.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../slashdash/contrib/gitian-descriptors/gitian-osx-signer.yml
 	# Signed Mac OSX
 	echo ""
 	echo "Verifying v${VERSION} Signed Mac OSX"
 	echo ""
-	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../divi/contrib/gitian-descriptors/gitian-osx-signer.yml
+	./bin/gverify -v -d ../gitian.sigs/ -r ${VERSION}-osx-signed ../slashdash/contrib/gitian-descriptors/gitian-osx-signer.yml
 	popd
 fi
 
@@ -380,10 +380,10 @@ then
 	    echo ""
 	    echo "Signing ${VERSION} Windows"
 	    echo ""
-	    ./bin/gbuild -i --commit signature=${COMMIT} ../divi/contrib/gitian-descriptors/gitian-win-signer.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs/ ../divi/contrib/gitian-descriptors/gitian-win-signer.yml
-	    mv build/out/divi-*win64-setup.exe ../divi-binaries/${VERSION}
-	    mv build/out/divi-*win32-setup.exe ../divi-binaries/${VERSION}
+	    ./bin/gbuild -i --commit signature=${COMMIT} ../slashdash/contrib/gitian-descriptors/gitian-win-signer.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-win-signed --destination ../gitian.sigs/ ../slashdash/contrib/gitian-descriptors/gitian-win-signer.yml
+	    mv build/out/slashdash-*win64-setup.exe ../slashdash-binaries/${VERSION}
+	    mv build/out/slashdash-*win32-setup.exe ../slashdash-binaries/${VERSION}
 	fi
 	# Sign Mac OSX
 	if [[ $osx = true ]]
@@ -391,9 +391,9 @@ then
 	    echo ""
 	    echo "Signing ${VERSION} Mac OSX"
 	    echo ""
-	    ./bin/gbuild -i --commit signature=${COMMIT} ../divi/contrib/gitian-descriptors/gitian-osx-signer.yml
-	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../divi/contrib/gitian-descriptors/gitian-osx-signer.yml
-	    mv build/out/divi-osx-signed.dmg ../divi-binaries/${VERSION}/divi-${VERSION}-osx.dmg
+	    ./bin/gbuild -i --commit signature=${COMMIT} ../slashdash/contrib/gitian-descriptors/gitian-osx-signer.yml
+	    ./bin/gsign -p $signProg --signer $SIGNER --release ${VERSION}-osx-signed --destination ../gitian.sigs/ ../slashdash/contrib/gitian-descriptors/gitian-osx-signer.yml
+	    mv build/out/slashdash-osx-signed.dmg ../slashdash-binaries/${VERSION}/slashdash-${VERSION}-osx.dmg
 	fi
 	popd
 

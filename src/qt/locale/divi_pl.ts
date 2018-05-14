@@ -227,8 +227,8 @@
         <translation>Zakodowany klucz:</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this DIVI address</source>
-        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres DIVI jest w twoim posiadaniu</translation>
+        <source>Sign the message to prove you own this SDASH address</source>
+        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres SDASH jest w twoim posiadaniu</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -518,16 +518,16 @@
         <translation>&amp;Pomoc</translation>
     </message>
     <message>
-        <source>DIVI Core</source>
-        <translation>&amp;Rdzeń DIVI</translation>
+        <source>SDASH Core</source>
+        <translation>&amp;Rdzeń SDASH</translation>
     </message>
     <message>
-        <source>Send coins to a DIVI address</source>
-        <translation>Wyślij monety do adresu DIVI</translation>
+        <source>Send coins to a SDASH address</source>
+        <translation>Wyślij monety do adresu SDASH</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and divi: URIs)</source>
-        <translation>Zarządaj płatności (generuje kod QR i divi:URI)</translation>
+        <source>Request payments (generates QR codes and slashdash: URIs)</source>
+        <translation>Zarządaj płatności (generuje kod QR i slashdash:URI)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -538,24 +538,24 @@
         <translation>Przeglądaj masternodes</translation>
     </message>
     <message>
-        <source>&amp;About DIVI Core</source>
+        <source>&amp;About SDASH Core</source>
         <translation>&amp;O rdzeniu bitcoina</translation>
     </message>
     <message>
-        <source>Show information about DIVI Core</source>
+        <source>Show information about SDASH Core</source>
         <translation>Pokaż informacje o rdzeniu bitcoina</translation>
     </message>
     <message>
-        <source>Modify configuration options for DIVI</source>
-        <translation>Modyfikuj opcje konfiguracji DIVI</translation>
+        <source>Modify configuration options for SDASH</source>
+        <translation>Modyfikuj opcje konfiguracji SDASH</translation>
     </message>
     <message>
-        <source>Sign messages with your DIVI addresses to prove you own them</source>
-        <translation>Zatwierdź wiadomość z twoimi adresami DIVI, by udowodnić, że jesteś w ich posiadaniu</translation>
+        <source>Sign messages with your SDASH addresses to prove you own them</source>
+        <translation>Zatwierdź wiadomość z twoimi adresami SDASH, by udowodnić, że jesteś w ich posiadaniu</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified DIVI addresses</source>
-        <translation>Zweryfikuj wiadomości by upewnić się, że zostały zatwierdzone z podanego adresu DIVI</translation>
+        <source>Verify messages to ensure they were signed with specified SDASH addresses</source>
+        <translation>Zweryfikuj wiadomości by upewnić się, że zostały zatwierdzone z podanego adresu SDASH</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -582,8 +582,8 @@
         <translation>Otwórz &amp;Plik konfiguracji Masternode</translation>
     </message>
     <message>
-        <source>Open a DIVI: URI or payment request</source>
-        <translation>Otwórz DIVI: URI i żądanie zapłaty</translation>
+        <source>Open a SDASH: URI or payment request</source>
+        <translation>Otwórz SDASH: URI i żądanie zapłaty</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -594,12 +594,12 @@
         <translation>Okno eksplorera bloków</translation>
     </message>
     <message>
-        <source>Show the DIVI Core help message to get a list with possible DIVI command-line options</source>
-        <translation>Pokaż wiadomość pomocy rdzenia DIVI, aby dostać listę możliwych opcji DIVI command-line</translation>
+        <source>Show the SDASH Core help message to get a list with possible SDASH command-line options</source>
+        <translation>Pokaż wiadomość pomocy rdzenia SDASH, aby dostać listę możliwych opcji SDASH command-line</translation>
     </message>
     <message>
-        <source>DIVI Core client</source>
-        <translation>Rdzeń DIVI klient</translation>
+        <source>SDASH Core client</source>
+        <translation>Rdzeń SDASH klient</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -912,8 +912,8 @@ MultiWysyłlka: %1</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>DIVI Core</source>
-        <translation>&amp;Rdzeń DIVI</translation>
+        <source>SDASH Core</source>
+        <translation>&amp;Rdzeń SDASH</translation>
     </message>
     </context>
 <context>
@@ -927,8 +927,8 @@ MultiWysyłlka: %1</translation>
         <translation>Użyj niestandardowej ścieżki danych</translation>
     </message>
     <message>
-        <source>DIVI Core</source>
-        <translation>&amp;Rdzeń DIVI</translation>
+        <source>SDASH Core</source>
+        <translation>&amp;Rdzeń SDASH</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1203,12 +1203,12 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>Zezwól na przychodzące połączenia</translation>
     </message>
     <message>
-        <source>Automatically start DIVI after logging in to the system.</source>
-        <translation>Automatycznie uruchom DIVI po zalogowaniu do systemu</translation>
+        <source>Automatically start SDASH after logging in to the system.</source>
+        <translation>Automatycznie uruchom SDASH po zalogowaniu do systemu</translation>
     </message>
     <message>
-        <source>&amp;Start DIVI on system login</source>
-        <translation>&amp;Uruchom DIVI podczas logowania do systemu</translation>
+        <source>&amp;Start SDASH on system login</source>
+        <translation>&amp;Uruchom SDASH podczas logowania do systemu</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1227,8 +1227,8 @@ Proszę sprawdzić adres i spróbować ponownie</translation>
         <translation>&amp;Sieć</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting DIVI.</source>
-        <translation>Język interfejsu użytkownika może być wybrany tutaj. Ustawienia ulegną zmianie po restarcie DIVI</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting SDASH.</source>
+        <translation>Język interfejsu użytkownika może być wybrany tutaj. Ustawienia ulegną zmianie po restarcie SDASH</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
@@ -1237,8 +1237,8 @@ https://www.transifex.com/divicoin/divicoin-translations</source>
 https://www.transifex.com/divicoin/divicoin-translations </translation>
     </message>
     <message>
-        <source>Connect to the DIVI network through a SOCKS5 proxy.</source>
-        <translation>Połącz z siecią DIVI poprzez SOCKS5 proxy.</translation>
+        <source>Connect to the SDASH network through a SOCKS5 proxy.</source>
+        <translation>Połącz z siecią SDASH poprzez SOCKS5 proxy.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1476,8 +1476,8 @@ https://www.transifex.com/divicoin/divicoin-translations </translation>
         <translation>Liczba</translation>
     </message>
     <message>
-        <source>Enter a DIVI address (e.g. %1)</source>
-        <translation>Wprowadź adres DIVI (np. %1)</translation>
+        <source>Enter a SDASH address (e.g. %1)</source>
+        <translation>Wprowadź adres SDASH (np. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -1915,8 +1915,8 @@ https://www.transifex.com/divicoin/divicoin-translations </translation>
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this DIVI address</source>
-        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres DIVI jest w twoim posiadaniu</translation>
+        <source>Sign the message to prove you own this SDASH address</source>
+        <translation>Zatwierdź wiadomość, aby udowodnić, że podany adres SDASH jest w twoim posiadaniu</translation>
     </message>
     <message>
         <source>Clear &amp;All</source>
@@ -1950,8 +1950,8 @@ https://www.transifex.com/divicoin/divicoin-translations </translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>DIVI Core</source>
-        <translation>&amp;Rdzeń DIVI</translation>
+        <source>SDASH Core</source>
+        <translation>&amp;Rdzeń SDASH</translation>
     </message>
     </context>
 <context>
@@ -2049,7 +2049,7 @@ https://www.transifex.com/divicoin/divicoin-translations </translation>
     </message>
     </context>
 <context>
-    <name>divi-core</name>
+    <name>slashdash-core</name>
     <message>
         <source>Error</source>
         <translation>Błąd</translation>

@@ -10,10 +10,10 @@
 
 /**
  * Name of client reported in the 'version' message. Report the same name
- * for both divid and divi-qt, to make it harder for attackers to
+ * for both divid and slashdash-qt, to make it harder for attackers to
  * target servers or GUI users specifically.
  */
-const std::string CLIENT_NAME("DIVI Core");
+const std::string CLIENT_NAME("SDASH Core");
 
 /**
  * Client version number

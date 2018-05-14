@@ -66,7 +66,7 @@
 //     ui->labelzDenom7Text->setText("Denom. with value <b>1000</b>:");
 //     ui->labelzDenom8Text->setText("Denom. with value <b>5000</b>:");
 
-//     // DIVI settings
+//     // SDASH settings
 //     QSettings settings;
 //     if (!settings.contains("nSecurityLevel")){
 //         nSecurityLevel = 42;
@@ -310,7 +310,7 @@
 //     }
 //     else{
 //         if (!address.IsValid()) {
-//             QMessageBox::warning(this, tr("Spend Zerocoin"), tr("Invalid Divi Address"), QMessageBox::Ok, QMessageBox::Ok);
+//             QMessageBox::warning(this, tr("Spend Zerocoin"), tr("Invalid SlashDash Address"), QMessageBox::Ok, QMessageBox::Ok);
 //             ui->payTo->setFocus();
 //             return;
 //         }

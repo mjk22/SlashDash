@@ -62,12 +62,12 @@
         <translation>Direcciones de recepción</translation>
     </message>
     <message>
-        <source>These are your DIVI addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Estas son sus direcciones DIVI para realizar pagos. Verifique siempre la cantidad y la dirección de recepción antes de enviar monedas.</translation>
+        <source>These are your SDASH addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Estas son sus direcciones SDASH para realizar pagos. Verifique siempre la cantidad y la dirección de recepción antes de enviar monedas.</translation>
     </message>
     <message>
-        <source>These are your DIVI addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Estas son sus direcciones DIVI para recibir pagos. Es recomendable usar una nueva dirección de recepción para cada transacción.</translation>
+        <source>These are your SDASH addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Estas son sus direcciones SDASH para recibir pagos. Es recomendable usar una nueva dirección de recepción para cada transacción.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,8 +176,8 @@
         <translation>Confirme el cifrado del monedero</translation>
     </message>
     <message>
-        <source>DIVI will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your DIVs from being stolen by malware infecting your computer.</source>
-        <translation>DIVI se cerrará para finalizar el proceso de cifrado. Recuerde que cifrar su monedero no garantiza que sus DIVs no sean robados mediante malware de su ordenador.</translation>
+        <source>SDASH will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your DIVs from being stolen by malware infecting your computer.</source>
+        <translation>SDASH se cerrará para finalizar el proceso de cifrado. Recuerde que cifrar su monedero no garantiza que sus DIVs no sean robados mediante malware de su ordenador.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -239,16 +239,16 @@
         <translation>&amp;Cifrado BIP 38</translation>
     </message>
     <message>
-        <source>Enter a Divi Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Introduzca la dirección DIVI que querría cifrar usando BIP 38. Introduzca una contraseña en el campo central. Haga clic en cifrar para generar la clave privada cifrada.</translation>
+        <source>Enter a SlashDash Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Introduzca la dirección SDASH que querría cifrar usando BIP 38. Introduzca una contraseña en el campo central. Haga clic en cifrar para generar la clave privada cifrada.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Dirección:</translation>
     </message>
     <message>
-        <source>The DIVI address to sign the message with</source>
-        <translation>La dirección DIVI con la que desee firmar el mensaje</translation>
+        <source>The SDASH address to sign the message with</source>
+        <translation>La dirección SDASH con la que desee firmar el mensaje</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Copiar la firma actual al portapapeles del sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this DIVI address</source>
-        <translation>Firme el mensaje para demostrar que eres el propietario de esta dirección DIVI</translation>
+        <source>Sign the message to prove you own this SDASH address</source>
+        <translation>Firme el mensaje para demostrar que eres el propietario de esta dirección SDASH</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -303,12 +303,12 @@
         <translation>Introduzca la clave cifrada privada BIP 38. Introduzca la contraseña en el campo central. Haga clic en descifrar clave para generar la clave privada. Después de que la clave sea descifrada, pulsando en 'Importar dirección' añadirá esta clave privada al monedero.</translation>
     </message>
     <message>
-        <source>The DIVI address the message was signed with</source>
-        <translation>La dirección DIVI con la que se firmó el mensaje</translation>
+        <source>The SDASH address the message was signed with</source>
+        <translation>La dirección SDASH con la que se firmó el mensaje</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified DIVI address</source>
-        <translation>Verifica el mensaje para asegurar que fue firmado con la dirección DIVI especificada</translation>
+        <source>Verify the message to ensure it was signed with the specified SDASH address</source>
+        <translation>Verifica el mensaje para asegurar que fue firmado con la dirección SDASH especificada</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -602,15 +602,15 @@
         <translation>Herramienta de pestañas</translation>
     </message>
     <message>
-        <source>DIVI Core</source>
-        <translation>Núcleo DIVI</translation>
+        <source>SDASH Core</source>
+        <translation>Núcleo SDASH</translation>
     </message>
     <message>
-        <source>Send coins to a DIVI address</source>
-        <translation>Enviar coins a una dirección DIVI</translation>
+        <source>Send coins to a SDASH address</source>
+        <translation>Enviar coins a una dirección SDASH</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and divi: URIs)</source>
+        <source>Request payments (generates QR codes and slashdash: URIs)</source>
         <translation>Solicitud de pago (genera un código QR y URIs)</translation>
     </message>
     <message>
@@ -626,24 +626,24 @@
         <translation>Explorar nodos maestros</translation>
     </message>
     <message>
-        <source>&amp;About DIVI Core</source>
-        <translation>&amp;Sobre el núcleo de DIVI</translation>
+        <source>&amp;About SDASH Core</source>
+        <translation>&amp;Sobre el núcleo de SDASH</translation>
     </message>
     <message>
-        <source>Show information about DIVI Core</source>
-        <translation>Mostrar información sobre el núcleo de DIVI</translation>
+        <source>Show information about SDASH Core</source>
+        <translation>Mostrar información sobre el núcleo de SDASH</translation>
     </message>
     <message>
-        <source>Modify configuration options for DIVI</source>
-        <translation>Modificar las opciones de configuración de DIVI</translation>
+        <source>Modify configuration options for SDASH</source>
+        <translation>Modificar las opciones de configuración de SDASH</translation>
     </message>
     <message>
-        <source>Sign messages with your DIVI addresses to prove you own them</source>
-        <translation>Firmar mensajes con sus direcciones DIVI para demostrar que le pertenecen</translation>
+        <source>Sign messages with your SDASH addresses to prove you own them</source>
+        <translation>Firmar mensajes con sus direcciones SDASH para demostrar que le pertenecen</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified DIVI addresses</source>
-        <translation>Verificar mensajes para asegurar que están firmados con la dirección DIVI especificada</translation>
+        <source>Verify messages to ensure they were signed with specified SDASH addresses</source>
+        <translation>Verificar mensajes para asegurar que están firmados con la dirección SDASH especificada</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -674,8 +674,8 @@
         <translation>Abrir Fichero de Configuración de Nodos Maestros</translation>
     </message>
     <message>
-        <source>Open a DIVI: URI or payment request</source>
-        <translation>Abrir un DIVI: URI o solicitud de pago</translation>
+        <source>Open a SDASH: URI or payment request</source>
+        <translation>Abrir un SDASH: URI o solicitud de pago</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -686,16 +686,16 @@
         <translation>Ventana del explorador de bloques</translation>
     </message>
     <message>
-        <source>Show the DIVI Core help message to get a list with possible DIVI command-line options</source>
-        <translation>Mostrar la ayuda de DIVI Core para obtener una lista de posibles opciones en línea de comandos</translation>
+        <source>Show the SDASH Core help message to get a list with possible SDASH command-line options</source>
+        <translation>Mostrar la ayuda de SDASH Core para obtener una lista de posibles opciones en línea de comandos</translation>
     </message>
     <message>
-        <source>DIVI Core client</source>
-        <translation>Cliente DIVI Core</translation>
+        <source>SDASH Core client</source>
+        <translation>Cliente SDASH Core</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to DIVI network</source>
-        <translation><numerusform>%n conexión(es) activa a la red DIVI</numerusform><numerusform>%n conexion(es) activas a la red DIVI</numerusform></translation>
+        <source>%n active connection(s) to SDASH network</source>
+        <translation><numerusform>%n conexión(es) activa a la red SDASH</numerusform><numerusform>%n conexion(es) activas a la red SDASH</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -845,8 +845,8 @@ MultiEnvío: %1</translation>
         <translation>EtiquetaDeTexto</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (divi.conf).</source>
-        <translation>No se muestran todas las transacciones. Para ver todas las transacciones introduzca la línea "txindex=1" en el archivo de configuración (divi.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (slashdash.conf).</source>
+        <translation>No se muestran todas las transacciones. Para ver todas las transacciones introduzca la línea "txindex=1" en el archivo de configuración (slashdash.conf).</translation>
     </message>
 </context>
 <context>
@@ -1138,8 +1138,8 @@ MultiEnvío: %1</translation>
         <translation>Editar dirección de envío</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid DIVI address.</source>
-        <translation>La dirección introducida "%1" no es una dirección DIVI válida.</translation>
+        <source>The entered address "%1" is not a valid SDASH address.</source>
+        <translation>La dirección introducida "%1" no es una dirección SDASH válida.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1184,16 +1184,16 @@ MultiEnvío: %1</translation>
         <translation>versión</translation>
     </message>
     <message>
-        <source>DIVI Core</source>
-        <translation>Núcleo DIVI</translation>
+        <source>SDASH Core</source>
+        <translation>Núcleo SDASH</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About DIVI Core</source>
-        <translation>Acerca de DIVI Core</translation>
+        <source>About SDASH Core</source>
+        <translation>Acerca de SDASH Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1239,16 +1239,16 @@ MultiEnvío: %1</translation>
         <translation>Bienvenido/a</translation>
     </message>
     <message>
-        <source>Welcome to DIVI Core.</source>
-        <translation>Bienvenido/a a DIVI Core.</translation>
+        <source>Welcome to SDASH Core.</source>
+        <translation>Bienvenido/a a SDASH Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where DIVI Core will store its data.</source>
-        <translation>Al ser la primera vez que se inicia el programa, usted puede elegir dónde guardará DIVI Core sus datos.</translation>
+        <source>As this is the first time the program is launched, you can choose where SDASH Core will store its data.</source>
+        <translation>Al ser la primera vez que se inicia el programa, usted puede elegir dónde guardará SDASH Core sus datos.</translation>
     </message>
     <message>
-        <source>DIVI Core will download and store a copy of the DIVI block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>DIVI Core descargará y guardará una copia de la cadena de bloques DIVI. Por lo menos %1GB de datos serán guardados en esta carpeta, y crecerá con el tiempo. El monedero también se guardará en esta carpeta.</translation>
+        <source>SDASH Core will download and store a copy of the SDASH block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>SDASH Core descargará y guardará una copia de la cadena de bloques SDASH. Por lo menos %1GB de datos serán guardados en esta carpeta, y crecerá con el tiempo. El monedero también se guardará en esta carpeta.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1259,8 +1259,8 @@ MultiEnvío: %1</translation>
         <translation>Usar una carpeta de datos personalizada:</translation>
     </message>
     <message>
-        <source>DIVI Core</source>
-        <translation>Núcleo DIVI</translation>
+        <source>SDASH Core</source>
+        <translation>Núcleo SDASH</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1401,12 +1401,12 @@ MultiEnvío: %1</translation>
         <translation>Introduzca Dirección a la cual Enviar</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other DIVI addresses after it matures.
-To Add: enter percentage to give and DIVI address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other SDASH addresses after it matures.
+To Add: enter percentage to give and SDASH address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>MultiEnvío le permite enviar automáticamente hasta el 100% de recompensa de participación o de nodo maestro a una lista de otras direcciones DIVI después de su maduración.
-Para Añadir: introduzca porcentaje a enviar y las direcciones DIVI a añadir al vector MultiEnvío.
+        <translation>MultiEnvío le permite enviar automáticamente hasta el 100% de recompensa de participación o de nodo maestro a una lista de otras direcciones SDASH después de su maduración.
+Para Añadir: introduzca porcentaje a enviar y las direcciones SDASH a añadir al vector MultiEnvío.
 Para Eliminar: Introduzca la dirección a eliminar y pulse la tecla delete.
 MultiEnvío no se activará a menos que haga usted click en Activar</translation>
     </message>
@@ -1595,16 +1595,16 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
         <translation>Configuración de Ofuscación</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening DIVI's configuration screen.</source>
-        <translation>La Ofuscación se configuró correctamente en modo básico (%1 y 2 rondas). Puedes cambiar esto en cualquier momento accediendo a la ventana de configuración de DIVI.</translation>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening SDASH's configuration screen.</source>
+        <translation>La Ofuscación se configuró correctamente en modo básico (%1 y 2 rondas). Puedes cambiar esto en cualquier momento accediendo a la ventana de configuración de SDASH.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening DIVI's configuration screen.</source>
-        <translation>La Ofuscación se activó correctamente en modo alto (%1 y 8 rondas). Usted puede cambiar esto en cualquier momento abriendo la ventana de configuración de DIVI.</translation>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening SDASH's configuration screen.</source>
+        <translation>La Ofuscación se activó correctamente en modo alto (%1 y 8 rondas). Usted puede cambiar esto en cualquier momento abriendo la ventana de configuración de SDASH.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening DIVI's configuration screen.</source>
-        <translation>La Ofuscación se activó correctamente en su grado máximo (%1 y 16 rondas). Usted puede cambiar ésto en cualquier momento en la ventana de configuración de DIVI.</translation>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening SDASH's configuration screen.</source>
+        <translation>La Ofuscación se activó correctamente en su grado máximo (%1 y 16 rondas). Usted puede cambiar ésto en cualquier momento en la ventana de configuración de SDASH.</translation>
     </message>
 </context>
 <context>
@@ -1665,8 +1665,8 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
         <translation>Si deselecciona el gasto de cambio no confirmado, las entradas de una transacción&lt;br/&gt;no podrán ser usadas hasta que esa transacción tenga al menos una confirmación.&lt;br/&gt;Esto también afecta a cómo se calcula su balance actual.</translation>
     </message>
     <message>
-        <source>Automatically open the DIVI client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir automáticamente el puerto del cliente DIVI en el enrutador. Ésto sólo funciona si su enrutador soporta UPnP y esta función está activada.</translation>
+        <source>Automatically open the SDASH client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Abrir automáticamente el puerto del cliente SDASH en el enrutador. Ésto sólo funciona si su enrutador soporta UPnP y esta función está activada.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1685,12 +1685,12 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
         <translation>Experto</translation>
     </message>
     <message>
-        <source>Automatically start DIVI after logging in to the system.</source>
-        <translation>Arrancar DIVI automáticamente después de identificarse en Windows.</translation>
+        <source>Automatically start SDASH after logging in to the system.</source>
+        <translation>Arrancar SDASH automáticamente después de identificarse en Windows.</translation>
     </message>
     <message>
-        <source>&amp;Start DIVI on system login</source>
-        <translation>&amp;Arrancar DIVI al inicio del sistema</translation>
+        <source>&amp;Start SDASH on system login</source>
+        <translation>&amp;Arrancar SDASH al inicio del sistema</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1717,8 +1717,8 @@ Por favor compruebe la dirección e inténtelo de nuevo.</translation>
         <translation>&amp;Red</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting DIVI.</source>
-        <translation>El idioma de interface de usuario puede seleccionarse aquí. Este ajuste tomará efecto después de reiniciar DIVI.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting SDASH.</source>
+        <translation>El idioma de interface de usuario puede seleccionarse aquí. Este ajuste tomará efecto después de reiniciar SDASH.</translation>
     </message>
     <message>
         <source>Language missing or translation incomplete? Help contributing translations here:
@@ -1747,8 +1747,8 @@ https://www.transifex.com/divicoin/divicoin-translations</translation>
         <translation>Tamaño de billete zDIV preferido en la creación automática de dinero</translation>
     </message>
     <message>
-        <source>Connect to the DIVI network through a SOCKS5 proxy.</source>
-        <translation>Conectar a la red DIVI mediante un proxy SOCKS5.</translation>
+        <source>Connect to the SDASH network through a SOCKS5 proxy.</source>
+        <translation>Conectar a la red SDASH mediante un proxy SOCKS5.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1906,8 +1906,8 @@ https://www.transifex.com/divicoin/divicoin-translations</translation>
         <translation>Recompensa de participación o de nodo maestro que aún no ha madurado</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the DIVI network after a connection is established, but this process has not completed yet.</source>
-        <translation>La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red DIVI después de establecer una conexión, pero este proceso aún no se ha completado.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the SDASH network after a connection is established, but this process has not completed yet.</source>
+        <translation>La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red SDASH después de establecer una conexión, pero este proceso aún no se ha completado.</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
@@ -1993,12 +1993,12 @@ https://www.transifex.com/divicoin/divicoin-translations</translation>
         <translation>Dirección de pago inválida %1</translation>
     </message>
     <message>
-        <source>Cannot start divi: click-to-pay handler</source>
-        <translation>No se puede iniciar divi: módulo click-to-pay</translation>
+        <source>Cannot start slashdash: click-to-pay handler</source>
+        <translation>No se puede iniciar slashdash: módulo click-to-pay</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid DIVI address or malformed URI parameters.</source>
-        <translation>¡El identificador de la dirección no puede ser analizado! Esto puede ser causado por una dirección DIVI inválida o parámetros del identificador malformados.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid SDASH address or malformed URI parameters.</source>
+        <translation>¡El identificador de la dirección no puede ser analizado! Esto puede ser causado por una dirección SDASH inválida o parámetros del identificador malformados.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2091,8 +2091,8 @@ https://www.transifex.com/divicoin/divicoin-translations</translation>
         <translation>Acciones Zerocoin:</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the DIVI network after a connection is established, but this process has not completed yet.</source>
-        <translation>La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red DIVI después de establecer una conexión, pero este proceso aún no se ha completado.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the SDASH network after a connection is established, but this process has not completed yet.</source>
+        <translation>La información mostrada puede estar desactualizada. Su monedero se sincroniza automáticamente con la red SDASH después de establecer una conexión, pero este proceso aún no se ha completado.</translation>
     </message>
     <message>
         <source>Enter an amount of Div to convert to zDiv</source>
@@ -2195,8 +2195,8 @@ https://www.transifex.com/divicoin/divicoin-translations</translation>
         <translation>Pagar &amp;A:</translation>
     </message>
     <message>
-        <source>The DIVI address to send the payment to. Creates local payment to yourself when empty.</source>
-        <translation>La dirección DIVI a la que enviar el pago. Si se deja en blanco, crea un pago a usted mismo.</translation>
+        <source>The SDASH address to send the payment to. Creates local payment to yourself when empty.</source>
+        <translation>La dirección SDASH a la que enviar el pago. Si se deja en blanco, crea un pago a usted mismo.</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2437,8 +2437,8 @@ Por favor espere...</translation>
         <translation>No se especificó drección 'Pagar A', por lo que asumimos un pago local</translation>
     </message>
     <message>
-        <source>Invalid Divi Address</source>
-        <translation>Dirección Divi Inválida</translation>
+        <source>Invalid SlashDash Address</source>
+        <translation>Dirección SlashDash Inválida</translation>
     </message>
     <message>
         <source>Invalid Send Amount</source>
@@ -2524,8 +2524,8 @@ Por favor tenga paciencia...</translation>
         <translation>Cantidad</translation>
     </message>
     <message>
-        <source>Enter a DIVI address (e.g. %1)</source>
-        <translation>Introduzca una dirección DIVI (p.e. %1)</translation>
+        <source>Enter a SDASH address (e.g. %1)</source>
+        <translation>Introduzca una dirección SDASH (p.e. %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2662,8 +2662,8 @@ Por favor tenga paciencia...</translation>
         <translation>Cadena de bloques</translation>
     </message>
     <message>
-        <source>Open the DIVI debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Abrir el fichero de depuración DIVI en el directorio actual de datos. Esto puede llevar unos segundos para ficheros de depuración grandes.</translation>
+        <source>Open the SDASH debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Abrir el fichero de depuración SDASH en el directorio actual de datos. Esto puede llevar unos segundos para ficheros de depuración grandes.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -2830,8 +2830,8 @@ Por favor tenga paciencia...</translation>
         <translation>Fuera:</translation>
     </message>
     <message>
-        <source>Welcome to the DIVI RPC console.</source>
-        <translation>Bienvenido a la consola RPC de DIVI.</translation>
+        <source>Welcome to the SDASH RPC console.</source>
+        <translation>Bienvenido a la consola RPC de SDASH.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2901,12 +2901,12 @@ Por favor tenga paciencia...</translation>
         <translation>Una etiqueta opcional a asociar con la nueva dirección de recepción.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the DIVI network.</source>
-        <translation>Un mensaje opcional a adjuntar a la solicitud de pago, que será mostrado cuando se abra la solicitud. Nota: El mensaje no se envía junto al pago por la red DIVI.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the SDASH network.</source>
+        <translation>Un mensaje opcional a adjuntar a la solicitud de pago, que será mostrado cuando se abra la solicitud. Nota: El mensaje no se envía junto al pago por la red SDASH.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the DIVI network.</source>
-        <translation>Un mensaje opcional a adjuntar a la solicitud de pago, que será mostrado cuando se abra la solicitud. &lt;br&gt;Nota: El mensaje no se envía junto al pago por la red DIVI.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the SDASH network.</source>
+        <translation>Un mensaje opcional a adjuntar a la solicitud de pago, que será mostrado cuando se abra la solicitud. &lt;br&gt;Nota: El mensaje no se envía junto al pago por la red SDASH.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -3190,8 +3190,8 @@ Por favor tenga paciencia...</translation>
         <translation>Si la comisión personalizada se fija en 1000 uDIVs y la transacción necesita sólo 250 bytes, entonces la opción "por kilobyte" sólo pagará 250 uDIVs de comisión,&lt;br/&gt;mientras "por lo menos" pagará 1000 uDIVs. Para transacciones que midan más de un kilobyte ambas pagan por kilobyte.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for DIVI transactions than the network can process.</source>
-        <translation>Pagar sólo la comisión mínima está bien mientras haya menos volumen de transacciones que espacio en los bloques.&lt;br/&gt;Pero tenga en cuenta que esto podría acabar en una transacción que nunca se confirme si hay más demanda de transacciones DIVI de las que la red puede procesar.</translation>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for SDASH transactions than the network can process.</source>
+        <translation>Pagar sólo la comisión mínima está bien mientras haya menos volumen de transacciones que espacio en los bloques.&lt;br/&gt;Pero tenga en cuenta que esto podría acabar en una transacción que nunca se confirme si hay más demanda de transacciones SDASH de las que la red puede procesar.</translation>
     </message>
     <message>
         <source>normal</source>
@@ -3294,8 +3294,8 @@ Por favor tenga paciencia...</translation>
         <translation>fondos anónimos</translation>
     </message>
     <message>
-        <source>Warning: Invalid DIVI address</source>
-        <translation>Advertencia: Direcciones DIVI inválidas</translation>
+        <source>Warning: Invalid SDASH address</source>
+        <translation>Advertencia: Direcciones SDASH inválidas</translation>
     </message>
     <message>
         <source>any available funds (not recommended)</source>
@@ -3397,8 +3397,8 @@ Por favor tenga paciencia...</translation>
         <translation>Pagar &amp;A:</translation>
     </message>
     <message>
-        <source>The DIVI address to send the payment to</source>
-        <translation>La dirección DIVI a la cual enviar el pago</translation>
+        <source>The SDASH address to send the payment to</source>
+        <translation>La dirección SDASH a la cual enviar el pago</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3437,8 +3437,8 @@ Por favor tenga paciencia...</translation>
         <translation>Mensaje:</translation>
     </message>
     <message>
-        <source>A message that was attached to the DIVI: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the DIVI network.</source>
-        <translation>Un mensaje adjunto al DIVI: En recurso web especificado será guardado junto a la transacción para su referencia. Nota: Este mensaje no se enviará por la red DIVI.</translation>
+        <source>A message that was attached to the SDASH: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the SDASH network.</source>
+        <translation>Un mensaje adjunto al SDASH: En recurso web especificado será guardado junto a la transacción para su referencia. Nota: Este mensaje no se enviará por la red SDASH.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -3464,8 +3464,8 @@ Por favor tenga paciencia...</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>DIVI Core is shutting down...</source>
-        <translation>El programa DIVI se está cerrando...</translation>
+        <source>SDASH Core is shutting down...</source>
+        <translation>El programa SDASH se está cerrando...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -3487,8 +3487,8 @@ Por favor tenga paciencia...</translation>
         <translation>Usted puede firmar mensajes con su dirección para probar que son auténticos. Tenga cuidado con firmar algo corto o vago como "hola", pues los ataques de phising pueden engañarle para que firme su identidad para ellos. Sólo firme textos detallados con los que esté de acuerdo.</translation>
     </message>
     <message>
-        <source>The DIVI address to sign the message with</source>
-        <translation>La dirección DIVI con la que desee firmar el mensaje</translation>
+        <source>The SDASH address to sign the message with</source>
+        <translation>La dirección SDASH con la que desee firmar el mensaje</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3519,16 +3519,16 @@ Por favor tenga paciencia...</translation>
         <translation>Copiar la firma actual al portapapeles del sistema</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this DIVI address</source>
-        <translation>Firme el mensaje para demostrar que eres el propietario de esta dirección DIVI</translation>
+        <source>Sign the message to prove you own this SDASH address</source>
+        <translation>Firme el mensaje para demostrar que eres el propietario de esta dirección SDASH</translation>
     </message>
     <message>
-        <source>The DIVI address the message was signed with</source>
-        <translation>La dirección DIVI con la que se firmó el mensaje</translation>
+        <source>The SDASH address the message was signed with</source>
+        <translation>La dirección SDASH con la que se firmó el mensaje</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified DIVI address</source>
-        <translation>Verifica el mensaje para asegurar que fue firmado con la dirección DIVI especificada</translation>
+        <source>Verify the message to ensure it was signed with the specified SDASH address</source>
+        <translation>Verifica el mensaje para asegurar que fue firmado con la dirección SDASH especificada</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -3614,8 +3614,8 @@ Por favor tenga paciencia...</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>DIVI Core</source>
-        <translation>Núcleo DIVI</translation>
+        <source>SDASH Core</source>
+        <translation>Núcleo SDASH</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -3630,8 +3630,8 @@ Por favor tenga paciencia...</translation>
         <translation>Los desarrolladores de Dash Core</translation>
     </message>
     <message>
-        <source>The DIVI Core developers</source>
-        <translation>Los desarrolladores de DIVI Core</translation>
+        <source>The SDASH Core developers</source>
+        <translation>Los desarrolladores de SDASH Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -4257,7 +4257,7 @@ Por favor tenga paciencia...</translation>
     </message>
 </context>
 <context>
-    <name>divi-core</name>
+    <name>slashdash-core</name>
     <message>
         <source>(1 = keep tx meta data e.g. account owner and payment request information, 2 = drop tx meta data)</source>
         <translation>(1= mantener los metadatos tx p.e. dueño de la cuenta e información de la solicitud de pago, 2 = ignorar metadatos tx)</translation>
@@ -4287,8 +4287,8 @@ Por favor tenga paciencia...</translation>
         <translation>El punto de chequeo del acumulador que hemos calculado no coincide con lo guardado en el índice de bloques</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. DIVI Core is probably already running.</source>
-        <translation>No se puede obtener un bloqueo sobre el directorio de datos %s. DIVI Core esta probablemente en ejecución.</translation>
+        <source>Cannot obtain a lock on data directory %s. SDASH Core is probably already running.</source>
+        <translation>No se puede obtener un bloqueo sobre el directorio de datos %s. SDASH Core esta probablemente en ejecución.</translation>
     </message>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
@@ -4439,7 +4439,7 @@ Por favor tenga paciencia...</translation>
         <translation>Este producto incluye software desarrollado por el Proyecto OpenSSL para uso en OpenSSL Toolkit &lt;https://www.openssl.org/&gt; y software de cifrado escrito por Eric Young y software de UPnP escrito por Thomas Bernard.</translation>
     </message>
     <message>
-        <source>To use divid, or the -server option to divi-qt, you must set an rpcpassword in the configuration file:
+        <source>To use divid, or the -server option to slashdash-qt, you must set an rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
 rpcuser=divirpc
@@ -4448,23 +4448,23 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s "DIVI Alert" admin@foo.com
+for example: alertnotify=echo %%s | mail -s "SDASH Alert" admin@foo.com
 </source>
-        <translation>Para usar divid, o la opción -server de divi-qt, debes definir un rpcpassword en el archivo de configuración:
+        <translation>Para usar divid, o la opción -server de slashdash-qt, debes definir un rpcpassword en el archivo de configuración:
 %s
 Es recomendado que uses la siguiente contraseña aleatoria:
-rpcuser=divi
+rpcuser=slashdash
 rpcrpcpassword=%s
 (No necesitas recordar esta contraseña)
 El nombre de usuario y contraseña NO DEBEN ser los mismos.
 Si el archivo no existe, crearlo con permisos de solo lectura para el propietario.
 También es recomendado definir alertnotify de manera que seas notificado de problemas;
-por ejemplo: alertnotify=echo %%s | mail -s "DIVI Alert" admin@foo.com
+por ejemplo: alertnotify=echo %%s | mail -s "SDASH Alert" admin@foo.com
 </translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. DIVI Core is probably already running.</source>
-        <translation>Imposible conectar a %s en esta computadora. Es probable que DIVI Core ya este corriendo.</translation>
+        <source>Unable to bind to %s on this computer. SDASH Core is probably already running.</source>
+        <translation>Imposible conectar a %s en esta computadora. Es probable que SDASH Core ya este corriendo.</translation>
     </message>
     <message>
         <source>Unable to locate enough Obfuscation denominated funds for this transaction.</source>
@@ -4491,8 +4491,8 @@ por ejemplo: alertnotify=echo %%s | mail -s "DIVI Alert" admin@foo.com
         <translation>Advertencia: -paytxfee esta muy alta! Esta es la comisión de transacción que pagarás si envías una transacción.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong DIVI Core will not work properly.</source>
-        <translation>Advertencia: Por favor verifique que la fecha y hora de su computadora sean correctas! Si su reloj esta fuera de hora DIVI Core no funcionará adecuadamente.</translation>
+        <source>Warning: Please check that your computer's date and time are correct! If your clock is wrong SDASH Core will not work properly.</source>
+        <translation>Advertencia: Por favor verifique que la fecha y hora de su computadora sean correctas! Si su reloj esta fuera de hora SDASH Core no funcionará adecuadamente.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -4647,8 +4647,8 @@ por ejemplo: alertnotify=echo %%s | mail -s "DIVI Alert" admin@foo.com
         <translation>Copyright (C) 2014-%i The Dash Core Developers</translation>
     </message>
     <message>
-        <source>Copyright (C) 2015-%i The DIVI Core Developers</source>
-        <translation>Copyright (C) 2015-%i The DIVI Core Developers</translation>
+        <source>Copyright (C) 2015-%i The SDASH Core Developers</source>
+        <translation>Copyright (C) 2015-%i The SDASH Core Developers</translation>
     </message>
     <message>
         <source>Corrupted block database detected</source>
@@ -4727,8 +4727,8 @@ por ejemplo: alertnotify=echo %%s | mail -s "DIVI Alert" admin@foo.com
         <translation>Error al cargar wallet.dat: Billetera dañada</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of DIVI Core</source>
-        <translation>Error al cargar wallet.dat: La Billetera requiere una nueva versión del Núcleo DIVI</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of SDASH Core</source>
+        <translation>Error al cargar wallet.dat: La Billetera requiere una nueva versión del Núcleo SDASH</translation>
     </message>
     <message>
         <source>Error opening block database</source>
@@ -4839,8 +4839,8 @@ por ejemplo: alertnotify=echo %%s | mail -s "DIVI Alert" admin@foo.com
         <translation>Información</translation>
     </message>
     <message>
-        <source>Initialization sanity check failed. DIVI Core is shutting down.</source>
-        <translation>La prueba de salud de inicialización ha fallado. DIVI Core se cerrará.</translation>
+        <source>Initialization sanity check failed. SDASH Core is shutting down.</source>
+        <translation>La prueba de salud de inicialización ha fallado. SDASH Core se cerrará.</translation>
     </message>
     <message>
         <source>Input is not valid.</source>
@@ -5499,8 +5499,8 @@ por ejemplo: alertnotify=echo %%s | mail -s "DIVI Alert" admin@foo.com
         <translation>Monedero bloqueado.</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart DIVI Core to complete</source>
-        <translation>Monedero necesita ser reescrito: reinicie DIVI Core para completar</translation>
+        <source>Wallet needed to be rewritten: restart SDASH Core to complete</source>
+        <translation>Monedero necesita ser reescrito: reinicie SDASH Core para completar</translation>
     </message>
     <message>
         <source>Wallet options:</source>

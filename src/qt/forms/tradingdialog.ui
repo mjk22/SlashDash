@@ -445,7 +445,7 @@
       <string>Buy DIV</string>
      </property>
      <property name="icon">
-      <iconset resource="../divi.qrc">
+      <iconset resource="../slashdash.qrc">
        <normaloff>:/icons/bitcoin</normaloff>:/icons/bitcoin</iconset>
      </property>
     </widget>
@@ -1754,7 +1754,7 @@
       <string>Sell DIV</string>
      </property>
      <property name="icon">
-      <iconset resource="../divi">
+      <iconset resource="../slashdash">
        <normaloff>:/icons/bitcoin</normaloff>:/icons/bitcoin</iconset>
      </property>
     </widget>
@@ -2941,10 +2941,10 @@
       </rect>
      </property>
      <property name="text">
-      <string>Generate Divi Deposit Address</string>
+      <string>Generate SlashDash Deposit Address</string>
      </property>
      <property name="icon">
-      <iconset resource="../divi.qrc">
+      <iconset resource="../slashdash.qrc">
        <normaloff>:/icons/bitcoin</normaloff>:/icons/bitcoin</iconset>
      </property>
     </widget>
@@ -3206,7 +3206,7 @@
        <string/>
       </property>
       <property name="pixmap">
-       <pixmap resource="../divi.qrc">:/icons/transaction_1</pixmap>
+       <pixmap resource="../slashdash.qrc">:/icons/transaction_1</pixmap>
       </property>
       <property name="scaledContents">
        <bool>true</bool>
@@ -3253,7 +3253,7 @@
       <string>Update API Keys</string>
      </property>
      <property name="icon">
-      <iconset resource="../divi.qrc">
+      <iconset resource="../slashdash.qrc">
        <normaloff>:/icons/bitcoin</normaloff>:/icons/bitcoin</iconset>
      </property>
     </widget>
@@ -3408,7 +3408,7 @@
   </widget>
  </widget>
  <resources>
-  <include location="../divi.qrc"/>
+  <include location="../slashdash.qrc"/>
  </resources>
  <connections/>
 </ui>

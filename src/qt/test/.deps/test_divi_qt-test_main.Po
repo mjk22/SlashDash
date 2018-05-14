@@ -1,5 +1,5 @@
 qt/test/test_divi_qt-test_main.o: qt/test/test_main.cpp \
-  config/divi-config.h util.h compat.h /usr/include/arpa/inet.h \
+  config/slashdash-config.h util.h compat.h /usr/include/arpa/inet.h \
   /usr/include/sys/cdefs.h /usr/include/sys/_symbol_aliasing.h \
   /usr/include/sys/_posix_availability.h /usr/include/sys/_types.h \
   /usr/include/machine/_types.h /usr/include/i386/_types.h \
@@ -1470,7 +1470,7 @@ qt/test/test_divi_qt-test_main.o: qt/test/test_main.cpp \
   /usr/include/inttypes.h /usr/include/xlocale/_inttypes.h \
   /usr/local/Cellar/qt/5.10.1/include/QtCore/QCoreApplication
 
-config/divi-config.h:
+config/slashdash-config.h:
 
 util.h:
 

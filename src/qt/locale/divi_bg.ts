@@ -62,12 +62,12 @@
         <translation>Получаващ адрес</translation>
     </message>
     <message>
-        <source>These are your DIVI addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Това са вашите DIVI адреси за изпращане на плащания. Винаги проверявайте количеството и адреса на получателя, преди да изпратите монети.</translation>
+        <source>These are your SDASH addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Това са вашите SDASH адреси за изпращане на плащания. Винаги проверявайте количеството и адреса на получателя, преди да изпратите монети.</translation>
     </message>
     <message>
-        <source>These are your DIVI addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Това са вашите DIVI адреси за получаване на плащания. Препоръчително е да използвате нови адреси за получаване за всяка транзакция.</translation>
+        <source>These are your SDASH addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Това са вашите SDASH адреси за получаване на плащания. Препоръчително е да използвате нови адреси за получаване за всяка транзакция.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,8 +176,8 @@
         <translation>Потвърдете шифрирането на портфейла</translation>
     </message>
     <message>
-        <source>DIVI will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your DIVs from being stolen by malware infecting your computer.</source>
-        <translation>DIVI сега ще се затвори, за да довърши процеса по шифриране. Запомнете, че шифрирането на вашия портфейл не може напълно да защити вашия DIVI от това, да бъде откраднат чрез злонамерен софутуер, инфектирал вашия компютър.</translation>
+        <source>SDASH will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your DIVs from being stolen by malware infecting your computer.</source>
+        <translation>SDASH сега ще се затвори, за да довърши процеса по шифриране. Запомнете, че шифрирането на вашия портфейл не може напълно да защити вашия SDASH от това, да бъде откраднат чрез злонамерен софутуер, инфектирал вашия компютър.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -239,16 +239,16 @@
         <translation>&amp;BIP 38 Шифриране</translation>
     </message>
     <message>
-        <source>Enter a Divi Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Въведете Divi адрес, който искате да шифрирате с BIP 38. Въведете парола в средното поле. Натиснете 'шифрирай', за да се изчисли шифррания личен ключ.</translation>
+        <source>Enter a SlashDash Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Въведете SlashDash адрес, който искате да шифрирате с BIP 38. Въведете парола в средното поле. Натиснете 'шифрирай', за да се изчисли шифррания личен ключ.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Адрес:</translation>
     </message>
     <message>
-        <source>The DIVI address to sign the message with</source>
-        <translation>DIVI адреса, с който да подпишете съобщението</translation>
+        <source>The SDASH address to sign the message with</source>
+        <translation>SDASH адреса, с който да подпишете съобщението</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Копирай сегашния подпис в системния буфер</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this DIVI address</source>
-        <translation>Подпишете съобщението, за да докажете, че притежавате този DIVI адрес</translation>
+        <source>Sign the message to prove you own this SDASH address</source>
+        <translation>Подпишете съобщението, за да докажете, че притежавате този SDASH адрес</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -303,12 +303,12 @@
         <translation>Въведете личният си BIP 38 ключ. Въведете тайната фраза в средното поле. Избери Дешифриращия Ключ за да изчислим личния ключ. След като ключа се дешифрира, за да добаите ключа към портфейла, кликнете "Импортирай адрес".</translation>
     </message>
     <message>
-        <source>The DIVI address the message was signed with</source>
-        <translation>DIVI адреса, който е подписано съобщението</translation>
+        <source>The SDASH address the message was signed with</source>
+        <translation>SDASH адреса, който е подписано съобщението</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified DIVI address</source>
-        <translation>Поверете съобщението, за да се уверите, че е подписано със зададения DIVI адрес</translation>
+        <source>Verify the message to ensure it was signed with the specified SDASH address</source>
+        <translation>Поверете съобщението, за да се уверите, че е подписано със зададения SDASH адрес</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -602,16 +602,16 @@
         <translation>Колан с инструменти</translation>
     </message>
     <message>
-        <source>DIVI Core</source>
-        <translation>DIVI Ядро</translation>
+        <source>SDASH Core</source>
+        <translation>SDASH Ядро</translation>
     </message>
     <message>
-        <source>Send coins to a DIVI address</source>
-        <translation>Изпратете монети до DIVI адрес</translation>
+        <source>Send coins to a SDASH address</source>
+        <translation>Изпратете монети до SDASH адрес</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and divi: URIs)</source>
-        <translation>Поискай плащане (генерира QR кодове и  DIVI:URI)</translation>
+        <source>Request payments (generates QR codes and slashdash: URIs)</source>
+        <translation>Поискай плащане (генерира QR кодове и  SDASH:URI)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -626,24 +626,24 @@
         <translation>Разгледай мастърноудове</translation>
     </message>
     <message>
-        <source>&amp;About DIVI Core</source>
-        <translation>&amp;Относно DIVI Ядрото</translation>
+        <source>&amp;About SDASH Core</source>
+        <translation>&amp;Относно SDASH Ядрото</translation>
     </message>
     <message>
-        <source>Show information about DIVI Core</source>
-        <translation>Информациза за DIVI Ядрото</translation>
+        <source>Show information about SDASH Core</source>
+        <translation>Информациза за SDASH Ядрото</translation>
     </message>
     <message>
-        <source>Modify configuration options for DIVI</source>
-        <translation>Промени DIVI конфигурацията</translation>
+        <source>Modify configuration options for SDASH</source>
+        <translation>Промени SDASH конфигурацията</translation>
     </message>
     <message>
-        <source>Sign messages with your DIVI addresses to prove you own them</source>
-        <translation>Подпишете съобщения със своте DIVI адреси, за да докажете че са Ваши</translation>
+        <source>Sign messages with your SDASH addresses to prove you own them</source>
+        <translation>Подпишете съобщения със своте SDASH адреси, за да докажете че са Ваши</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified DIVI addresses</source>
-        <translation>Проеврете съобщения, за да се убедите, че са подписани с указаните DIVI адреси</translation>
+        <source>Verify messages to ensure they were signed with specified SDASH addresses</source>
+        <translation>Проеврете съобщения, за да се убедите, че са подписани с указаните SDASH адреси</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -674,8 +674,8 @@
         <translation>Отвори Мастърноуд конфигурационния файл</translation>
     </message>
     <message>
-        <source>Open a DIVI: URI or payment request</source>
-        <translation>Отвори DIVI:URI платежно нареждане</translation>
+        <source>Open a SDASH: URI or payment request</source>
+        <translation>Отвори SDASH:URI платежно нареждане</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -686,16 +686,16 @@
         <translation>Прозорец на блок сондата</translation>
     </message>
     <message>
-        <source>Show the DIVI Core help message to get a list with possible DIVI command-line options</source>
-        <translation>Разкрийте Помощ за DIVI Ядрото, за да видите списък с възможни писмени команди.</translation>
+        <source>Show the SDASH Core help message to get a list with possible SDASH command-line options</source>
+        <translation>Разкрийте Помощ за SDASH Ядрото, за да видите списък с възможни писмени команди.</translation>
     </message>
     <message>
-        <source>DIVI Core client</source>
-        <translation>Клиент DIVI Ядро</translation>
+        <source>SDASH Core client</source>
+        <translation>Клиент SDASH Ядро</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to DIVI network</source>
-        <translation><numerusform>%n активни връзки към DIVI мрежата</numerusform><numerusform>%n активни свръзки към DIVI мрежата</numerusform></translation>
+        <source>%n active connection(s) to SDASH network</source>
+        <translation><numerusform>%n активни връзки към SDASH мрежата</numerusform><numerusform>%n активни свръзки към SDASH мрежата</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -845,8 +845,8 @@ Address: %4
         <translation>ТекстовЕтикет</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (divi.conf).</source>
-        <translation>Не всички преводи ще бъдат показани. За да разгледате всички преводи, трябва да зададете txindex=1 в конфигурационния файл (divi.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (slashdash.conf).</source>
+        <translation>Не всички преводи ще бъдат показани. За да разгледате всички преводи, трябва да зададете txindex=1 в конфигурационния файл (slashdash.conf).</translation>
     </message>
 </context>
 <context>
@@ -1138,8 +1138,8 @@ Address: %4
         <translation>Редактирай адрес за изпращане</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid DIVI address.</source>
-        <translation>Зададения адрес "%1"не е валиден DIVI адрес.</translation>
+        <source>The entered address "%1" is not a valid SDASH address.</source>
+        <translation>Зададения адрес "%1"не е валиден SDASH адрес.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1184,16 +1184,16 @@ Address: %4
         <translation>версия</translation>
     </message>
     <message>
-        <source>DIVI Core</source>
-        <translation>DIVI Ядро</translation>
+        <source>SDASH Core</source>
+        <translation>SDASH Ядро</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
         <translation>(%1-bit)</translation>
     </message>
     <message>
-        <source>About DIVI Core</source>
-        <translation>Относно DIVI Ядрото</translation>
+        <source>About SDASH Core</source>
+        <translation>Относно SDASH Ядрото</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1239,16 +1239,16 @@ Address: %4
         <translation>Привет</translation>
     </message>
     <message>
-        <source>Welcome to DIVI Core.</source>
-        <translation>Добре Дошли в DIVI Ядрото</translation>
+        <source>Welcome to SDASH Core.</source>
+        <translation>Добре Дошли в SDASH Ядрото</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where DIVI Core will store its data.</source>
-        <translation>Тъй като това е първия път, в който стартирате програмата, имате възможността да изберете къде DIVI Ядрото ще съхранява своите данни.</translation>
+        <source>As this is the first time the program is launched, you can choose where SDASH Core will store its data.</source>
+        <translation>Тъй като това е първия път, в който стартирате програмата, имате възможността да изберете къде SDASH Ядрото ще съхранява своите данни.</translation>
     </message>
     <message>
-        <source>DIVI Core will download and store a copy of the DIVI block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>DIVI Ядрото ще изтегли и запише копие на целия DIVI блокчейн. Поне %1 гигабайта ще бъдат съхранявани в тази папка, като тенденцията е файла да расте. Портфейла също ще бъде запазен в тази папка.</translation>
+        <source>SDASH Core will download and store a copy of the SDASH block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>SDASH Ядрото ще изтегли и запише копие на целия SDASH блокчейн. Поне %1 гигабайта ще бъдат съхранявани в тази папка, като тенденцията е файла да расте. Портфейла също ще бъде запазен в тази папка.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1259,8 +1259,8 @@ Address: %4
         <translation>Задай своя папка за данни:</translation>
     </message>
     <message>
-        <source>DIVI Core</source>
-        <translation>DIVI Ядро</translation>
+        <source>SDASH Core</source>
+        <translation>SDASH Ядро</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1401,12 +1401,12 @@ Address: %4
         <translation>Въведете адреса на Получателя</translation>
     </message>
     <message>
-        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other DIVI addresses after it matures.
-To Add: enter percentage to give and DIVI address to add to the MultiSend vector.
+        <source>MultiSend allows you to automatically send up to 100% of your stake or masternode reward to a list of other SDASH addresses after it matures.
+To Add: enter percentage to give and SDASH address to add to the MultiSend vector.
 To Delete: Enter address to delete and press delete.
 MultiSend will not be activated unless you have clicked Activate</source>
-        <translation>МултиИзпращане Ви позволява автоматично да изпращате до 100% от вашите стейк или мастърноуд възнаграждения към списък от други DIVI адреси.
-Да Добавите: въведете процент и задайте DIVI адрес към вектора за МултиИзпращане
+        <translation>МултиИзпращане Ви позволява автоматично да изпращате до 100% от вашите стейк или мастърноуд възнаграждения към списък от други SDASH адреси.
+Да Добавите: въведете процент и задайте SDASH адрес към вектора за МултиИзпращане
 Да Прамахнете: Въведете адрес за изстриване и натиснете истрий (del).
 МултиИзпращането няма да бъде активирано докато не кликнете "Активирай"</translation>
     </message>
@@ -1591,15 +1591,15 @@ Please check the address and try again.</source>
         <translation>Конфигурация на Обфускацията</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening DIVI's configuration screen.</source>
+        <source>Obfuscation was successfully set to basic (%1 and 2 rounds). You can change this at any time by opening SDASH's configuration screen.</source>
         <translation>Обфускацията е успешно конфигурирана на елементарно ниво (%1 и 2 кръга). Moжете да промените тази настройка по всяко време от същото място.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening DIVI's configuration screen.</source>
+        <source>Obfuscation was successfully set to high (%1 and 8 rounds). You can change this at any time by opening SDASH's configuration screen.</source>
         <translation>Обфускацията е успешно конфигурирана на високо ниво (%1 и 8 кръга). Moжете да промените тази настройка по всяко време от същото място.</translation>
     </message>
     <message>
-        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening DIVI's configuration screen.</source>
+        <source>Obfuscation was successfully set to maximum (%1 and 16 rounds). You can change this at any time by opening SDASH's configuration screen.</source>
         <translation>Обфускацията е успешно конфигурирана на максимално ниво (%1 и 16 кръга). Moжете да промените тази настройка по всяко време от същото място.</translation>
     </message>
 </context>
@@ -1661,8 +1661,8 @@ Please check the address and try again.</source>
         <translation>Aко изключите харча на непотвърдено ресто, рестото от превод&lt;br/&gt;не може да се използва, докато превода не получи поне 1 потвърждение. &lt;br/&gt;Това влияе и на начина по който общите Ви средства се преизчисляват.</translation>
     </message>
     <message>
-        <source>Automatically open the DIVI client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Автоматично отвори DIVI порта в рутера. Това става само ако рутера Ви подържа UPnP и последния е включен.</translation>
+        <source>Automatically open the SDASH client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Автоматично отвори SDASH порта в рутера. Това става само ако рутера Ви подържа UPnP и последния е включен.</translation>
     </message>
     <message>
         <source>Accept connections from outside</source>
@@ -1681,12 +1681,12 @@ Please check the address and try again.</source>
         <translation>Експерт</translation>
     </message>
     <message>
-        <source>Automatically start DIVI after logging in to the system.</source>
-        <translation>Стартирай DIVI автоматично след влизане в системата.</translation>
+        <source>Automatically start SDASH after logging in to the system.</source>
+        <translation>Стартирай SDASH автоматично след влизане в системата.</translation>
     </message>
     <message>
-        <source>&amp;Start DIVI on system login</source>
-        <translation>&amp;Стартирай DIVI заедно с операционната система</translation>
+        <source>&amp;Start SDASH on system login</source>
+        <translation>&amp;Стартирай SDASH заедно с операционната система</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1713,7 +1713,7 @@ Please check the address and try again.</source>
         <translation>&amp;Мрежа</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting DIVI.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting SDASH.</source>
         <translation>Промяна на езика. Настройката е активна след рестарт на портфейла.</translation>
     </message>
     <message>
@@ -1739,8 +1739,8 @@ https://www.transifex.com/divicoin/divicoin-translations</translation>
         <translation>Предпочитани деноминации, в които да се сече автоматичен zDIV</translation>
     </message>
     <message>
-        <source>Connect to the DIVI network through a SOCKS5 proxy.</source>
-        <translation>Свържи се с DIVI мрежата със SOCKS5 прокси.</translation>
+        <source>Connect to the SDASH network through a SOCKS5 proxy.</source>
+        <translation>Свържи се с SDASH мрежата със SOCKS5 прокси.</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1898,8 +1898,8 @@ https://www.transifex.com/divicoin/divicoin-translations</translation>
         <translation>Възнаграждение от стейкване или мастърноуд, които все още не са узрели.</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the DIVI network after a connection is established, but this process has not completed yet.</source>
-        <translation>Информацията на вашия екран може би е стара. Вашия портфейла синхронизира автоматично с DIVI мрежата след като има успешна свръзка, но процеса отнема време и не е завършил все още.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the SDASH network after a connection is established, but this process has not completed yet.</source>
+        <translation>Информацията на вашия екран може би е стара. Вашия портфейла синхронизира автоматично с SDASH мрежата след като има успешна свръзка, но процеса отнема време и не е завършил все още.</translation>
     </message>
     <message>
         <source>Unconfirmed transactions to watch-only addresses</source>
@@ -1985,12 +1985,12 @@ https://www.transifex.com/divicoin/divicoin-translations</translation>
         <translation>Грешен адрес за плащане %1</translation>
     </message>
     <message>
-        <source>Cannot start divi: click-to-pay handler</source>
-        <translation>Провал при стартирането на divi: click-to-pay обработвател</translation>
+        <source>Cannot start slashdash: click-to-pay handler</source>
+        <translation>Провал при стартирането на slashdash: click-to-pay обработвател</translation>
     </message>
     <message>
-        <source>URI cannot be parsed! This can be caused by an invalid DIVI address or malformed URI parameters.</source>
-        <translation>URI не може да се парсне. Вероятна причина е невалиден DIVI адрес или зле-форматирани URI Параметри.</translation>
+        <source>URI cannot be parsed! This can be caused by an invalid SDASH address or malformed URI parameters.</source>
+        <translation>URI не може да се парсне. Вероятна причина е невалиден SDASH адрес или зле-форматирани URI Параметри.</translation>
     </message>
     <message>
         <source>Payment request file cannot be read! This can be caused by an invalid payment request file.</source>
@@ -2083,8 +2083,8 @@ https://www.transifex.com/divicoin/divicoin-translations</translation>
         <translation>Zerocoin Действия:</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the DIVI network after a connection is established, but this process has not completed yet.</source>
-        <translation>Информацията на вашия екран може би е стара. Вашия портфейла синхронизира автоматично с DIVI мрежата след като има успешна свръзка, но процеса отнема време и не е завършил все още.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the SDASH network after a connection is established, but this process has not completed yet.</source>
+        <translation>Информацията на вашия екран може би е стара. Вашия портфейла синхронизира автоматично с SDASH мрежата след като има успешна свръзка, но процеса отнема време и не е завършил все още.</translation>
     </message>
     <message>
         <source>Enter an amount of Div to convert to zDiv</source>
@@ -2187,7 +2187,7 @@ https://www.transifex.com/divicoin/divicoin-translations</translation>
         <translation>Плати На:</translation>
     </message>
     <message>
-        <source>The DIVI address to send the payment to. Creates local payment to yourself when empty.</source>
+        <source>The SDASH address to send the payment to. Creates local payment to yourself when empty.</source>
         <translation>Адреса на който да изпратим плащането. Ако е празно - плащането е до себе си.</translation>
     </message>
     <message>
@@ -2429,8 +2429,8 @@ Please be patient...</source>
         <translation>Без 'Плати На' адрес, плащането е локално</translation>
     </message>
     <message>
-        <source>Invalid Divi Address</source>
-        <translation>Невалиден DIVI адрес</translation>
+        <source>Invalid SlashDash Address</source>
+        <translation>Невалиден SDASH адрес</translation>
     </message>
     <message>
         <source>Invalid Send Amount</source>
@@ -2516,8 +2516,8 @@ Please be patient...</source>
         <translation>Сума</translation>
     </message>
     <message>
-        <source>Enter a DIVI address (e.g. %1)</source>
-        <translation>Задайте DIVI адрес (например %1)</translation>
+        <source>Enter a SDASH address (e.g. %1)</source>
+        <translation>Задайте SDASH адрес (например %1)</translation>
     </message>
     <message>
         <source>%1 d</source>
@@ -2654,8 +2654,8 @@ Please be patient...</source>
         <translation>Блокчейн</translation>
     </message>
     <message>
-        <source>Open the DIVI debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Отвори DIVI дебъг лог файла от сегашната папка. Това може да отнеме известно време за по-дълги файлове.</translation>
+        <source>Open the SDASH debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Отвори SDASH дебъг лог файла от сегашната папка. Това може да отнеме известно време за по-дълги файлове.</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -2822,8 +2822,8 @@ Please be patient...</source>
         <translation>Изходящи:</translation>
     </message>
     <message>
-        <source>Welcome to the DIVI RPC console.</source>
-        <translation>Добре Дошли в RPC конзолата на DIVI.</translation>
+        <source>Welcome to the SDASH RPC console.</source>
+        <translation>Добре Дошли в RPC конзолата на SDASH.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -2893,12 +2893,12 @@ Please be patient...</source>
         <translation>Незадължителен етикет, който да асоциираме с адреса за получаване.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the DIVI network.</source>
-        <translation>Съобщение свободен текст, което да се прикачи към платежното нареждане, за да бъде показано когато нареждането се отвори от клиента на когото е изпратено. Обърнете внимание, че съобщението няма да бъде изпратено заедно с плащането по DIVI мрежата.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the SDASH network.</source>
+        <translation>Съобщение свободен текст, което да се прикачи към платежното нареждане, за да бъде показано когато нареждането се отвори от клиента на когото е изпратено. Обърнете внимание, че съобщението няма да бъде изпратено заедно с плащането по SDASH мрежата.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the DIVI network.</source>
-        <translation>Съобщение свободен текст, което да се прикачи към платежното нареждане, за да бъде показано когато нареждането се отвори от клиента на когото е изпратено. &lt;br&gt;Обърнете внимание, че съобщението няма да бъде изпратено заедно с плащането по DIVI мрежата.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the SDASH network.</source>
+        <translation>Съобщение свободен текст, което да се прикачи към платежното нареждане, за да бъде показано когато нареждането се отвори от клиента на когото е изпратено. &lt;br&gt;Обърнете внимание, че съобщението няма да бъде изпратено заедно с плащането по SDASH мрежата.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -3182,7 +3182,7 @@ Please be patient...</source>
         <translation>Ако собствената такса е настроена на 1000 uDIV и превода е само 250 байта, то тогава "за килобайт" само плаща 250 uDIV входяща такса,&lt;br /&gt; докато "минимална сума" плаща 1000 uDIV. За транзакции по-големи от килобайт, и двете плащат за килобайт.</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for DIVI transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks.&lt;br /&gt;But be aware that this can end up in a never confirming transaction once there is more demand for SDASH transactions than the network can process.</source>
         <translation>Няма проблем да платите минималната такса, стига обема преводи да е по-малък от наличното място в блоковете. &lt;br /&gt;Но имайте впредвид, че това може да се окаже в превод, който никога не получава потвърждение ако заявките за преводи са повече от колкото мрежата може да понесе.</translation>
     </message>
     <message>
@@ -3286,7 +3286,7 @@ Please be patient...</source>
         <translation>анонимни средства</translation>
     </message>
     <message>
-        <source>Warning: Invalid DIVI address</source>
+        <source>Warning: Invalid SDASH address</source>
         <translation>Предупреждение: Невалиден DIV адрес</translation>
     </message>
     <message>
@@ -3389,8 +3389,8 @@ Please be patient...</source>
         <translation>Плати На:</translation>
     </message>
     <message>
-        <source>The DIVI address to send the payment to</source>
-        <translation>DIVI адреса - получател на плащането</translation>
+        <source>The SDASH address to send the payment to</source>
+        <translation>SDASH адреса - получател на плащането</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3429,8 +3429,8 @@ Please be patient...</source>
         <translation>Съобщение:</translation>
     </message>
     <message>
-        <source>A message that was attached to the DIVI: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the DIVI network.</source>
-        <translation>Съобщение, което е било прикачено към DIVI:URI и което ще бъде запазено заедно с превода за ваша информация. Внимание: Това съобщение е само за Вас, то няма да бъде изпратено по DIVI мрежата.</translation>
+        <source>A message that was attached to the SDASH: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the SDASH network.</source>
+        <translation>Съобщение, което е било прикачено към SDASH:URI и което ще бъде запазено заедно с превода за ваша информация. Внимание: Това съобщение е само за Вас, то няма да бъде изпратено по SDASH мрежата.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -3456,8 +3456,8 @@ Please be patient...</source>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>DIVI Core is shutting down...</source>
-        <translation>Изключване на DIVI Ядрото...</translation>
+        <source>SDASH Core is shutting down...</source>
+        <translation>Изключване на SDASH Ядрото...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -3479,8 +3479,8 @@ Please be patient...</source>
         <translation>Може да подписвате съобщения с Вашите адреси, за да докажете че сте техен притежател. Внимавайте да не подписвате нищо съмнително, тъй като има хакерски атаки, които целят да придобият вашата самоличност. Само подписвайте пълен и ясен текст, с който сте напълно съгласни.</translation>
     </message>
     <message>
-        <source>The DIVI address to sign the message with</source>
-        <translation>DIVI адреса, с който да подпишете съобщението</translation>
+        <source>The SDASH address to sign the message with</source>
+        <translation>SDASH адреса, с който да подпишете съобщението</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -3511,16 +3511,16 @@ Please be patient...</source>
         <translation>Копирай сегашния подпис в системния буфер</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this DIVI address</source>
-        <translation>Подпишете съобщението, за да докажете, че притежавате този DIVI адрес</translation>
+        <source>Sign the message to prove you own this SDASH address</source>
+        <translation>Подпишете съобщението, за да докажете, че притежавате този SDASH адрес</translation>
     </message>
     <message>
-        <source>The DIVI address the message was signed with</source>
-        <translation>DIVI адреса, който е подписано съобщението</translation>
+        <source>The SDASH address the message was signed with</source>
+        <translation>SDASH адреса, който е подписано съобщението</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified DIVI address</source>
-        <translation>Поверете съобщението, за да се уверите, че е подписано със зададения DIVI адрес</translation>
+        <source>Verify the message to ensure it was signed with the specified SDASH address</source>
+        <translation>Поверете съобщението, за да се уверите, че е подписано със зададения SDASH адрес</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -3606,8 +3606,8 @@ Please be patient...</source>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>DIVI Core</source>
-        <translation>DIVI Ядро</translation>
+        <source>SDASH Core</source>
+        <translation>SDASH Ядро</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -3622,8 +3622,8 @@ Please be patient...</source>
         <translation>Dash Core разработчици</translation>
     </message>
     <message>
-        <source>The DIVI Core developers</source>
-        <translation>DIVI Core разработчици</translation>
+        <source>The SDASH Core developers</source>
+        <translation>SDASH Core разработчици</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -4237,7 +4237,7 @@ Please be patient...</source>
     </message>
 </context>
 <context>
-    <name>divi-core</name>
+    <name>slashdash-core</name>
     <message>
         <source>Change automatic finalized budget voting behavior. mode=auto: Vote for only exact finalized budget match to my generated budget. (string, default: auto)</source>
         <translation>Промяна на поведението на автоматично финализираното гласоподаване. mode=auto: Гласувай само за точни финализирани бюджети, които съвпадат с моят генериран бюджет. (string, default:auto)</translation>

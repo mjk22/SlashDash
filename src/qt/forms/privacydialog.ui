@@ -57,7 +57,7 @@
   </layout>
  </widget>
  <resources>
-  <include location="../divi.qrc"/>
+  <include location="../slashdash.qrc"/>
  </resources>
  <connections/>
 </ui>

@@ -115,8 +115,8 @@
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>The DIVI address the message was signed with</source>
-        <translation>DIVI adresa s kojom je potpisana poruka</translation>
+        <source>The SDASH address the message was signed with</source>
+        <translation>SDASH adresa s kojom je potpisana poruka</translation>
     </message>
     <message>
         <source>Allowed: 0-9,a-z,A-Z,</source>
@@ -150,8 +150,8 @@
         <translation>Otvori konfiguracijsku datoteku</translation>
     </message>
     <message>
-        <source>DIVI Core</source>
-        <translation>DIVI Core</translation>
+        <source>SDASH Core</source>
+        <translation>SDASH Core</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -162,8 +162,8 @@
         <translation>&amp;BIP38 alat</translation>
     </message>
     <message>
-        <source>DIVI Core client</source>
-        <translation>DIVI Core klijent</translation>
+        <source>SDASH Core client</source>
+        <translation>SDASH Core klijent</translation>
     </message>
     <message>
         <source>Error</source>
@@ -260,15 +260,15 @@
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>DIVI Core</source>
-        <translation>DIVI Core</translation>
+        <source>SDASH Core</source>
+        <translation>SDASH Core</translation>
     </message>
     </context>
 <context>
     <name>Intro</name>
     <message>
-        <source>DIVI Core</source>
-        <translation>DIVI Core</translation>
+        <source>SDASH Core</source>
+        <translation>SDASH Core</translation>
     </message>
     <message>
         <source>Error</source>
@@ -612,8 +612,8 @@
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>DIVI Core is shutting down...</source>
-        <translation>DIVI Core se gasi...</translation>
+        <source>SDASH Core is shutting down...</source>
+        <translation>SDASH Core se gasi...</translation>
     </message>
     </context>
 <context>
@@ -635,8 +635,8 @@
         <translation>Alt+P</translation>
     </message>
     <message>
-        <source>The DIVI address the message was signed with</source>
-        <translation>DIVI adresa s kojom je potpisana poruka</translation>
+        <source>The SDASH address the message was signed with</source>
+        <translation>SDASH adresa s kojom je potpisana poruka</translation>
     </message>
     <message>
         <source>Message signed.</source>
@@ -650,8 +650,8 @@
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>DIVI Core</source>
-        <translation>DIVI Core</translation>
+        <source>SDASH Core</source>
+        <translation>SDASH Core</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -805,7 +805,7 @@
     </message>
     </context>
 <context>
-    <name>divi-core</name>
+    <name>slashdash-core</name>
     <message>
         <source>Error</source>
         <translation>Greška</translation>

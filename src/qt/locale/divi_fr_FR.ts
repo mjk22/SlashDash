@@ -152,8 +152,8 @@
         <translation>Confirmer le cryptage du portefeuille</translation>
     </message>
     <message>
-        <source>DIVI will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your DIVs from being stolen by malware infecting your computer.</source>
-        <translation>DIVI va maintenant se fermer pour finir le processus cryptage. Notez que le cryptage de votre portefeuille ne peut pas complètement protéger vos DIVs d'un vol par un malware ayant infecté votre ordinateur. </translation>
+        <source>SDASH will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your DIVs from being stolen by malware infecting your computer.</source>
+        <translation>SDASH va maintenant se fermer pour finir le processus cryptage. Notez que le cryptage de votre portefeuille ne peut pas complètement protéger vos DIVs d'un vol par un malware ayant infecté votre ordinateur. </translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -211,16 +211,16 @@
         <translation>BIP 38 crypter</translation>
     </message>
     <message>
-        <source>Enter a Divi Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Entrez une adresse Divi que vous voulez crypter en utilisant BIP 38. Entrez une phrase secrète dans le champ du milieu. Cliquez sur crypter pour calculer la clé de cryptage privée.</translation>
+        <source>Enter a SlashDash Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Entrez une adresse SlashDash que vous voulez crypter en utilisant BIP 38. Entrez une phrase secrète dans le champ du milieu. Cliquez sur crypter pour calculer la clé de cryptage privée.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Adresse :</translation>
     </message>
     <message>
-        <source>The DIVI address to sign the message with</source>
-        <translation>L'adresse DIVI avec laquelle signer le message</translation>
+        <source>The SDASH address to sign the message with</source>
+        <translation>L'adresse SDASH avec laquelle signer le message</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -251,8 +251,8 @@
         <translation>Copier la signature actuelle dans le presse-papier</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this DIVI address</source>
-        <translation>Signer le message pour prouver que vous possédez cette adresse DIVI</translation>
+        <source>Sign the message to prove you own this SDASH address</source>
+        <translation>Signer le message pour prouver que vous possédez cette adresse SDASH</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -271,12 +271,12 @@
         <translation>BIP 38 Décrypter</translation>
     </message>
     <message>
-        <source>The DIVI address the message was signed with</source>
-        <translation>L'adresse DIVI avec laquelle le message a été signé</translation>
+        <source>The SDASH address the message was signed with</source>
+        <translation>L'adresse SDASH avec laquelle le message a été signé</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified DIVI address</source>
-        <translation>Vérifiez le message afin de vous assurer qu'il a été signé avec l'adresse DIVI renseignée</translation>
+        <source>Verify the message to ensure it was signed with the specified SDASH address</source>
+        <translation>Vérifiez le message afin de vous assurer qu'il a été signé avec l'adresse SDASH renseignée</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -534,8 +534,8 @@
         <translation>&amp;Aide</translation>
     </message>
     <message>
-        <source>Send coins to a DIVI address</source>
-        <translation>Envoyer des pièces à une adresse DIVI</translation>
+        <source>Send coins to a SDASH address</source>
+        <translation>Envoyer des pièces à une adresse SDASH</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -546,16 +546,16 @@
         <translation>Afficher les masternodes</translation>
     </message>
     <message>
-        <source>Modify configuration options for DIVI</source>
-        <translation>Modifier les options de configuration pour DIVI</translation>
+        <source>Modify configuration options for SDASH</source>
+        <translation>Modifier les options de configuration pour SDASH</translation>
     </message>
     <message>
-        <source>Sign messages with your DIVI addresses to prove you own them</source>
-        <translation>Signer les messages avec votre adresse DIVI pour prouver qu'elles sont bien à vous.</translation>
+        <source>Sign messages with your SDASH addresses to prove you own them</source>
+        <translation>Signer les messages avec votre adresse SDASH pour prouver qu'elles sont bien à vous.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified DIVI addresses</source>
-        <translation>Vérifier les messages afin de s'assurer qu'ils sont signés avec l'adresse DIVI spécifié</translation>
+        <source>Verify messages to ensure they were signed with specified SDASH addresses</source>
+        <translation>Vérifier les messages afin de s'assurer qu'ils sont signés avec l'adresse SDASH spécifié</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -649,8 +649,8 @@ Adresse : %4
         <translation>Chercher</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (divi.conf).</source>
-        <translation>Toutes les transaction ne seront pas affichés. Pour voir toutes les transactions, vous devez régler txindex=1 dans le fichier de configuration (divi.conf).</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (slashdash.conf).</source>
+        <translation>Toutes les transaction ne seront pas affichés. Pour voir toutes les transactions, vous devez régler txindex=1 dans le fichier de configuration (slashdash.conf).</translation>
     </message>
 </context>
 <context>
@@ -850,8 +850,8 @@ Adresse : %4
         <translation>Modifier l'adresse d'envoi</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid DIVI address.</source>
-        <translation>L'adresse entrée "%1" n'est pas une adresse DIVI valide</translation>
+        <source>The entered address "%1" is not a valid SDASH address.</source>
+        <translation>L'adresse entrée "%1" n'est pas une adresse SDASH valide</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1531,8 +1531,8 @@ Veuillez vérifier l'adresse et réessayer.</translation>
         <translation>Payer à :</translation>
     </message>
     <message>
-        <source>The DIVI address to send the payment to</source>
-        <translation>L'adresse DIVI à laquelle envoyer le paiement</translation>
+        <source>The SDASH address to send the payment to</source>
+        <translation>L'adresse SDASH à laquelle envoyer le paiement</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1577,8 +1577,8 @@ Veuillez vérifier l'adresse et réessayer.</translation>
         <translation>Signer le message</translation>
     </message>
     <message>
-        <source>The DIVI address to sign the message with</source>
-        <translation>L'adresse DIVI avec laquelle signer le message</translation>
+        <source>The SDASH address to sign the message with</source>
+        <translation>L'adresse SDASH avec laquelle signer le message</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -1605,16 +1605,16 @@ Veuillez vérifier l'adresse et réessayer.</translation>
         <translation>Copier la signature actuelle dans le presse-papier</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this DIVI address</source>
-        <translation>Signer le message pour prouver que vous possédez cette adresse DIVI</translation>
+        <source>Sign the message to prove you own this SDASH address</source>
+        <translation>Signer le message pour prouver que vous possédez cette adresse SDASH</translation>
     </message>
     <message>
-        <source>The DIVI address the message was signed with</source>
-        <translation>L'adresse DIVI avec laquelle le message a été signé</translation>
+        <source>The SDASH address the message was signed with</source>
+        <translation>L'adresse SDASH avec laquelle le message a été signé</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified DIVI address</source>
-        <translation>Vérifiez le message afin de vous assurer qu'il a été signé avec l'adresse DIVI renseignée</translation>
+        <source>Verify the message to ensure it was signed with the specified SDASH address</source>
+        <translation>Vérifiez le message afin de vous assurer qu'il a été signé avec l'adresse SDASH renseignée</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1815,7 +1815,7 @@ Veuillez vérifier l'adresse et réessayer.</translation>
     </message>
     </context>
 <context>
-    <name>divi-core</name>
+    <name>slashdash-core</name>
     <message>
         <source>Error</source>
         <translation>Erreur</translation>

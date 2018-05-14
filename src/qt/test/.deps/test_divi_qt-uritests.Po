@@ -1266,7 +1266,7 @@ qt/test/test_divi_qt-uritests.o: qt/test/uritests.cpp qt/test/uritests.h \
   /usr/local/include/boost/variant/get.hpp \
   /usr/local/include/boost/variant/visitor_ptr.hpp \
   /usr/local/include/boost/variant/bad_visit.hpp protocol.h netbase.h \
-  config/divi-config.h compat.h /usr/include/arpa/inet.h \
+  config/slashdash-config.h compat.h /usr/include/arpa/inet.h \
   /usr/include/netinet/in.h /usr/include/sys/socket.h \
   /usr/include/machine/_param.h /usr/include/net/net_kev.h \
   /usr/include/sys/_types/_sa_family_t.h \
@@ -4226,7 +4226,7 @@ protocol.h:
 
 netbase.h:
 
-config/divi-config.h:
+config/slashdash-config.h:
 
 compat.h:
 

@@ -16,14 +16,14 @@ BEGIN
     BEGIN
         BLOCK "040904E4" // U.S. English - multilingual (hex)
         BEGIN
-            VALUE "CompanyName",        "Divi"
-            VALUE "FileDescription",    "Divi-cli (OSS RPC client for Divi)"
+            VALUE "CompanyName",        "SlashDash"
+            VALUE "FileDescription",    "SlashDash-cli (OSS RPC client for SlashDash)"
             VALUE "FileVersion",        VER_FILEVERSION_STR
-            VALUE "InternalName",       "divi-cli"
+            VALUE "InternalName",       "slashdash-cli"
             VALUE "LegalCopyright",     COPYRIGHT_STR
             VALUE "LegalTrademarks1",   "Distributed under the MIT/X11 software license, see the accompanying file COPYING or http://www.opensource.org/licenses/mit-license.php."
-            VALUE "OriginalFilename",   "divi-cli.exe"
-            VALUE "ProductName",        "Divi-cli"
+            VALUE "OriginalFilename",   "slashdash-cli.exe"
+            VALUE "ProductName",        "SlashDash-cli"
             VALUE "ProductVersion",     VER_PRODUCTVERSION_STR
         END
     END

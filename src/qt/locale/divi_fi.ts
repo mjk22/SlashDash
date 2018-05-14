@@ -62,12 +62,12 @@
         <translation>Vastaanottavat osoitteet</translation>
     </message>
     <message>
-        <source>These are your DIVI addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Nämä ovat sinun DIVI osoitteesi maksujen lähetystä varten. Tarkista aina määrä ja vastaanottava osoite ennen kolikoiden lähettämistä.</translation>
+        <source>These are your SDASH addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Nämä ovat sinun SDASH osoitteesi maksujen lähetystä varten. Tarkista aina määrä ja vastaanottava osoite ennen kolikoiden lähettämistä.</translation>
     </message>
     <message>
-        <source>These are your DIVI addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Nämä ovat sinun DIVI osoitteesi maksujen vastaanottamista varten. On suositeltavaa käyttää uutta vastaanottavaa osoitetta jokaiselle uudelle rahansiirrolle.</translation>
+        <source>These are your SDASH addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Nämä ovat sinun SDASH osoitteesi maksujen vastaanottamista varten. On suositeltavaa käyttää uutta vastaanottavaa osoitetta jokaiselle uudelle rahansiirrolle.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -172,8 +172,8 @@
         <translation>Vahvista lompakon salaus</translation>
     </message>
     <message>
-        <source>DIVI will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your DIVs from being stolen by malware infecting your computer.</source>
-        <translation>DIVI sulkeutuu salausprosessin ajaksi. Muista, että lompakon salaus ei voi täysin suojella DIVien varkaudelta, jos tietokoneesi sisältää haittaohjelmia.</translation>
+        <source>SDASH will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your DIVs from being stolen by malware infecting your computer.</source>
+        <translation>SDASH sulkeutuu salausprosessin ajaksi. Muista, että lompakon salaus ei voi täysin suojella DIVien varkaudelta, jos tietokoneesi sisältää haittaohjelmia.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -235,8 +235,8 @@
         <translation>&amp;BIP 38 Salaus</translation>
     </message>
     <message>
-        <source>Enter a Divi Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Syötä Divi osoite, jonnka tahtoisit salata käyttäen BIP 38.
+        <source>Enter a SlashDash Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Syötä SlashDash osoite, jonnka tahtoisit salata käyttäen BIP 38.
 Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityisavaimen.</translation>
     </message>
     <message>
@@ -244,8 +244,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Osoite:</translation>
     </message>
     <message>
-        <source>The DIVI address to sign the message with</source>
-        <translation>DIVI osoite, jolla viesti allekirjoitetaan</translation>
+        <source>The SDASH address to sign the message with</source>
+        <translation>SDASH osoite, jolla viesti allekirjoitetaan</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -276,8 +276,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Kopioi nykyinen allekirjoitus järjestelmän leikepöydälle</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this DIVI address</source>
-        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän DIVI osoitteen</translation>
+        <source>Sign the message to prove you own this SDASH address</source>
+        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän SDASH osoitteen</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -300,12 +300,12 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Syötä BIP 38 salattu yksityisavain. Syötä salausavain laatikkoon. Paina Avaa Salaus tuottaaksesi yksityisavaimen. Kun avain on dekryptattu, painamalla "Import osoite" lisää tämän yksityisavaimen lompakkoon.</translation>
     </message>
     <message>
-        <source>The DIVI address the message was signed with</source>
-        <translation>DIVI osoite, jolla viesti allekirjoitettiin</translation>
+        <source>The SDASH address the message was signed with</source>
+        <translation>SDASH osoite, jolla viesti allekirjoitettiin</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified DIVI address</source>
-        <translation>Vahvista että viesti on allekirjoitettu kyseessä olevalla DIVI osoitteella.</translation>
+        <source>Verify the message to ensure it was signed with the specified SDASH address</source>
+        <translation>Vahvista että viesti on allekirjoitettu kyseessä olevalla SDASH osoitteella.</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -591,16 +591,16 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>&amp;Apua</translation>
     </message>
     <message>
-        <source>DIVI Core</source>
-        <translation>DIVI Ydin</translation>
+        <source>SDASH Core</source>
+        <translation>SDASH Ydin</translation>
     </message>
     <message>
-        <source>Send coins to a DIVI address</source>
-        <translation>Lähetä kolikkoja DIVI osoitteeseen</translation>
+        <source>Send coins to a SDASH address</source>
+        <translation>Lähetä kolikkoja SDASH osoitteeseen</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and divi: URIs)</source>
-        <translation>Pyydä maksuja (Generoi QR koodeja ja divi: URIja)</translation>
+        <source>Request payments (generates QR codes and slashdash: URIs)</source>
+        <translation>Pyydä maksuja (Generoi QR koodeja ja slashdash: URIja)</translation>
     </message>
     <message>
         <source>&amp;Masternodes</source>
@@ -611,24 +611,24 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Selaa masternodeja</translation>
     </message>
     <message>
-        <source>&amp;About DIVI Core</source>
-        <translation>DIVI Core &amp;ytimestä</translation>
+        <source>&amp;About SDASH Core</source>
+        <translation>SDASH Core &amp;ytimestä</translation>
     </message>
     <message>
-        <source>Show information about DIVI Core</source>
-        <translation>Näytä tietoja DIVI Ytimestä</translation>
+        <source>Show information about SDASH Core</source>
+        <translation>Näytä tietoja SDASH Ytimestä</translation>
     </message>
     <message>
-        <source>Modify configuration options for DIVI</source>
-        <translation>Muokkaa konfiguraatio vaihtoehtoja DIVI:lle</translation>
+        <source>Modify configuration options for SDASH</source>
+        <translation>Muokkaa konfiguraatio vaihtoehtoja SDASH:lle</translation>
     </message>
     <message>
-        <source>Sign messages with your DIVI addresses to prove you own them</source>
+        <source>Sign messages with your SDASH addresses to prove you own them</source>
         <translation>Allekirjoita viestejä todistaaksesi, että omistat ne.</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified DIVI addresses</source>
-        <translation>Vahvista viestit varmistaaksesi, että ne allekirjoitettiin tietyllä DIVI osoiteella.</translation>
+        <source>Verify messages to ensure they were signed with specified SDASH addresses</source>
+        <translation>Vahvista viestit varmistaaksesi, että ne allekirjoitettiin tietyllä SDASH osoiteella.</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -659,8 +659,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Avaa Masternode konfiguraatiotiedosto</translation>
     </message>
     <message>
-        <source>Open a DIVI: URI or payment request</source>
-        <translation>Avaa DIVI: URI tai pyydä maksua</translation>
+        <source>Open a SDASH: URI or payment request</source>
+        <translation>Avaa SDASH: URI tai pyydä maksua</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -671,12 +671,12 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Lohkon tutkija näkymä</translation>
     </message>
     <message>
-        <source>Show the DIVI Core help message to get a list with possible DIVI command-line options</source>
-        <translation>Näytä DIVI Ydin apuviesti saadaksesi lista mahdollisista DIVI komentolinja komennoista.</translation>
+        <source>Show the SDASH Core help message to get a list with possible SDASH command-line options</source>
+        <translation>Näytä SDASH Ydin apuviesti saadaksesi lista mahdollisista SDASH komentolinja komennoista.</translation>
     </message>
     <message>
-        <source>DIVI Core client</source>
-        <translation>DIVI Ydin asiakasohjelma</translation>
+        <source>SDASH Core client</source>
+        <translation>SDASH Ydin asiakasohjelma</translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -934,8 +934,8 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>DIVI Core</source>
-        <translation>DIVI Ydin</translation>
+        <source>SDASH Core</source>
+        <translation>SDASH Ydin</translation>
     </message>
     <message>
         <source>Usage:</source>
@@ -953,12 +953,12 @@ Syötä salausavain laatikon keskelle. Paina salaa tuottaaksesi salatun yksityis
         <translation>Tervetuloa</translation>
     </message>
     <message>
-        <source>Welcome to DIVI Core.</source>
-        <translation>Tervetuloa DIVI Ytimeen.</translation>
+        <source>Welcome to SDASH Core.</source>
+        <translation>Tervetuloa SDASH Ytimeen.</translation>
     </message>
     <message>
-        <source>DIVI Core</source>
-        <translation>DIVI Ydin</translation>
+        <source>SDASH Core</source>
+        <translation>SDASH Ydin</translation>
     </message>
     <message>
         <source>Error</source>
@@ -1151,11 +1151,11 @@ Please check the address and try again.</source>
     </message>
     <message>
         <source>Use 2 separate masternodes to mix funds up to 10000 DIV</source>
-        <translation>Käytä 2 erillistä masternodea sekoittaaksesi enintään 10000 DIVI</translation>
+        <translation>Käytä 2 erillistä masternodea sekoittaaksesi enintään 10000 SDASH</translation>
     </message>
     <message>
         <source>Use 8 separate masternodes to mix funds up to 10000 DIV</source>
-        <translation>Käytä 8 erillistä masternodea sekoittaaksesi enintään 10000 DIVI</translation>
+        <translation>Käytä 8 erillistä masternodea sekoittaaksesi enintään 10000 SDASH</translation>
     </message>
     <message>
         <source>Use 16 separate masternodes</source>
@@ -1163,11 +1163,11 @@ Please check the address and try again.</source>
     </message>
     <message>
         <source>This option is the quickest and will cost about ~0.025 DIV to anonymize 10000 DIV</source>
-        <translation>Tämä vaihtoehto on nopein ja maksaa noin ~0.025 DIV anonymoidaksesi 10000 DIVI</translation>
+        <translation>Tämä vaihtoehto on nopein ja maksaa noin ~0.025 DIV anonymoidaksesi 10000 SDASH</translation>
     </message>
     <message>
         <source>This option is moderately fast and will cost about 0.05 DIV to anonymize 10000 DIV</source>
-        <translation>Tämä vaihtoehto on suhteellisen nopea ja maksaa 0.05 DIVI anonymoidaksesi 10000 DIVI</translation>
+        <translation>Tämä vaihtoehto on suhteellisen nopea ja maksaa 0.05 SDASH anonymoidaksesi 10000 SDASH</translation>
     </message>
     <message>
         <source>This is the slowest and most secure option. Using maximum anonymity will cost</source>
@@ -1175,7 +1175,7 @@ Please check the address and try again.</source>
     </message>
     <message>
         <source>0.1 DIV per 10000 DIV you anonymize.</source>
-        <translation>0.1 per 10000 DIVI, jotka anonymisoit.</translation>
+        <translation>0.1 per 10000 SDASH, jotka anonymisoit.</translation>
     </message>
     <message>
         <source>Obfuscation Configuration</source>
@@ -1224,12 +1224,12 @@ Please check the address and try again.</source>
         <translation>Ekspertti</translation>
     </message>
     <message>
-        <source>Automatically start DIVI after logging in to the system.</source>
-        <translation>Automaattisesti käynnistä DIVI kun kirjaudut sisään.</translation>
+        <source>Automatically start SDASH after logging in to the system.</source>
+        <translation>Automaattisesti käynnistä SDASH kun kirjaudut sisään.</translation>
     </message>
     <message>
-        <source>&amp;Start DIVI on system login</source>
-        <translation>&amp;Aloita DIVI järjestelmän kirjautumisessa</translation>
+        <source>&amp;Start SDASH on system login</source>
+        <translation>&amp;Aloita SDASH järjestelmän kirjautumisessa</translation>
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
@@ -1248,12 +1248,12 @@ Please check the address and try again.</source>
         <translation>&amp;Verkko</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting DIVI.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting SDASH.</source>
         <translation>Käyttöliittymän kielen voi säätää täällä. Tämä asetus tulee voimaan uudelleenkäynnistettyäsi lompakon.</translation>
     </message>
     <message>
-        <source>Connect to the DIVI network through a SOCKS5 proxy.</source>
-        <translation>Yhdistä DIVI verkkoon SOCKS5 proxyn kautta</translation>
+        <source>Connect to the SDASH network through a SOCKS5 proxy.</source>
+        <translation>Yhdistä SDASH verkkoon SOCKS5 proxyn kautta</translation>
     </message>
     <message>
         <source>Proxy &amp;IP:</source>
@@ -1557,8 +1557,8 @@ Please check the address and try again.</source>
         <translation>Lohko ketju</translation>
     </message>
     <message>
-        <source>Open the DIVI debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Avaa DIVI debug loki nykyisestä sijainnista. Tämä voi kestää muutaman sekunnin suurille lokeille</translation>
+        <source>Open the SDASH debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Avaa SDASH debug loki nykyisestä sijainnista. Tämä voi kestää muutaman sekunnin suurille lokeille</translation>
     </message>
     <message>
         <source>Number of Masternodes</source>
@@ -1669,8 +1669,8 @@ Please check the address and try again.</source>
         <translation>Ulos:</translation>
     </message>
     <message>
-        <source>Welcome to the DIVI RPC console.</source>
-        <translation>Tervetuloa DIVI RPC konsoliin.</translation>
+        <source>Welcome to the SDASH RPC console.</source>
+        <translation>Tervetuloa SDASH RPC konsoliin.</translation>
     </message>
     <message>
         <source>never</source>
@@ -1712,12 +1712,12 @@ Please check the address and try again.</source>
         <translation>Vaihtoehtoinen nimike uudelle vastaanottavalle osoitteelle</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the DIVI network.</source>
-        <translation>Vaihtoehtoinen viesti joka liitetään maksupyyntöön, joka näytetään kun pyyntö avataan. Huomio: Viestiä ei lähetetä maksun mukana DIVI verkolle.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the SDASH network.</source>
+        <translation>Vaihtoehtoinen viesti joka liitetään maksupyyntöön, joka näytetään kun pyyntö avataan. Huomio: Viestiä ei lähetetä maksun mukana SDASH verkolle.</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the DIVI network.</source>
-        <translation>Vaihtoehtoinen viesti, joka liitetään maksupyyntöö, joka näytetään kun pyyntö avataan. &lt;br&gt; Huomio: Tätä viestiä ei lähetetä maksun mukana DIVI  verkolle.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened.&lt;br&gt;Note: The message will not be sent with the payment over the SDASH network.</source>
+        <translation>Vaihtoehtoinen viesti, joka liitetään maksupyyntöö, joka näytetään kun pyyntö avataan. &lt;br&gt; Huomio: Tätä viestiä ei lähetetä maksun mukana SDASH  verkolle.</translation>
     </message>
     <message>
         <source>Use this form to request payments. All fields are &lt;b&gt;optional&lt;/b&gt;.</source>
@@ -1993,8 +1993,8 @@ Please check the address and try again.</source>
         <translation>käyttää</translation>
     </message>
     <message>
-        <source>Warning: Invalid DIVI address</source>
-        <translation>Varoitus: Virheellinen DIVI osoite</translation>
+        <source>Warning: Invalid SDASH address</source>
+        <translation>Varoitus: Virheellinen SDASH osoite</translation>
     </message>
     <message>
         <source>Are you sure you want to send?</source>
@@ -2040,8 +2040,8 @@ Please check the address and try again.</source>
         <translation>Tämä on normaali maksu.</translation>
     </message>
     <message>
-        <source>The DIVI address to send the payment to</source>
-        <translation>DIVI osoite johon maksu lähetetään</translation>
+        <source>The SDASH address to send the payment to</source>
+        <translation>SDASH osoite johon maksu lähetetään</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2083,8 +2083,8 @@ Please check the address and try again.</source>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>DIVI Core is shutting down...</source>
-        <translation>DIVI core sammuu...</translation>
+        <source>SDASH Core is shutting down...</source>
+        <translation>SDASH core sammuu...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2102,8 +2102,8 @@ Please check the address and try again.</source>
         <translation>Voit allekirjoittaa viestejä osoitteillasi todistaaksesi, että omistat ne. Ole varovainen ettet allekirjoita mitään kummallista, sillä kalasteluyritykset saattavat yrittää huijata sinut luovuttamaan tietoja. Allekirjoita vain täysin yksityiskohtaisia sanomia, jotka hyväksyt.</translation>
     </message>
     <message>
-        <source>The DIVI address to sign the message with</source>
-        <translation>DIVI osoite, jolla viesti allekirjoitetaan</translation>
+        <source>The SDASH address to sign the message with</source>
+        <translation>SDASH osoite, jolla viesti allekirjoitetaan</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2134,16 +2134,16 @@ Please check the address and try again.</source>
         <translation>Kopioi nykyinen allekirjoitus järjestelmän leikepöydälle</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this DIVI address</source>
-        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän DIVI osoitteen</translation>
+        <source>Sign the message to prove you own this SDASH address</source>
+        <translation>Allekirjoita viesti todistaaksesi, että omistat tämän SDASH osoitteen</translation>
     </message>
     <message>
-        <source>The DIVI address the message was signed with</source>
-        <translation>DIVI osoite, jolla viesti allekirjoitettiin</translation>
+        <source>The SDASH address the message was signed with</source>
+        <translation>SDASH osoite, jolla viesti allekirjoitettiin</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified DIVI address</source>
-        <translation>Vahvista että viesti on allekirjoitettu kyseessä olevalla DIVI osoitteella.</translation>
+        <source>Verify the message to ensure it was signed with the specified SDASH address</source>
+        <translation>Vahvista että viesti on allekirjoitettu kyseessä olevalla SDASH osoitteella.</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2225,8 +2225,8 @@ Please check the address and try again.</source>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>DIVI Core</source>
-        <translation>DIVI Ydin</translation>
+        <source>SDASH Core</source>
+        <translation>SDASH Ydin</translation>
     </message>
     <message>
         <source>Version %1</source>
@@ -2241,8 +2241,8 @@ Please check the address and try again.</source>
         <translation>Dash Core kehittäjät</translation>
     </message>
     <message>
-        <source>The DIVI Core developers</source>
-        <translation>DIVI core kehittäjät</translation>
+        <source>The SDASH Core developers</source>
+        <translation>SDASH core kehittäjät</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2552,7 +2552,7 @@ Please check the address and try again.</source>
     </message>
     </context>
 <context>
-    <name>divi-core</name>
+    <name>slashdash-core</name>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
         <translation>Varoitus: Verkko ei näytä olevan samaa mieltä! Jotkin mainaajat saattavat kokea ongelmia.</translation>
@@ -2602,8 +2602,8 @@ Please check the address and try again.</source>
         <translation>Virhe ladattaessa wallet.dat tiedostoa: Lompakko korruptoitunut</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of DIVI Core</source>
-        <translation>Virhe ladattaessa wallet.dat tiedostoa: Lompakko vaatii uudemman version DIVI Coresta</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of SDASH Core</source>
+        <translation>Virhe ladattaessa wallet.dat tiedostoa: Lompakko vaatii uudemman version SDASH Coresta</translation>
     </message>
     <message>
         <source>Error reading from database, shutting down.</source>

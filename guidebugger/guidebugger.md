@@ -2,8 +2,8 @@
 # Commercial use is 69$ but ease of use makes it worth it.
 https://mobaxterm.mobatek.net/download.html
 
-docker pull dcaldwellsw/divi:guidebugger
-docker run -p 51472:51472 -p 22:22 --detach -it dcaldwellsw/divi:guidebugger
+docker pull dcaldwellsw/slashdash:guidebugger
+docker run -p 51472:51472 -p 22:22 --detach -it dcaldwellsw/slashdash:guidebugger
 docker ps
 # you need the currently running docker container ID for the next command
 docker exec -it [containerid] /bin/bash 
@@ -19,7 +19,7 @@ ssh -X -v ubuntu@127.0.0.1
 code
 
 # a window will pop open after a few moments.  
-# open the repo's 'divi' folder in VSCode app
+# open the repo's 'slashdash' folder in VSCode app
 # after opening vscode you will have a .vscode folder in that folder you opened
 
 # There are 2 config files for vscode in the home (~) folder: c_cpp_properties.json & launch.json

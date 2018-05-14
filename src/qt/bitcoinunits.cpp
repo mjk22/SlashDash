@@ -41,7 +41,7 @@ QString BitcoinUnits::id(int unit)
 {
     switch (unit) {
     case DIV:
-        return QString("divi");
+        return QString("slashdash");
     case mDIV:
         return QString("mdivi");
     case uDIV:

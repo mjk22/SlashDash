@@ -1,15 +1,15 @@
 #! /bin/bash
 PRESENTDIR=$(pwd)
-if [ ! -d /shared/divi ] ; then
+if [ ! -d /shared/slashdash ] ; then
 	git clone -b "$GITBRANCH" --depth 1 "$GITURI" /shared
-	if [ -d /shared/divi ] ; then
-  		cd /shared/divi/
+	if [ -d /shared/slashdash ] ; then
+  		cd /shared/slashdash/
   		./autogen.sh
   		./configure --disable-zerocoin --without-gui --enable-debug
   		make
   		sudo make install
-  		mkdir /home/ubuntu/.divi
-  		cp /home/ubuntu/divi.conf /home/ubuntu/.divi/divi.conf
+  		mkdir /home/ubuntu/.slashdash
+  		cp /home/ubuntu/slashdash.conf /home/ubuntu/.slashdash/slashdash.conf
   		cd $PRESENTDIR
 	else
   		echo "There was a problem with the clone"

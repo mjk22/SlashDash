@@ -42,16 +42,16 @@ RUN apt-get update \
   && echo "$SSH_PASSWD" | chpasswd
 
 COPY ssh-cb.sh /root/cb.sh
-COPY ssh-divi.conf /root/divi.conf
+COPY ssh-slashdash.conf /root/slashdash.conf
 COPY torrc /etc/tor/torrc
 COPY sshd_config /etc/ssh/sshd_config
 RUN dos2unix /root/cb.sh 
-RUN dos2unix /root/divi.conf
+RUN dos2unix /root/slashdash.conf
 RUN dos2unix /etc/tor/torrc
 RUN dos2unix /etc/ssh/sshd_config
 
 ENV GITBRANCH master
-ENV GITURI https://github.com/Divicoin/Divi
+ENV GITURI https://github.com/Divicoin/SlashDash
 RUN /root/cb.sh
 
 COPY ssh-init.sh /usr/local/bin/

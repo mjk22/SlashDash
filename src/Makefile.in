@@ -101,14 +101,14 @@ bin_PROGRAMS = $(am__EXEEXT_1) $(am__EXEEXT_2) $(am__EXEEXT_3) \
 	$(am__EXEEXT_4) $(am__EXEEXT_5)
 TESTS = $(am__EXEEXT_6) $(am__EXEEXT_5)
 @BUILD_BITCOIND_TRUE@am__append_7 = divid
-@BUILD_BITCOIN_UTILS_TRUE@am__append_8 = divi-cli divi-tx
+@BUILD_BITCOIN_UTILS_TRUE@am__append_8 = slashdash-cli slashdash-tx
 @GLIBC_BACK_COMPAT_TRUE@am__append_9 = compat/glibc_compat.cpp \
 @GLIBC_BACK_COMPAT_TRUE@	compat/glibcxx_compat.cpp
 @ENABLE_ZMQ_TRUE@am__append_10 = $(LIBBITCOIN_ZMQ) $(ZMQ_LIBS)
 @ENABLE_WALLET_TRUE@am__append_11 = libbitcoin_wallet.a
 #
 @TARGET_WINDOWS_TRUE@am__append_12 = divid-res.rc
-@TARGET_WINDOWS_TRUE@am__append_13 = divi-cli-res.rc
+@TARGET_WINDOWS_TRUE@am__append_13 = slashdash-cli-res.rc
 @BUILD_BITCOIN_LIBS_TRUE@@GLIBC_BACK_COMPAT_TRUE@am__append_14 = compat/glibc_compat.cpp \
 @BUILD_BITCOIN_LIBS_TRUE@@GLIBC_BACK_COMPAT_TRUE@	compat/glibcxx_compat.cpp
 @BUILD_BITCOIN_LIBS_TRUE@@USE_LIBSECP256K1_TRUE@am__append_15 = secp256k1/libsecp256k1.la
@@ -135,7 +135,7 @@ TESTS = $(am__EXEEXT_6) $(am__EXEEXT_5)
 @ENABLE_TESTS_TRUE@@ENABLE_WALLET_TRUE@am__append_20 = $(LIBBITCOIN_WALLET)
 @ENABLE_TESTS_TRUE@@ENABLE_ZMQ_TRUE@am__append_21 = $(ZMQ_LIBS)
 @ENABLE_TESTS_TRUE@am__append_22 = $(CLEAN_BITCOIN_TEST)
-@ENABLE_QT_TRUE@am__append_23 = qt/divi-qt
+@ENABLE_QT_TRUE@am__append_23 = qt/slashdash-qt
 @ENABLE_QT_TRUE@am__append_24 = qt/libbitcoinqt.a
 @ENABLE_QT_TRUE@@ENABLE_WALLET_TRUE@am__append_25 = \
 @ENABLE_QT_TRUE@@ENABLE_WALLET_TRUE@  qt/addressbookpage.cpp \
@@ -217,7 +217,7 @@ am__configure_deps = $(am__aclocal_m4_deps) $(CONFIGURE_DEPENDENCIES) \
 DIST_COMMON = $(srcdir)/Makefile.am $(am__include_HEADERS_DIST) \
 	$(am__DIST_COMMON)
 mkinstalldirs = $(install_sh) -d
-CONFIG_HEADER = $(top_builddir)/src/config/divi-config.h
+CONFIG_HEADER = $(top_builddir)/src/config/slashdash-config.h
 CONFIG_CLEAN_FILES =
 CONFIG_CLEAN_VPATH_FILES =
 ARFLAGS = cru
@@ -478,7 +478,7 @@ am__qt_libbitcoinqt_a_SOURCES_DIST = qt/bitcoinaddressvalidator.cpp \
 	qt/forms/rpcconsole.ui qt/forms/sendcoinsdialog.ui \
 	qt/forms/sendcoinsentry.ui qt/forms/signverifymessagedialog.ui \
 	qt/forms/transactiondescdialog.ui \
-	qt/forms/zdivcontroldialog.ui qt/divi.qrc qt/divi_locale.qrc \
+	qt/forms/zdivcontroldialog.ui qt/slashdash.qrc qt/divi_locale.qrc \
 	qt/locale/divi_bg.ts qt/locale/divi_ca.ts qt/locale/divi_cs.ts \
 	qt/locale/divi_da.ts qt/locale/divi_de.ts qt/locale/divi_en.ts \
 	qt/locale/divi_en_US.ts qt/locale/divi_es.ts \
@@ -739,15 +739,15 @@ libbitcoinconsensus_la_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CXX \
 @BUILD_BITCOIN_LIBS_TRUE@am_libbitcoinconsensus_la_rpath = -rpath \
 @BUILD_BITCOIN_LIBS_TRUE@	$(libdir)
 @BUILD_BITCOIND_TRUE@am__EXEEXT_1 = divid$(EXEEXT)
-@BUILD_BITCOIN_UTILS_TRUE@am__EXEEXT_2 = divi-cli$(EXEEXT) \
-@BUILD_BITCOIN_UTILS_TRUE@	divi-tx$(EXEEXT)
+@BUILD_BITCOIN_UTILS_TRUE@am__EXEEXT_2 = slashdash-cli$(EXEEXT) \
+@BUILD_BITCOIN_UTILS_TRUE@	slashdash-tx$(EXEEXT)
 @ENABLE_TESTS_TRUE@am__EXEEXT_3 = test/test_divi$(EXEEXT)
-@ENABLE_QT_TRUE@am__EXEEXT_4 = qt/divi-qt$(EXEEXT)
+@ENABLE_QT_TRUE@am__EXEEXT_4 = qt/slashdash-qt$(EXEEXT)
 @ENABLE_QT_TESTS_TRUE@am__EXEEXT_5 = qt/test/test_divi-qt$(EXEEXT)
 PROGRAMS = $(bin_PROGRAMS)
-am__divi_cli_SOURCES_DIST = divi-cli.cpp divi-cli-res.rc
-@TARGET_WINDOWS_TRUE@am__objects_10 = divi-cli-res.$(OBJEXT)
-am_divi_cli_OBJECTS = divi_cli-divi-cli.$(OBJEXT) $(am__objects_10)
+am__divi_cli_SOURCES_DIST = slashdash-cli.cpp slashdash-cli-res.rc
+@TARGET_WINDOWS_TRUE@am__objects_10 = slashdash-cli-res.$(OBJEXT)
+am_divi_cli_OBJECTS = divi_cli-slashdash-cli.$(OBJEXT) $(am__objects_10)
 divi_cli_OBJECTS = $(am_divi_cli_OBJECTS)
 divi_cli_DEPENDENCIES = $(LIBBITCOIN_CLI) $(LIBBITCOIN_UTIL) \
 	$(am__DEPENDENCIES_1) $(am__DEPENDENCIES_1) \
@@ -755,7 +755,7 @@ divi_cli_DEPENDENCIES = $(LIBBITCOIN_CLI) $(LIBBITCOIN_UTIL) \
 divi_cli_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CXX $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CXXLD) $(AM_CXXFLAGS) \
 	$(CXXFLAGS) $(divi_cli_LDFLAGS) $(LDFLAGS) -o $@
-am_divi_tx_OBJECTS = divi_tx-divi-tx.$(OBJEXT)
+am_divi_tx_OBJECTS = divi_tx-slashdash-tx.$(OBJEXT)
 divi_tx_OBJECTS = $(am_divi_tx_OBJECTS)
 divi_tx_DEPENDENCIES = $(LIBBITCOIN_UNIVALUE) $(LIBBITCOIN_COMMON) \
 	$(LIBBITCOIN_ZEROCOIN) $(LIBBITCOIN_UTIL) $(LIBBITCOIN_CRYPTO) \
@@ -782,17 +782,17 @@ divid_DEPENDENCIES = $(LIBBITCOIN_SERVER) $(LIBBITCOIN_COMMON) \
 divid_LINK = $(LIBTOOL) $(AM_V_lt) --tag=CXX $(AM_LIBTOOLFLAGS) \
 	$(LIBTOOLFLAGS) --mode=link $(CXXLD) $(AM_CXXFLAGS) \
 	$(CXXFLAGS) $(divid_LDFLAGS) $(LDFLAGS) -o $@
-am__qt_divi_qt_SOURCES_DIST = qt/divi.cpp qt/macdockiconhandler.mm \
-	qt/macnotificationhandler.mm qt/res/divi-qt-res.rc
+am__qt_divi_qt_SOURCES_DIST = qt/slashdash.cpp qt/macdockiconhandler.mm \
+	qt/macnotificationhandler.mm qt/res/slashdash-qt-res.rc
 @ENABLE_QT_TRUE@am__objects_12 =  \
 @ENABLE_QT_TRUE@	qt/qt_divi_qt-macdockiconhandler.$(OBJEXT) \
 @ENABLE_QT_TRUE@	qt/qt_divi_qt-macnotificationhandler.$(OBJEXT)
 @ENABLE_QT_TRUE@@TARGET_DARWIN_TRUE@am__objects_13 =  \
 @ENABLE_QT_TRUE@@TARGET_DARWIN_TRUE@	$(am__objects_12)
-@ENABLE_QT_TRUE@am__objects_14 = qt/res/divi-qt-res.$(OBJEXT)
+@ENABLE_QT_TRUE@am__objects_14 = qt/res/slashdash-qt-res.$(OBJEXT)
 @ENABLE_QT_TRUE@@TARGET_WINDOWS_TRUE@am__objects_15 =  \
 @ENABLE_QT_TRUE@@TARGET_WINDOWS_TRUE@	$(am__objects_14)
-@ENABLE_QT_TRUE@am_qt_divi_qt_OBJECTS = qt/qt_divi_qt-divi.$(OBJEXT) \
+@ENABLE_QT_TRUE@am_qt_divi_qt_OBJECTS = qt/qt_divi_qt-slashdash.$(OBJEXT) \
 @ENABLE_QT_TRUE@	$(am__objects_13) $(am__objects_15)
 qt_divi_qt_OBJECTS = $(am_qt_divi_qt_OBJECTS)
 @ENABLE_QT_TRUE@@ENABLE_ZMQ_TRUE@am__DEPENDENCIES_5 =  \
@@ -1569,7 +1569,7 @@ EXTRA_LIBRARIES = crypto/libbitcoin_crypto.a libbitcoin_util.a \
 @BUILD_BITCOIN_LIBS_TRUE@lib_LTLIBRARIES = libbitcoinconsensus.la
 @BUILD_BITCOIN_LIBS_FALSE@LIBBITCOIN_CONSENSUS = 
 @BUILD_BITCOIN_LIBS_TRUE@LIBBITCOIN_CONSENSUS = libbitcoinconsensus.la
-# divi core #
+# slashdash core #
 BITCOIN_CORE_H = \
   activemasternode.h \
   accumulators.h \
@@ -1680,7 +1680,7 @@ JSON_H = \
   json/json_spirit_writer_template.h
 
 
-# server: shared between divid and divi-qt
+# server: shared between divid and slashdash-qt
 libbitcoin_server_a_CPPFLAGS = $(BITCOIN_INCLUDES) $(MINIUPNPC_CPPFLAGS) $(EVENT_CFLAGS) $(EVENT_PTHREADS_CFLAGS)
 libbitcoin_server_a_SOURCES = \
   addrman.cpp \
@@ -1724,7 +1724,7 @@ libbitcoin_server_a_SOURCES = \
 @ENABLE_ZMQ_TRUE@  zmq/zmqpublishnotifier.cpp
 
 
-# wallet: shared between divid and divi-qt, but only linked
+# wallet: shared between divid and slashdash-qt, but only linked
 # when wallet enabled
 libbitcoin_wallet_a_CFLAGS = -fPIC
 libbitcoin_wallet_a_CPPFLAGS = $(BITCOIN_INCLUDES)
@@ -1823,7 +1823,7 @@ libzerocoin_libbitcoin_zerocoin_a_SOURCES = \
   libzerocoin/SerialNumberSignatureOfKnowledge.cpp
 
 
-# common: shared between divid, and divi-qt and non-server tools
+# common: shared between divid, and slashdash-qt and non-server tools
 libbitcoin_common_a_CPPFLAGS = $(BITCOIN_INCLUDES)
 libbitcoin_common_a_SOURCES = \
   accumulators.cpp \
@@ -1869,7 +1869,7 @@ libbitcoin_util_a_SOURCES = allocators.cpp compat/strnlen.cpp \
 	utilstrencodings.cpp utilmoneystr.cpp utiltime.cpp \
 	$(BITCOIN_CORE_H) $(am__append_9)
 
-# cli: shared between divi-cli and divi-qt
+# cli: shared between slashdash-cli and slashdash-qt
 libbitcoin_cli_a_CPPFLAGS = $(BITCOIN_INCLUDES)
 libbitcoin_cli_a_SOURCES = \
   rpcclient.cpp \
@@ -1889,7 +1889,7 @@ divid_SOURCES = divid.cpp $(am__append_12)
 divid_CPPFLAGS = $(BITCOIN_INCLUDES)
 divid_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
-# divi-cli binary #
+# slashdash-cli binary #
 divi_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBBITCOIN_UTIL) \
@@ -1898,11 +1898,11 @@ divi_cli_LDADD = \
   $(CRYPTO_LIBS) \
   $(EVENT_LIBS)
 
-divi_cli_SOURCES = divi-cli.cpp $(am__append_13)
+divi_cli_SOURCES = slashdash-cli.cpp $(am__append_13)
 divi_cli_CPPFLAGS = $(BITCOIN_INCLUDES) $(EVENT_CFLAGS)
 #
 
-# divi-tx binary #
+# slashdash-tx binary #
 divi_tx_LDADD = \
   $(LIBBITCOIN_UNIVALUE) \
   $(LIBBITCOIN_COMMON) \
@@ -1913,7 +1913,7 @@ divi_tx_LDADD = \
   $(BOOST_LIBS) \
   $(CRYPTO_LIBS)
 
-divi_tx_SOURCES = divi-tx.cpp
+divi_tx_SOURCES = slashdash-tx.cpp
 divi_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
 #
 divi_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
@@ -2013,7 +2013,7 @@ EXTRA_DIST = leveldb $(am__append_18)
 @ENABLE_TESTS_TRUE@nodist_test_test_divi_SOURCES = $(GENERATED_TEST_FILES)
 @ENABLE_TESTS_TRUE@CLEAN_BITCOIN_TEST = test/*.gcda test/*.gcno $(GENERATED_TEST_FILES)
 
-# divi qt core #
+# slashdash qt core #
 @ENABLE_QT_TRUE@QT_TS = \
 @ENABLE_QT_TRUE@  qt/locale/divi_bg.ts \
 @ENABLE_QT_TRUE@  qt/locale/divi_ca.ts \
@@ -2126,14 +2126,14 @@ EXTRA_DIST = leveldb $(am__append_18)
 @ENABLE_QT_TRUE@  qt/macnotificationhandler.mm
 
 @ENABLE_QT_TRUE@QT_MOC = \
-@ENABLE_QT_TRUE@  qt/divi.moc \
+@ENABLE_QT_TRUE@  qt/slashdash.moc \
 @ENABLE_QT_TRUE@  qt/bitcoinamountfield.moc \
 @ENABLE_QT_TRUE@  qt/intro.moc \
 @ENABLE_QT_TRUE@  qt/overviewpage.moc \
 @ENABLE_QT_TRUE@  qt/rpcconsole.moc
 
 @ENABLE_QT_TRUE@QT_QRC_CPP = qt/qrc_divi.cpp
-@ENABLE_QT_TRUE@QT_QRC = qt/divi.qrc
+@ENABLE_QT_TRUE@QT_QRC = qt/slashdash.qrc
 @ENABLE_QT_TRUE@QT_QRC_LOCALE_CPP = qt/qrc_divi_locale.cpp
 @ENABLE_QT_TRUE@QT_QRC_LOCALE = qt/divi_locale.qrc
 @ENABLE_QT_TRUE@PROTOBUF_CC = qt/paymentrequest.pb.cc
@@ -2290,7 +2290,7 @@ EXTRA_DIST = leveldb $(am__append_18)
 @ENABLE_QT_TRUE@  qt/res/css/default.css
 
 @ENABLE_QT_TRUE@RES_MOVIES = $(wildcard $(srcdir)/qt/res/movies/spinner-*.png)
-@ENABLE_QT_TRUE@BITCOIN_RC = qt/res/divi-qt-res.rc
+@ENABLE_QT_TRUE@BITCOIN_RC = qt/res/slashdash-qt-res.rc
 @ENABLE_QT_TRUE@BITCOIN_QT_INCLUDES = -I$(builddir)/qt -I$(srcdir)/qt -I$(srcdir)/qt/forms \
 @ENABLE_QT_TRUE@  -I$(builddir)/qt/forms
 
@@ -2307,11 +2307,11 @@ EXTRA_DIST = leveldb $(am__append_18)
 # forms/foo.h -> forms/ui_foo.h
 @ENABLE_QT_TRUE@QT_FORMS_H = $(join $(dir $(QT_FORMS_UI)),$(addprefix ui_, $(notdir $(QT_FORMS_UI:.ui=.h))))
 
-# divi-qt binary #
+# slashdash-qt binary #
 @ENABLE_QT_TRUE@qt_divi_qt_CPPFLAGS = $(BITCOIN_INCLUDES) $(BITCOIN_QT_INCLUDES) \
 @ENABLE_QT_TRUE@  $(QT_INCLUDES) $(PROTOBUF_CFLAGS) $(QR_CFLAGS)
 
-@ENABLE_QT_TRUE@qt_divi_qt_SOURCES = qt/divi.cpp $(am__append_26) \
+@ENABLE_QT_TRUE@qt_divi_qt_SOURCES = qt/slashdash.cpp $(am__append_26) \
 @ENABLE_QT_TRUE@	$(am__append_27)
 @ENABLE_QT_TRUE@qt_divi_qt_LDADD = qt/libbitcoinqt.a \
 @ENABLE_QT_TRUE@	$(LIBBITCOIN_SERVER) $(am__append_28) \
@@ -2919,18 +2919,18 @@ clean-binPROGRAMS:
 	echo " rm -f" $$list; \
 	rm -f $$list
 
-divi-cli$(EXEEXT): $(divi_cli_OBJECTS) $(divi_cli_DEPENDENCIES) $(EXTRA_divi_cli_DEPENDENCIES) 
-	@rm -f divi-cli$(EXEEXT)
+slashdash-cli$(EXEEXT): $(divi_cli_OBJECTS) $(divi_cli_DEPENDENCIES) $(EXTRA_divi_cli_DEPENDENCIES) 
+	@rm -f slashdash-cli$(EXEEXT)
 	$(AM_V_CXXLD)$(divi_cli_LINK) $(divi_cli_OBJECTS) $(divi_cli_LDADD) $(LIBS)
 
-divi-tx$(EXEEXT): $(divi_tx_OBJECTS) $(divi_tx_DEPENDENCIES) $(EXTRA_divi_tx_DEPENDENCIES) 
-	@rm -f divi-tx$(EXEEXT)
+slashdash-tx$(EXEEXT): $(divi_tx_OBJECTS) $(divi_tx_DEPENDENCIES) $(EXTRA_divi_tx_DEPENDENCIES) 
+	@rm -f slashdash-tx$(EXEEXT)
 	$(AM_V_CXXLD)$(divi_tx_LINK) $(divi_tx_OBJECTS) $(divi_tx_LDADD) $(LIBS)
 
 divid$(EXEEXT): $(divid_OBJECTS) $(divid_DEPENDENCIES) $(EXTRA_divid_DEPENDENCIES) 
 	@rm -f divid$(EXEEXT)
 	$(AM_V_CXXLD)$(divid_LINK) $(divid_OBJECTS) $(divid_LDADD) $(LIBS)
-qt/qt_divi_qt-divi.$(OBJEXT): qt/$(am__dirstamp) \
+qt/qt_divi_qt-slashdash.$(OBJEXT): qt/$(am__dirstamp) \
 	qt/$(DEPDIR)/$(am__dirstamp)
 qt/qt_divi_qt-macdockiconhandler.$(OBJEXT): qt/$(am__dirstamp) \
 	qt/$(DEPDIR)/$(am__dirstamp)
@@ -2942,11 +2942,11 @@ qt/res/$(am__dirstamp):
 qt/res/$(DEPDIR)/$(am__dirstamp):
 	@$(MKDIR_P) qt/res/$(DEPDIR)
 	@: > qt/res/$(DEPDIR)/$(am__dirstamp)
-qt/res/divi-qt-res.$(OBJEXT): qt/res/$(am__dirstamp) \
+qt/res/slashdash-qt-res.$(OBJEXT): qt/res/$(am__dirstamp) \
 	qt/res/$(DEPDIR)/$(am__dirstamp)
 
-qt/divi-qt$(EXEEXT): $(qt_divi_qt_OBJECTS) $(qt_divi_qt_DEPENDENCIES) $(EXTRA_qt_divi_qt_DEPENDENCIES) qt/$(am__dirstamp)
-	@rm -f qt/divi-qt$(EXEEXT)
+qt/slashdash-qt$(EXEEXT): $(qt_divi_qt_OBJECTS) $(qt_divi_qt_DEPENDENCIES) $(EXTRA_qt_divi_qt_DEPENDENCIES) qt/$(am__dirstamp)
+	@rm -f qt/slashdash-qt$(EXEEXT)
 	$(AM_V_OBJCXXLD)$(qt_divi_qt_LINK) $(qt_divi_qt_OBJECTS) $(qt_divi_qt_LDADD) $(LIBS)
 qt/test/$(am__dirstamp):
 	@$(MKDIR_P) qt/test
@@ -3088,8 +3088,8 @@ mostlyclean-compile:
 distclean-compile:
 	-rm -f *.tab.c
 
-@AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/divi_cli-divi-cli.Po@am__quote@
-@AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/divi_tx-divi-tx.Po@am__quote@
+@AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/divi_cli-slashdash-cli.Po@am__quote@
+@AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/divi_tx-slashdash-tx.Po@am__quote@
 @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/divid-divid.Po@am__quote@
 @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/libbitcoin_cli_a-rpcclient.Po@am__quote@
 @AMDEP_TRUE@@am__include@ @am__quote@./$(DEPDIR)/libbitcoin_common_a-accumulatormap.Po@am__quote@
@@ -3221,7 +3221,7 @@ distclean-compile:
 @AMDEP_TRUE@@am__include@ @am__quote@primitives/$(DEPDIR)/libbitcoin_common_a-zerocoin.Po@am__quote@
 @AMDEP_TRUE@@am__include@ @am__quote@primitives/$(DEPDIR)/libbitcoin_wallet_a-zerocoin.Po@am__quote@
 @AMDEP_TRUE@@am__include@ @am__quote@primitives/$(DEPDIR)/libbitcoinconsensus_la-transaction.Plo@am__quote@
-@AMDEP_TRUE@@am__include@ @am__quote@qt/$(DEPDIR)/qt_divi_qt-divi.Po@am__quote@
+@AMDEP_TRUE@@am__include@ @am__quote@qt/$(DEPDIR)/qt_divi_qt-slashdash.Po@am__quote@
 @AMDEP_TRUE@@am__include@ @am__quote@qt/$(DEPDIR)/qt_divi_qt-macdockiconhandler.Po@am__quote@
 @AMDEP_TRUE@@am__include@ @am__quote@qt/$(DEPDIR)/qt_divi_qt-macnotificationhandler.Po@am__quote@
 @AMDEP_TRUE@@am__include@ @am__quote@qt/$(DEPDIR)/qt_libbitcoinqt_a-addressbookpage.Po@am__quote@
@@ -6701,33 +6701,33 @@ compat/libbitcoinconsensus_la-glibcxx_compat.lo: compat/glibcxx_compat.cpp
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) @AMDEPBACKSLASH@
 @am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(LIBTOOL) $(AM_V_lt) --tag=CXX $(AM_LIBTOOLFLAGS) $(LIBTOOLFLAGS) --mode=compile $(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(libbitcoinconsensus_la_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -c -o compat/libbitcoinconsensus_la-glibcxx_compat.lo `test -f 'compat/glibcxx_compat.cpp' || echo '$(srcdir)/'`compat/glibcxx_compat.cpp
 
-divi_cli-divi-cli.o: divi-cli.cpp
-@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(divi_cli_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -MT divi_cli-divi-cli.o -MD -MP -MF $(DEPDIR)/divi_cli-divi-cli.Tpo -c -o divi_cli-divi-cli.o `test -f 'divi-cli.cpp' || echo '$(srcdir)/'`divi-cli.cpp
-@am__fastdepCXX_TRUE@	$(AM_V_at)$(am__mv) $(DEPDIR)/divi_cli-divi-cli.Tpo $(DEPDIR)/divi_cli-divi-cli.Po
-@AMDEP_TRUE@@am__fastdepCXX_FALSE@	$(AM_V_CXX)source='divi-cli.cpp' object='divi_cli-divi-cli.o' libtool=no @AMDEPBACKSLASH@
+divi_cli-slashdash-cli.o: slashdash-cli.cpp
+@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(divi_cli_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -MT divi_cli-slashdash-cli.o -MD -MP -MF $(DEPDIR)/divi_cli-slashdash-cli.Tpo -c -o divi_cli-slashdash-cli.o `test -f 'slashdash-cli.cpp' || echo '$(srcdir)/'`slashdash-cli.cpp
+@am__fastdepCXX_TRUE@	$(AM_V_at)$(am__mv) $(DEPDIR)/divi_cli-slashdash-cli.Tpo $(DEPDIR)/divi_cli-slashdash-cli.Po
+@AMDEP_TRUE@@am__fastdepCXX_FALSE@	$(AM_V_CXX)source='slashdash-cli.cpp' object='divi_cli-slashdash-cli.o' libtool=no @AMDEPBACKSLASH@
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) @AMDEPBACKSLASH@
-@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(divi_cli_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -c -o divi_cli-divi-cli.o `test -f 'divi-cli.cpp' || echo '$(srcdir)/'`divi-cli.cpp
+@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(divi_cli_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -c -o divi_cli-slashdash-cli.o `test -f 'slashdash-cli.cpp' || echo '$(srcdir)/'`slashdash-cli.cpp
 
-divi_cli-divi-cli.obj: divi-cli.cpp
-@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(divi_cli_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -MT divi_cli-divi-cli.obj -MD -MP -MF $(DEPDIR)/divi_cli-divi-cli.Tpo -c -o divi_cli-divi-cli.obj `if test -f 'divi-cli.cpp'; then $(CYGPATH_W) 'divi-cli.cpp'; else $(CYGPATH_W) '$(srcdir)/divi-cli.cpp'; fi`
-@am__fastdepCXX_TRUE@	$(AM_V_at)$(am__mv) $(DEPDIR)/divi_cli-divi-cli.Tpo $(DEPDIR)/divi_cli-divi-cli.Po
-@AMDEP_TRUE@@am__fastdepCXX_FALSE@	$(AM_V_CXX)source='divi-cli.cpp' object='divi_cli-divi-cli.obj' libtool=no @AMDEPBACKSLASH@
+divi_cli-slashdash-cli.obj: slashdash-cli.cpp
+@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(divi_cli_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -MT divi_cli-slashdash-cli.obj -MD -MP -MF $(DEPDIR)/divi_cli-slashdash-cli.Tpo -c -o divi_cli-slashdash-cli.obj `if test -f 'slashdash-cli.cpp'; then $(CYGPATH_W) 'slashdash-cli.cpp'; else $(CYGPATH_W) '$(srcdir)/slashdash-cli.cpp'; fi`
+@am__fastdepCXX_TRUE@	$(AM_V_at)$(am__mv) $(DEPDIR)/divi_cli-slashdash-cli.Tpo $(DEPDIR)/divi_cli-slashdash-cli.Po
+@AMDEP_TRUE@@am__fastdepCXX_FALSE@	$(AM_V_CXX)source='slashdash-cli.cpp' object='divi_cli-slashdash-cli.obj' libtool=no @AMDEPBACKSLASH@
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) @AMDEPBACKSLASH@
-@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(divi_cli_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -c -o divi_cli-divi-cli.obj `if test -f 'divi-cli.cpp'; then $(CYGPATH_W) 'divi-cli.cpp'; else $(CYGPATH_W) '$(srcdir)/divi-cli.cpp'; fi`
+@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(divi_cli_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -c -o divi_cli-slashdash-cli.obj `if test -f 'slashdash-cli.cpp'; then $(CYGPATH_W) 'slashdash-cli.cpp'; else $(CYGPATH_W) '$(srcdir)/slashdash-cli.cpp'; fi`
 
-divi_tx-divi-tx.o: divi-tx.cpp
-@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(divi_tx_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -MT divi_tx-divi-tx.o -MD -MP -MF $(DEPDIR)/divi_tx-divi-tx.Tpo -c -o divi_tx-divi-tx.o `test -f 'divi-tx.cpp' || echo '$(srcdir)/'`divi-tx.cpp
-@am__fastdepCXX_TRUE@	$(AM_V_at)$(am__mv) $(DEPDIR)/divi_tx-divi-tx.Tpo $(DEPDIR)/divi_tx-divi-tx.Po
-@AMDEP_TRUE@@am__fastdepCXX_FALSE@	$(AM_V_CXX)source='divi-tx.cpp' object='divi_tx-divi-tx.o' libtool=no @AMDEPBACKSLASH@
+divi_tx-slashdash-tx.o: slashdash-tx.cpp
+@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(divi_tx_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -MT divi_tx-slashdash-tx.o -MD -MP -MF $(DEPDIR)/divi_tx-slashdash-tx.Tpo -c -o divi_tx-slashdash-tx.o `test -f 'slashdash-tx.cpp' || echo '$(srcdir)/'`slashdash-tx.cpp
+@am__fastdepCXX_TRUE@	$(AM_V_at)$(am__mv) $(DEPDIR)/divi_tx-slashdash-tx.Tpo $(DEPDIR)/divi_tx-slashdash-tx.Po
+@AMDEP_TRUE@@am__fastdepCXX_FALSE@	$(AM_V_CXX)source='slashdash-tx.cpp' object='divi_tx-slashdash-tx.o' libtool=no @AMDEPBACKSLASH@
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) @AMDEPBACKSLASH@
-@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(divi_tx_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -c -o divi_tx-divi-tx.o `test -f 'divi-tx.cpp' || echo '$(srcdir)/'`divi-tx.cpp
+@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(divi_tx_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -c -o divi_tx-slashdash-tx.o `test -f 'slashdash-tx.cpp' || echo '$(srcdir)/'`slashdash-tx.cpp
 
-divi_tx-divi-tx.obj: divi-tx.cpp
-@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(divi_tx_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -MT divi_tx-divi-tx.obj -MD -MP -MF $(DEPDIR)/divi_tx-divi-tx.Tpo -c -o divi_tx-divi-tx.obj `if test -f 'divi-tx.cpp'; then $(CYGPATH_W) 'divi-tx.cpp'; else $(CYGPATH_W) '$(srcdir)/divi-tx.cpp'; fi`
-@am__fastdepCXX_TRUE@	$(AM_V_at)$(am__mv) $(DEPDIR)/divi_tx-divi-tx.Tpo $(DEPDIR)/divi_tx-divi-tx.Po
-@AMDEP_TRUE@@am__fastdepCXX_FALSE@	$(AM_V_CXX)source='divi-tx.cpp' object='divi_tx-divi-tx.obj' libtool=no @AMDEPBACKSLASH@
+divi_tx-slashdash-tx.obj: slashdash-tx.cpp
+@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(divi_tx_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -MT divi_tx-slashdash-tx.obj -MD -MP -MF $(DEPDIR)/divi_tx-slashdash-tx.Tpo -c -o divi_tx-slashdash-tx.obj `if test -f 'slashdash-tx.cpp'; then $(CYGPATH_W) 'slashdash-tx.cpp'; else $(CYGPATH_W) '$(srcdir)/slashdash-tx.cpp'; fi`
+@am__fastdepCXX_TRUE@	$(AM_V_at)$(am__mv) $(DEPDIR)/divi_tx-slashdash-tx.Tpo $(DEPDIR)/divi_tx-slashdash-tx.Po
+@AMDEP_TRUE@@am__fastdepCXX_FALSE@	$(AM_V_CXX)source='slashdash-tx.cpp' object='divi_tx-slashdash-tx.obj' libtool=no @AMDEPBACKSLASH@
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) @AMDEPBACKSLASH@
-@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(divi_tx_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -c -o divi_tx-divi-tx.obj `if test -f 'divi-tx.cpp'; then $(CYGPATH_W) 'divi-tx.cpp'; else $(CYGPATH_W) '$(srcdir)/divi-tx.cpp'; fi`
+@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(divi_tx_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -c -o divi_tx-slashdash-tx.obj `if test -f 'slashdash-tx.cpp'; then $(CYGPATH_W) 'slashdash-tx.cpp'; else $(CYGPATH_W) '$(srcdir)/slashdash-tx.cpp'; fi`
 
 divid-divid.o: divid.cpp
 @am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(divid_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -MT divid-divid.o -MD -MP -MF $(DEPDIR)/divid-divid.Tpo -c -o divid-divid.o `test -f 'divid.cpp' || echo '$(srcdir)/'`divid.cpp
@@ -6743,19 +6743,19 @@ divid-divid.obj: divid.cpp
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) @AMDEPBACKSLASH@
 @am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(divid_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -c -o divid-divid.obj `if test -f 'divid.cpp'; then $(CYGPATH_W) 'divid.cpp'; else $(CYGPATH_W) '$(srcdir)/divid.cpp'; fi`
 
-qt/qt_divi_qt-divi.o: qt/divi.cpp
-@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(qt_divi_qt_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -MT qt/qt_divi_qt-divi.o -MD -MP -MF qt/$(DEPDIR)/qt_divi_qt-divi.Tpo -c -o qt/qt_divi_qt-divi.o `test -f 'qt/divi.cpp' || echo '$(srcdir)/'`qt/divi.cpp
-@am__fastdepCXX_TRUE@	$(AM_V_at)$(am__mv) qt/$(DEPDIR)/qt_divi_qt-divi.Tpo qt/$(DEPDIR)/qt_divi_qt-divi.Po
-@AMDEP_TRUE@@am__fastdepCXX_FALSE@	$(AM_V_CXX)source='qt/divi.cpp' object='qt/qt_divi_qt-divi.o' libtool=no @AMDEPBACKSLASH@
+qt/qt_divi_qt-slashdash.o: qt/slashdash.cpp
+@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(qt_divi_qt_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -MT qt/qt_divi_qt-slashdash.o -MD -MP -MF qt/$(DEPDIR)/qt_divi_qt-slashdash.Tpo -c -o qt/qt_divi_qt-slashdash.o `test -f 'qt/slashdash.cpp' || echo '$(srcdir)/'`qt/slashdash.cpp
+@am__fastdepCXX_TRUE@	$(AM_V_at)$(am__mv) qt/$(DEPDIR)/qt_divi_qt-slashdash.Tpo qt/$(DEPDIR)/qt_divi_qt-slashdash.Po
+@AMDEP_TRUE@@am__fastdepCXX_FALSE@	$(AM_V_CXX)source='qt/slashdash.cpp' object='qt/qt_divi_qt-slashdash.o' libtool=no @AMDEPBACKSLASH@
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) @AMDEPBACKSLASH@
-@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(qt_divi_qt_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -c -o qt/qt_divi_qt-divi.o `test -f 'qt/divi.cpp' || echo '$(srcdir)/'`qt/divi.cpp
+@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(qt_divi_qt_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -c -o qt/qt_divi_qt-slashdash.o `test -f 'qt/slashdash.cpp' || echo '$(srcdir)/'`qt/slashdash.cpp
 
-qt/qt_divi_qt-divi.obj: qt/divi.cpp
-@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(qt_divi_qt_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -MT qt/qt_divi_qt-divi.obj -MD -MP -MF qt/$(DEPDIR)/qt_divi_qt-divi.Tpo -c -o qt/qt_divi_qt-divi.obj `if test -f 'qt/divi.cpp'; then $(CYGPATH_W) 'qt/divi.cpp'; else $(CYGPATH_W) '$(srcdir)/qt/divi.cpp'; fi`
-@am__fastdepCXX_TRUE@	$(AM_V_at)$(am__mv) qt/$(DEPDIR)/qt_divi_qt-divi.Tpo qt/$(DEPDIR)/qt_divi_qt-divi.Po
-@AMDEP_TRUE@@am__fastdepCXX_FALSE@	$(AM_V_CXX)source='qt/divi.cpp' object='qt/qt_divi_qt-divi.obj' libtool=no @AMDEPBACKSLASH@
+qt/qt_divi_qt-slashdash.obj: qt/slashdash.cpp
+@am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(qt_divi_qt_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -MT qt/qt_divi_qt-slashdash.obj -MD -MP -MF qt/$(DEPDIR)/qt_divi_qt-slashdash.Tpo -c -o qt/qt_divi_qt-slashdash.obj `if test -f 'qt/slashdash.cpp'; then $(CYGPATH_W) 'qt/slashdash.cpp'; else $(CYGPATH_W) '$(srcdir)/qt/slashdash.cpp'; fi`
+@am__fastdepCXX_TRUE@	$(AM_V_at)$(am__mv) qt/$(DEPDIR)/qt_divi_qt-slashdash.Tpo qt/$(DEPDIR)/qt_divi_qt-slashdash.Po
+@AMDEP_TRUE@@am__fastdepCXX_FALSE@	$(AM_V_CXX)source='qt/slashdash.cpp' object='qt/qt_divi_qt-slashdash.obj' libtool=no @AMDEPBACKSLASH@
 @AMDEP_TRUE@@am__fastdepCXX_FALSE@	DEPDIR=$(DEPDIR) $(CXXDEPMODE) $(depcomp) @AMDEPBACKSLASH@
-@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(qt_divi_qt_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -c -o qt/qt_divi_qt-divi.obj `if test -f 'qt/divi.cpp'; then $(CYGPATH_W) 'qt/divi.cpp'; else $(CYGPATH_W) '$(srcdir)/qt/divi.cpp'; fi`
+@am__fastdepCXX_FALSE@	$(AM_V_CXX@am__nodep@)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(qt_divi_qt_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -c -o qt/qt_divi_qt-slashdash.obj `if test -f 'qt/slashdash.cpp'; then $(CYGPATH_W) 'qt/slashdash.cpp'; else $(CYGPATH_W) '$(srcdir)/qt/slashdash.cpp'; fi`
 
 qt/test/qt_test_test_divi_qt-test_main.o: qt/test/test_main.cpp
 @am__fastdepCXX_TRUE@	$(AM_V_CXX)$(CXX) $(DEFS) $(DEFAULT_INCLUDES) $(INCLUDES) $(qt_test_test_divi_qt_CPPFLAGS) $(CPPFLAGS) $(AM_CXXFLAGS) $(CXXFLAGS) -MT qt/test/qt_test_test_divi_qt-test_main.o -MD -MP -MF qt/test/$(DEPDIR)/qt_test_test_divi_qt-test_main.Tpo -c -o qt/test/qt_test_test_divi_qt-test_main.o `test -f 'qt/test/test_main.cpp' || echo '$(srcdir)/'`qt/test/test_main.cpp
@@ -8134,13 +8134,13 @@ clean-local:
 
 @ENABLE_QT_TRUE@$(QT_QRC_CPP): $(QT_QRC) $(QT_FORMS_H) $(RES_ICONS) $(RES_IMAGES) $(RES_CSS) $(RES_MOVIES) $(PROTOBUF_H)
 @ENABLE_QT_TRUE@	@test -f $(RCC)
-@ENABLE_QT_TRUE@	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(RCC) -name divi $< | \
+@ENABLE_QT_TRUE@	$(AM_V_GEN) QT_SELECT=$(QT_SELECT) $(RCC) -name slashdash $< | \
 @ENABLE_QT_TRUE@	  $(SED) -e '/^\*\*.*Created:/d' -e '/^\*\*.*by:/d' > $@
 
 @ENABLE_QT_TRUE@divi_qt_clean: FORCE
-@ENABLE_QT_TRUE@	rm -f $(CLEAN_QT) $(qt_libbitcoinqt_a_OBJECTS) $(qt_divi_qt_OBJECTS) qt/divi-qt$(EXEEXT) $(LIBBITCOINQT)
+@ENABLE_QT_TRUE@	rm -f $(CLEAN_QT) $(qt_libbitcoinqt_a_OBJECTS) $(qt_divi_qt_OBJECTS) qt/slashdash-qt$(EXEEXT) $(LIBBITCOINQT)
 
-@ENABLE_QT_TRUE@divi_qt : qt/divi-qt$(EXEEXT)
+@ENABLE_QT_TRUE@divi_qt : qt/slashdash-qt$(EXEEXT)
 
 @ENABLE_QT_TRUE@ui_%.h: %.ui
 @ENABLE_QT_TRUE@	@test -f $(UIC)

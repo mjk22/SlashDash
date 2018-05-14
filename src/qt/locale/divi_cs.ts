@@ -62,12 +62,12 @@
         <translation>Adresy pro přijetí peněz</translation>
     </message>
     <message>
-        <source>These are your DIVI addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Toto jsou Vaše DIVI adresy pro poslání platby. Vždy si překontrolujte množství peněz a cílovou adresu než platbu odešlete.</translation>
+        <source>These are your SDASH addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Toto jsou Vaše SDASH adresy pro poslání platby. Vždy si překontrolujte množství peněz a cílovou adresu než platbu odešlete.</translation>
     </message>
     <message>
-        <source>These are your DIVI addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Toto jsou Vaše DIVI adresy pro přijetí plateb. Je doporučeno použít novou adresu pro každou novou transakci.</translation>
+        <source>These are your SDASH addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Toto jsou Vaše SDASH adresy pro přijetí plateb. Je doporučeno použít novou adresu pro každou novou transakci.</translation>
     </message>
     <message>
         <source>&amp;Copy Address</source>
@@ -176,8 +176,8 @@
         <translation>Potvrdit zašifrování peněženky</translation>
     </message>
     <message>
-        <source>DIVI will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your DIVs from being stolen by malware infecting your computer.</source>
-        <translation>DIVI se teď zavře pro dokončení šifrovacího procesu. Prosím, vemte na vědomí, že zašifrování Vaší peněženky plně neochrání Vaše DIVy před krádží, pokud je Váš počítač infikován malwarem.</translation>
+        <source>SDASH will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your DIVs from being stolen by malware infecting your computer.</source>
+        <translation>SDASH se teď zavře pro dokončení šifrovacího procesu. Prosím, vemte na vědomí, že zašifrování Vaší peněženky plně neochrání Vaše DIVy před krádží, pokud je Váš počítač infikován malwarem.</translation>
     </message>
     <message>
         <source>Are you sure you wish to encrypt your wallet?</source>
@@ -239,16 +239,16 @@
         <translation>&amp;BIP 38 Šifrovat</translation>
     </message>
     <message>
-        <source>Enter a Divi Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
-        <translation>Zadejte DIVI adresu, kterou si přejete zašifrovat pomocí BIP38. Frázové heslo zadejte do prostředního boxu. Stiskněte šifrovat pro výpočet šifrovaného privátního klíče.</translation>
+        <source>Enter a SlashDash Address that you would like to encrypt using BIP 38. Enter a passphrase in the middle box. Press encrypt to compute the encrypted private key.</source>
+        <translation>Zadejte SDASH adresu, kterou si přejete zašifrovat pomocí BIP38. Frázové heslo zadejte do prostředního boxu. Stiskněte šifrovat pro výpočet šifrovaného privátního klíče.</translation>
     </message>
     <message>
         <source>Address:</source>
         <translation>Adresa:</translation>
     </message>
     <message>
-        <source>The DIVI address to sign the message with</source>
-        <translation>DIVI adresa pro podepsání zprávy</translation>
+        <source>The SDASH address to sign the message with</source>
+        <translation>SDASH adresa pro podepsání zprávy</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -279,8 +279,8 @@
         <translation>Kopírovat aktuální podpis do systémové mezipaměti</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this DIVI address</source>
-        <translation>Podepsat zprávu k prokázání, že vlastníte tuto DIVI adresu</translation>
+        <source>Sign the message to prove you own this SDASH address</source>
+        <translation>Podepsat zprávu k prokázání, že vlastníte tuto SDASH adresu</translation>
     </message>
     <message>
         <source>Encrypt &amp;Key</source>
@@ -303,12 +303,12 @@
         <translation>Vložte BIP 38 šifrovaný privítní klíc. Frázové heslo vložte do prostředního boxu. Kliknětě na Dešifrovat Klíč pro výpočet privátního klíče. Poté co bude klíč dešifrován, kliknutím na 'Importovat Adresu' přidáte privátní klíč do Vaší peněženky.</translation>
     </message>
     <message>
-        <source>The DIVI address the message was signed with</source>
-        <translation>DIVI adresa zprávy byla podpsána</translation>
+        <source>The SDASH address the message was signed with</source>
+        <translation>SDASH adresa zprávy byla podpsána</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified DIVI address</source>
-        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou DIVI adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified SDASH address</source>
+        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou SDASH adresou</translation>
     </message>
     <message>
         <source>Decrypt &amp;Key</source>
@@ -634,16 +634,16 @@
         <translation>Nástrojová lišta záložek</translation>
     </message>
     <message>
-        <source>DIVI Core</source>
-        <translation>DIVI Core</translation>
+        <source>SDASH Core</source>
+        <translation>SDASH Core</translation>
     </message>
     <message>
-        <source>Send coins to a DIVI address</source>
-        <translation>Odeslat platbuna DIVI adresu</translation>
+        <source>Send coins to a SDASH address</source>
+        <translation>Odeslat platbuna SDASH adresu</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and divi: URIs)</source>
-        <translation>Vyžádat platbu (generování QK kódu a divi: URIs)</translation>
+        <source>Request payments (generates QR codes and slashdash: URIs)</source>
+        <translation>Vyžádat platbu (generování QK kódu a slashdash: URIs)</translation>
     </message>
     <message>
         <source>&amp;Privacy</source>
@@ -658,24 +658,24 @@
         <translation>Procházet masternody</translation>
     </message>
     <message>
-        <source>&amp;About DIVI Core</source>
-        <translation>&amp;O DIVI Core</translation>
+        <source>&amp;About SDASH Core</source>
+        <translation>&amp;O SDASH Core</translation>
     </message>
     <message>
-        <source>Show information about DIVI Core</source>
-        <translation>Zobraz informace o DIVI Core</translation>
+        <source>Show information about SDASH Core</source>
+        <translation>Zobraz informace o SDASH Core</translation>
     </message>
     <message>
-        <source>Modify configuration options for DIVI</source>
-        <translation>Upravit možnosti konfigurace pro DIVI</translation>
+        <source>Modify configuration options for SDASH</source>
+        <translation>Upravit možnosti konfigurace pro SDASH</translation>
     </message>
     <message>
-        <source>Sign messages with your DIVI addresses to prove you own them</source>
-        <translation>Podepsat zprávy Vaší DIVI adresou pro prokázaní, že jste jejich vlastníkem</translation>
+        <source>Sign messages with your SDASH addresses to prove you own them</source>
+        <translation>Podepsat zprávy Vaší SDASH adresou pro prokázaní, že jste jejich vlastníkem</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified DIVI addresses</source>
-        <translation>Ověřit zprávy k zajištění, že bylypodepsány vybranými DIVI adresami</translation>
+        <source>Verify messages to ensure they were signed with specified SDASH addresses</source>
+        <translation>Ověřit zprávy k zajištění, že bylypodepsány vybranými SDASH adresami</translation>
     </message>
     <message>
         <source>&amp;BIP38 tool</source>
@@ -706,8 +706,8 @@
         <translation>Otevřít Masternodový konfigurační soubor</translation>
     </message>
     <message>
-        <source>Open a DIVI: URI or payment request</source>
-        <translation>Otevřít DIVI: URI nebo platební žádost</translation>
+        <source>Open a SDASH: URI or payment request</source>
+        <translation>Otevřít SDASH: URI nebo platební žádost</translation>
     </message>
     <message>
         <source>&amp;Blockchain explorer</source>
@@ -718,16 +718,16 @@
         <translation>Okno blokového průzkumníka</translation>
     </message>
     <message>
-        <source>Show the DIVI Core help message to get a list with possible DIVI command-line options</source>
-        <translation>Zobrazit DIVI Core pomocnou zpráv pro získání seznamu možných parametrů DIVI pro příkazy do příkazové řádky</translation>
+        <source>Show the SDASH Core help message to get a list with possible SDASH command-line options</source>
+        <translation>Zobrazit SDASH Core pomocnou zpráv pro získání seznamu možných parametrů SDASH pro příkazy do příkazové řádky</translation>
     </message>
     <message>
-        <source>DIVI Core client</source>
-        <translation>DIVI Core klient</translation>
+        <source>SDASH Core client</source>
+        <translation>SDASH Core klient</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to DIVI network</source>
-        <translation><numerusform>Aktivních připojení do sítě DIVI: %n</numerusform><numerusform>Aktivních připojení do sítě DIVI: %n</numerusform><numerusform>Aktivních připojení do sítě DIVI: %n</numerusform></translation>
+        <source>%n active connection(s) to SDASH network</source>
+        <translation><numerusform>Aktivních připojení do sítě SDASH: %n</numerusform><numerusform>Aktivních připojení do sítě SDASH: %n</numerusform><numerusform>Aktivních připojení do sítě SDASH: %n</numerusform></translation>
     </message>
     <message>
         <source>Synchronizing with network...</source>
@@ -877,8 +877,8 @@ MultiSend: %1</translation>
         <translation>TextPopisku</translation>
     </message>
     <message>
-        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (divi.conf).</source>
-        <translation>Ne všechny transakce budou zobrazeny. Pro zobrazení všech transackí nastavte v konfiguračním souboru (divi.conf) txindex=1.</translation>
+        <source>Not all transactions will be shown. To view all transactions you need to set txindex=1 in the configuration file (slashdash.conf).</source>
+        <translation>Ne všechny transakce budou zobrazeny. Pro zobrazení všech transackí nastavte v konfiguračním souboru (slashdash.conf) txindex=1.</translation>
     </message>
 </context>
 <context>
@@ -1138,8 +1138,8 @@ MultiSend: %1</translation>
         <translation>Upravit adresu k odeslání platby</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid DIVI address.</source>
-        <translation>Zadaná adresa "%1" není validní DIVI adresa.</translation>
+        <source>The entered address "%1" is not a valid SDASH address.</source>
+        <translation>Zadaná adresa "%1" není validní SDASH adresa.</translation>
     </message>
     <message>
         <source>The entered address "%1" is already in the address book.</source>
@@ -1184,12 +1184,12 @@ MultiSend: %1</translation>
         <translation>verze</translation>
     </message>
     <message>
-        <source>DIVI Core</source>
-        <translation>DIVI Core</translation>
+        <source>SDASH Core</source>
+        <translation>SDASH Core</translation>
     </message>
     <message>
-        <source>About DIVI Core</source>
-        <translation>O DIVI Core</translation>
+        <source>About SDASH Core</source>
+        <translation>O SDASH Core</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -1223,16 +1223,16 @@ MultiSend: %1</translation>
         <translation>Vítejte</translation>
     </message>
     <message>
-        <source>Welcome to DIVI Core.</source>
-        <translation>Vítejte v DIVI Core.</translation>
+        <source>Welcome to SDASH Core.</source>
+        <translation>Vítejte v SDASH Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where DIVI Core will store its data.</source>
-        <translation>Při prvním spuštění programu si můžete vybrat, kam bude DIVI Core ukládat svá data.</translation>
+        <source>As this is the first time the program is launched, you can choose where SDASH Core will store its data.</source>
+        <translation>Při prvním spuštění programu si můžete vybrat, kam bude SDASH Core ukládat svá data.</translation>
     </message>
     <message>
-        <source>DIVI Core will download and store a copy of the DIVI block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>DIVI Core stáhne a uloží kopii DIVI blockchainu. Nejméně %1GB dat bude do této složky uloženo a v průběhu času bude ukládat další data. Peněženka bude v této složce uložena také.</translation>
+        <source>SDASH Core will download and store a copy of the SDASH block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>SDASH Core stáhne a uloží kopii SDASH blockchainu. Nejméně %1GB dat bude do této složky uloženo a v průběhu času bude ukládat další data. Peněženka bude v této složce uložena také.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1243,8 +1243,8 @@ MultiSend: %1</translation>
         <translation>Použít vlastní složku pro data</translation>
     </message>
     <message>
-        <source>DIVI Core</source>
-        <translation>DIVI Core</translation>
+        <source>SDASH Core</source>
+        <translation>SDASH Core</translation>
     </message>
     <message>
         <source>Error: Specified data directory "%1" cannot be created.</source>
@@ -1607,12 +1607,12 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Expert</translation>
     </message>
     <message>
-        <source>Automatically start DIVI after logging in to the system.</source>
-        <translation>Automaticky spustit DIVI po přihlášení do systému</translation>
+        <source>Automatically start SDASH after logging in to the system.</source>
+        <translation>Automaticky spustit SDASH po přihlášení do systému</translation>
     </message>
     <message>
-        <source>&amp;Start DIVI on system login</source>
-        <translation>&amp;Spusti DIVI při přihlášení do systému</translation>
+        <source>&amp;Start SDASH on system login</source>
+        <translation>&amp;Spusti SDASH při přihlášení do systému</translation>
     </message>
     <message>
         <source>Show Masternodes Tab</source>
@@ -2269,8 +2269,8 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
 <context>
     <name>SignVerifyMessageDialog</name>
     <message>
-        <source>The DIVI address to sign the message with</source>
-        <translation>DIVI adresa pro podepsání zprávy</translation>
+        <source>The SDASH address to sign the message with</source>
+        <translation>SDASH adresa pro podepsání zprávy</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2297,16 +2297,16 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
         <translation>Kopírovat aktuální podpis do systémové mezipaměti</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this DIVI address</source>
-        <translation>Podepsat zprávu k prokázání, že vlastníte tuto DIVI adresu</translation>
+        <source>Sign the message to prove you own this SDASH address</source>
+        <translation>Podepsat zprávu k prokázání, že vlastníte tuto SDASH adresu</translation>
     </message>
     <message>
-        <source>The DIVI address the message was signed with</source>
-        <translation>DIVI adresa zprávy byla podpsána</translation>
+        <source>The SDASH address the message was signed with</source>
+        <translation>SDASH adresa zprávy byla podpsána</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified DIVI address</source>
-        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou DIVI adresou</translation>
+        <source>Verify the message to ensure it was signed with the specified SDASH address</source>
+        <translation>Verifikujte zprávu pro ujištění, že byla podepsána zmíněnou SDASH adresou</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2348,8 +2348,8 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>DIVI Core</source>
-        <translation>DIVI Core</translation>
+        <source>SDASH Core</source>
+        <translation>SDASH Core</translation>
     </message>
     </context>
 <context>
@@ -2459,7 +2459,7 @@ Prosím zkontrolujte adresu a zkuste to znovu.</translation>
     </message>
     </context>
 <context>
-    <name>divi-core</name>
+    <name>slashdash-core</name>
     <message>
         <source>Error</source>
         <translation>Chyba</translation>

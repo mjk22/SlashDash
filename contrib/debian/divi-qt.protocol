@@ -1,6 +1,6 @@
 [Protocol]
-exec=divi-qt '%u'
-protocol=divi
+exec=slashdash-qt '%u'
+protocol=slashdash
 input=none
 output=none
 helper=true

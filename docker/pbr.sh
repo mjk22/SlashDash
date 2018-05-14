@@ -2,10 +2,10 @@
 PRESENTDIR=$(pwd)
 cd /shared
 # attempt to pull and then rebuild...
-if [ -d /shared/divi ] ; then
+if [ -d /shared/slashdash ] ; then
 	PULLRESLT=$(git pull)
 	if [[ ($PULLRESLT==0 || $PULLRESLT=="Already up-to-date.")]] ; then
-  		cd /shared/divi/
+  		cd /shared/slashdash/
 		#./autogen.sh
   		#./configure --disable-zerocoin --without-gui --enable-debug
   		make
@@ -16,5 +16,5 @@ if [ -d /shared/divi ] ; then
 		echo "git pull ERROR:$PULLRESLT"
 	fi
 else 
-	echo "There is no /shared/divi folder, do you need to run cbr.sh instead?"
+	echo "There is no /shared/slashdash folder, do you need to run cbr.sh instead?"
 fi

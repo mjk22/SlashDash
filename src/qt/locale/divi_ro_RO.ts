@@ -189,6 +189,6 @@
     <name>ZDivControlDialog</name>
     </context>
 <context>
-    <name>divi-core</name>
+    <name>slashdash-core</name>
     </context>
 </TS>

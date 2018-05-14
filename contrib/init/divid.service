@@ -1,18 +1,18 @@
 [Unit]
-Description=DIVI's distributed currency daemon
+Description=SDASH's distributed currency daemon
 After=network.target
 
 [Service]
-User=divi
-Group=divi
+User=slashdash
+Group=slashdash
 
 Type=forking
 PIDFile=/var/lib/divid/divid.pid
 
 ExecStart=/usr/bin/divid -daemon -pid=/var/lib/divid/divid.pid \
-          -conf=/etc/divi/divi.conf -datadir=/var/lib/divid
+          -conf=/etc/slashdash/slashdash.conf -datadir=/var/lib/divid
 
-ExecStop=-/usr/bin/divi-cli -conf=/etc/divi/divi.conf \
+ExecStop=-/usr/bin/slashdash-cli -conf=/etc/slashdash/slashdash.conf \
          -datadir=/var/lib/divid stop
 
 Restart=always
